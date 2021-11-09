@@ -120,7 +120,7 @@ class AuthController extends Controller
     {
         //consultar e pegar os dados do cliente e preencher abaixo
         $request->validate([
-            'g-recaptcha-response' => 'required|captcha',
+            'g-recaptcha-response' => (env('NOCAPTCHA_SECRET') != '' ? 'required|captcha' : '')
         ]);
 
         $request->validate([
@@ -196,7 +196,7 @@ class AuthController extends Controller
     public function registerDo(Request $request)
     {
         $request->validate([
-            'g-recaptcha-response' => 'required|captcha',
+            'g-recaptcha-response' => (env('NOCAPTCHA_SECRET') != '' ? 'required|captcha' : '')
         ]);
 
         $request->validate([
