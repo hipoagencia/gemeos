@@ -193,83 +193,48 @@
 
 
 
-                    <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->any(['blog-list','content-list','gallery-list'])): ?>
-                        <li>
-                            <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
-                                <i class="bx bx-envelope"></i>
-                                <span key="t-email">Institucional</span>
-                            </a>
-                            <ul class="sub-menu mm-collapse">
-                                <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->check('blog-list')): ?>
-                                    <li><a href="<?php echo e(route('admin.posts.index')); ?>" key="t-blog">Blog</a></li>
-                                <?php endif; ?>
-                                <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->check('content-list')): ?>
-                                    <li><a href="<?php echo e(route('admin.content.index')); ?>" key="t-read-email" >Páginas</a>
-                                    </li>
-                                <?php endif; ?>
-                                <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->check('gallery-list')): ?>
-                                    <li><a href="<?php echo e(route('admin.gallery.index')); ?>" key="t-read-email">Galeria</a>
-                                    </li>
-                                <?php endif; ?>
-                            </ul>
-                        </li>
-                    <?php endif; ?>
-
-                    <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->any(['order-list','product-list'])): ?>
-                        <li>
-                            <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
-                                <i class="bx bx-envelope"></i>
-                                <span key="t-email">Vendas</span>
-                            </a>
-                            <ul class="sub-menu mm-collapse">
-                                <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->check('order-list')): ?>
-                                    <li><a href="<?php echo e(route('admin.orders.index')); ?>" key="orders">Pedidos</a>
-                                    </li>
-                                <?php endif; ?>
-                                <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->check('product-list')): ?>
-                                    <li><a href="<?php echo e(route('admin.products.plans')); ?>" key="t-blog">Assinaturas</a></li>
-                                    <li><a href="<?php echo e(route('admin.products.index')); ?>" key="t-blog">Produtos</a></li>
-                                <?php endif; ?>
-                            </ul>
-                        </li>
-                    <?php endif; ?>
 
 
-                    <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->any(['eadModule-list','eadContent-list'])): ?>
-                        <li>
-                            <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
-                                <i class="bx bx-envelope"></i>
-                                <span key="t-email">EAD</span>
-                            </a>
-                            <ul class="sub-menu mm-collapse">
-                                <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->check('eadModule-list')): ?>
-                                    <li><a href="<?php echo e(route('admin.ead-module.index')); ?>" key="orders">Módulos</a>
-                                    </li>
-                                <?php endif; ?>
-                                <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->check('eadContent-list')): ?>
-                                    <li><a href="<?php echo e(route('admin.ead-content.index')); ?>" key="t-blog">Conteúdos</a></li>
-                                <?php endif; ?>
-                            </ul>
-                        </li>
-                    <?php endif; ?>
 
 
-                    <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->any(['order-list','product-list'])): ?>
-                        <li class="menu-title" key="t-pages">Sessões</li>
 
-                        <li>
-                            <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
-                                <i class="dripicons-gear"></i>
-                                <span key="t-email">Sistema</span>
-                            </a>
-                            <ul class="sub-menu mm-collapse">
-                                <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->check('category-list')): ?>
-                                    <li><a href="<?php echo e(route('admin.categories.index')); ?>" key="t-inbox">Categorias</a>
-                                    </li>
-                                <?php endif; ?>
-                            </ul>
-                        </li>
-                    <?php endif; ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                     <li class="menu-title" key="t-pages">Visão Usuário</li>
 
