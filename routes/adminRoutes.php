@@ -12,6 +12,8 @@ use App\Http\Controllers\Admin\OrderController;
 use App\Http\Controllers\Admin\UserRoleController;
 use App\Http\Controllers\Admin\EadModuleController;
 use App\Http\Controllers\Admin\EadContentController;
+use App\Http\Controllers\Admin\GroupController;
+use App\Http\Controllers\Admin\LeadSourceController;
 
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
@@ -36,6 +38,11 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
         Route::get('plans', [ProductController::class, 'plans'])->name('products.plans');
         Route::get('plans/get', [ProductController::class, 'plansGet'])->name('products.plans.get');
 
+        //Rotas de Grupos
+        Route::resource('groups', GroupController::class);
+
+        //Rotas de Lead Origem
+        Route::resource('lead-source', LeadSourceController::class);
 
         //Rotas de Categorias
         Route::resource('categories', CategoriesController::class);

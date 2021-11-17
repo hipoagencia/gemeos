@@ -35,20 +35,6 @@ class RoleSeeder extends Seeder
 //        Permission::create(['name' => 'content-edit']);
 //        Permission::create(['name' => 'content-delete']);
 //
-//        Permission::create(['name' => 'gallery-list']);
-//        Permission::create(['name' => 'gallery-create']);
-//        Permission::create(['name' => 'gallery-edit']);
-//        Permission::create(['name' => 'gallery-delete']);
-//
-//        Permission::create(['name' => 'gallery-list']);
-//        Permission::create(['name' => 'gallery-create']);
-//        Permission::create(['name' => 'gallery-edit']);
-//        Permission::create(['name' => 'gallery-delete']);
-//
-//        Permission::create(['name' => 'order-list']);
-//        Permission::create(['name' => 'order-create']);
-//        Permission::create(['name' => 'order-edit']);
-//        Permission::create(['name' => 'order-delete']);
 //
 //        Permission::create(['name' => 'product-list']);
 //        Permission::create(['name' => 'product-create']);
@@ -59,16 +45,22 @@ class RoleSeeder extends Seeder
 //        Permission::create(['name' => 'category-create']);
 //        Permission::create(['name' => 'category-edit']);
 //        Permission::create(['name' => 'category-delete']);
-
-//        Permission::create(['name' => 'eadModule-list']);
-//        Permission::create(['name' => 'eadModule-create']);
-//        Permission::create(['name' => 'eadModule-edit']);
-//        Permission::create(['name' => 'eadModule-delete']);
 //
-//        Permission::create(['name' => 'eadContent-list']);
-//        Permission::create(['name' => 'eadContent-create']);
-//        Permission::create(['name' => 'eadContent-edit']);
-//        Permission::create(['name' => 'eadContent-delete']);
+//        Permission::create(['name' => 'group-list']);
+//        Permission::create(['name' => 'group-create']);
+//        Permission::create(['name' => 'group-edit']);
+//        Permission::create(['name' => 'group-delete']);
+//
+//        Permission::create(['name' => 'leadSource-list']);
+//        Permission::create(['name' => 'leadSource-create']);
+//        Permission::create(['name' => 'leadSource-edit']);
+//        Permission::create(['name' => 'leadSource-delete']);
+
+//        Permission::create(['name' => 'lead-list']);
+//        Permission::create(['name' => 'lead-create']);
+//        Permission::create(['name' => 'lead-edit']);
+//        Permission::create(['name' => 'lead-delete']);
+
 
     }
 }

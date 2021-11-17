@@ -183,9 +183,29 @@
                                 </li>
 
                                 <?php if(auth()->check() && auth()->user()->hasRole('superAdmin')): ?>
-                                <li><a href="<?php echo e(route('admin.users.index',['adm'=>'1'])); ?>" key="admin">Administrador</a>
-                                </li>
-                                <li><a href="<?php echo e(route('admin.roles.index')); ?>" key="roles">Perfil</a></li>
+                                    <li><a href="<?php echo e(route('admin.users.index',['adm'=>'1'])); ?>"
+                                           key="admin">Administrador</a>
+                                    </li>
+                                    <li><a href="<?php echo e(route('admin.roles.index')); ?>" key="roles">Perfil</a></li>
+                                <?php endif; ?>
+                                <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->check('group-list')): ?>
+                                    <li><a href="<?php echo e(route('admin.groups.index')); ?>" key="roles">Grupo</a></li>
+                                <?php endif; ?>
+                            </ul>
+                        </li>
+                    <?php endif; ?>
+
+                    <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->any(['lead-list','leadSource-list'])): ?>
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
+                                <i class="bx bx-envelope"></i>
+                                <span key="user">Leads</span>
+                            </a>
+                            <ul class="sub-menu mm-collapse">
+                                <li><a href="#" key="user">Lead</a></li>
+
+                                <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->check('leadSource-list')): ?>
+                                    <li><a href="<?php echo e(route('admin.lead-source.index')); ?>" key="lead-source">Origem</a></li>
                                 <?php endif; ?>
                             </ul>
                         </li>
@@ -193,48 +213,48 @@
 
 
 
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
 
 
 
 
 
+                    
+                    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
 
                     <li class="menu-title" key="t-pages">Visão Usuário</li>
 

@@ -41,7 +41,8 @@ class User extends Authenticatable
         'telephone',
         'cell',
         'email_verified_token',
-        'is_admin'
+        'is_admin',
+        'group_id',
     ];
 
     /**
@@ -84,8 +85,14 @@ class User extends Authenticatable
         'state',
         'city',
         'telephone',
-        'cell'
+        'cell',
+        'group_id'
     ];
+
+    public function group()
+    {
+        return $this->belongsTo(Group::class);
+    }
 
     public function orders()
     {

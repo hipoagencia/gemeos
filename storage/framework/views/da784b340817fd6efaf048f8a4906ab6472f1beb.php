@@ -1,5 +1,3 @@
-
-
 <?php $__env->startSection('content'); ?>
 
 
@@ -89,20 +87,33 @@
                                 <h3 class="mb-3">Informações</h3>
                                 <div class="row">
 
-                                    <div class="col-md-5">
+                                    <div class="col-md-4">
                                         <div class="mb-3">
                                             <label for="name" class="form-label">Nome</label>
                                             <input name="name" class="form-control"
                                                    value="<?php echo e(old('name') ?? $user->name); ?>">
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-4">
                                         <div class="mb-3">
                                             <label for="last_name" class="form-label">Sobrenome</label>
                                             <input name="last_name" class="form-control"
                                                    value="<?php echo e(old('last_name') ?? $user->last_name); ?>">
                                         </div>
                                     </div>
+
+                                    <div class="col-lg-2">
+                                        <div class="mb-3">
+                                            <label for="group_id" class="form-label">Grupo</label>
+                                            <select name="group_id" class="form-select">
+                                                <option selected>Escolha...</option>
+                                                <?php $__currentLoopData = $groups; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $group): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                                    <option value="<?php echo e($group->id); ?>" <?php echo e(( $user->group_id == $group->id ? 'selected' : ( old('group_id') == $group->id ? 'selected' : '' ) )); ?>><?php echo e($group->name); ?></option>
+                                                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                                            </select>
+                                        </div>
+                                    </div>
+
                                     <div class="col-lg-2">
                                         <div class="mb-3">
                                             <label for="genre" class="form-label">Sexo</label>

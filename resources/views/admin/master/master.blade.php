@@ -183,58 +183,78 @@
                                 </li>
 
                                 @role('superAdmin')
-                                <li><a href="{{ route('admin.users.index',['adm'=>'1']) }}" key="admin">Administrador</a>
-                                </li>
-                                <li><a href="{{ route('admin.roles.index')}}" key="roles">Perfil</a></li>
+                                    <li><a href="{{ route('admin.users.index',['adm'=>'1']) }}"
+                                           key="admin">Administrador</a>
+                                    </li>
+                                    <li><a href="{{ route('admin.roles.index')}}" key="roles">Perfil</a></li>
                                 @endrole
+                                @can('group-list')
+                                    <li><a href="{{ route('admin.groups.index')}}" key="roles">Grupo</a></li>
+                                @endcan
+                            </ul>
+                        </li>
+                    @endcan
+
+                    @canany(['lead-list','leadSource-list'])
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
+                                <i class="bx bx-envelope"></i>
+                                <span key="user">Leads</span>
+                            </a>
+                            <ul class="sub-menu mm-collapse">
+                                <li><a href="#" key="user">Lead</a></li>
+
+                                @can('leadSource-list')
+                                    <li><a href="{{ route('admin.lead-source.index')}}" key="lead-source">Origem</a></li>
+                                @endcan
                             </ul>
                         </li>
                     @endcan
 
 
 
-{{--                    @canany(['blog-list','content-list','gallery-list'])--}}
-{{--                        <li>--}}
-{{--                            <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">--}}
-{{--                                <i class="bx bx-envelope"></i>--}}
-{{--                                <span key="t-email">Institucional</span>--}}
-{{--                            </a>--}}
-{{--                            <ul class="sub-menu mm-collapse">--}}
-{{--                                @can('blog-list')--}}
-{{--                                    <li><a href="{{ route('admin.posts.index') }}" key="t-blog">Blog</a></li>--}}
-{{--                                @endcan--}}
-{{--                                @can('content-list')--}}
-{{--                                    <li><a href="{{ route('admin.content.index') }}" key="t-read-email" >Páginas</a>--}}
-{{--                                    </li>--}}
-{{--                                @endcan--}}
-{{--                                @can('gallery-list')--}}
-{{--                                    <li><a href="{{ route('admin.gallery.index') }}" key="t-read-email">Galeria</a>--}}
-{{--                                    </li>--}}
-{{--                                @endcan--}}
-{{--                            </ul>--}}
-{{--                        </li>--}}
-{{--                    @endcan--}}
+                    {{--                    @canany(['blog-list','content-list','gallery-list'])--}}
+                    {{--                        <li>--}}
+                    {{--                            <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">--}}
+                    {{--                                <i class="bx bx-envelope"></i>--}}
+                    {{--                                <span key="t-email">Institucional</span>--}}
+                    {{--                            </a>--}}
+                    {{--                            <ul class="sub-menu mm-collapse">--}}
+                    {{--                                @can('blog-list')--}}
+                    {{--                                    <li><a href="{{ route('admin.posts.index') }}" key="t-blog">Blog</a></li>--}}
+                    {{--                                @endcan--}}
+                    {{--                                @can('content-list')--}}
+                    {{--                                    <li><a href="{{ route('admin.content.index') }}" key="t-read-email" >Páginas</a>--}}
+                    {{--                                    </li>--}}
+                    {{--                                @endcan--}}
+                    {{--                                @can('gallery-list')--}}
+                    {{--                                    <li><a href="{{ route('admin.gallery.index') }}" key="t-read-email">Galeria</a>--}}
+                    {{--                                    </li>--}}
+                    {{--                                @endcan--}}
+                    {{--                            </ul>--}}
+                    {{--                        </li>--}}
+                    {{--                    @endcan--}}
 
 
 
 
 
-{{--                    @canany(['order-list','product-list'])--}}
-{{--                        <li class="menu-title" key="t-pages">Sessões</li>--}}
+                    {{--                    @canany(['order-list','product-list'])--}}
+                    {{--                        <li class="menu-title" key="t-pages">Sessões</li>--}}
 
-{{--                        <li>--}}
-{{--                            <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">--}}
-{{--                                <i class="dripicons-gear"></i>--}}
-{{--                                <span key="t-email">Sistema</span>--}}
-{{--                            </a>--}}
-{{--                            <ul class="sub-menu mm-collapse">--}}
-{{--                                @can('category-list')--}}
-{{--                                    <li><a href="{{ route('admin.categories.index') }}" key="t-inbox">Categorias</a>--}}
-{{--                                    </li>--}}
-{{--                                @endcan--}}
-{{--                            </ul>--}}
-{{--                        </li>--}}
-{{--                    @endcan--}}
+                    {{--                        <li>--}}
+                    {{--                            <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">--}}
+                    {{--                                <i class="dripicons-gear"></i>--}}
+                    {{--                                <span key="t-email">Sistema</span>--}}
+                    {{--                            </a>--}}
+                    {{--                            <ul class="sub-menu mm-collapse">--}}
+                    {{--                                @can('category-list')--}}
+                    {{--                                    <li><a href="{{ route('admin.categories.index') }}" key="t-inbox">Categorias</a>--}}
+                    {{--                                    </li>--}}
+                    {{--                                @endcan--}}
+                    {{--                            </ul>--}}
+                    {{--                        </li>--}}
+                    {{--                    @endcan--}}
 
                     <li class="menu-title" key="t-pages">Visão Usuário</li>
 

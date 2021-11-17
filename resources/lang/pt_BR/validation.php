@@ -190,6 +190,8 @@ return [
         'genre' => 'sexo',
         'document' => 'cpf',
         'categories' => 'categoria',
+        'shareInitial' => 'faixa inicial',
+        'shareFinal' => 'faixa final',
     ],
 
 ];

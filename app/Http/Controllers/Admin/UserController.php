@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Storage;
 use Spatie\Permission\Models\Role;
 use Spatie\Activitylog\Models\Activity;
 use DataTables;
-use function PHPUnit\Framework\isNull;
+use App\Models\Group;
 
 class UserController extends Controller
 {
@@ -82,8 +82,11 @@ class UserController extends Controller
     public function create()
     {
         $roles = Role::orderBy('name', 'desc')->get();
+        $groups = Group::orderBy('name', 'asc')->get();
+
         return view('admin.users.create',[
-            'roles' => $roles
+            'roles' => $roles,
+            'groups' => $groups
         ]);
     }
 
@@ -171,10 +174,12 @@ class UserController extends Controller
     {
         $user = User::where('id', $id)->firstOrFail();
         $roles = Role::orderBy('name', 'desc')->get();
+        $groups = Group::orderBy('name', 'asc')->get();
 
         return view('admin.users.edit', [
             'user' => $user,
-            'roles' => $roles
+            'roles' => $roles,
+            'groups' => $groups
         ]);
     }
 
