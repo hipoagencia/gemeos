@@ -375,7 +375,5 @@
     @yield('js')
 @endif
 
-
-
 </body>
 </html>
