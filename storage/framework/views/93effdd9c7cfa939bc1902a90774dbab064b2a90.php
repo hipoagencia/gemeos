@@ -371,7 +371,6 @@
 <script src="<?php echo e(url(asset('backend/assets/js/app.js'))); ?>"></script>
 <script src="<?php echo e(url(asset('backend/assets/js/custom.js'))); ?>"></script>
 
-
 <?php if (! empty(trim($__env->yieldContent('js')))): ?>
     <?php echo $__env->yieldContent('js'); ?>
 <?php endif; ?>
