@@ -14,6 +14,7 @@ use App\Http\Controllers\Admin\EadModuleController;
 use App\Http\Controllers\Admin\EadContentController;
 use App\Http\Controllers\Admin\GroupController;
 use App\Http\Controllers\Admin\LeadSourceController;
+use App\Http\Controllers\Admin\LeadController;
 
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
@@ -41,13 +42,17 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
         //Rotas de Grupos
         Route::resource('groups', GroupController::class);
 
+        //Rotas de Lead
+        Route::resource('leads', LeadController::class);
+        Route::get('leads/get', [LeadController::class, 'show'])->name('leads.get');
+
         //Rotas de Lead Origem
         Route::resource('lead-source', LeadSourceController::class);
 
         //Rotas de Categorias
         Route::resource('categories', CategoriesController::class);
 
-        //Rotas de Categorias
+        //Rotas de Roles
         Route::resource('roles', UserRoleController::class)->middleware('role:superAdmin');
 
         //Rotas de Posts

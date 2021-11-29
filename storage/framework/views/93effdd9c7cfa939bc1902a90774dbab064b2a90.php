@@ -202,7 +202,7 @@
                                 <span key="user">Leads</span>
                             </a>
                             <ul class="sub-menu mm-collapse">
-                                <li><a href="#" key="user">Lead</a></li>
+                                <li><a href="<?php echo e(route('admin.leads.index')); ?>" key="user">Lead</a></li>
 
                                 <?php if (app(\Illuminate\Contracts\Auth\Access\Gate::class)->check('leadSource-list')): ?>
                                     <li><a href="<?php echo e(route('admin.lead-source.index')); ?>" key="lead-source">Origem</a></li>

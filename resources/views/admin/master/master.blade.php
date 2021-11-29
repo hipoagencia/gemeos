@@ -202,7 +202,7 @@
                                 <span key="user">Leads</span>
                             </a>
                             <ul class="sub-menu mm-collapse">
-                                <li><a href="#" key="user">Lead</a></li>
+                                <li><a href="{{ route('admin.leads.index') }}" key="user">Lead</a></li>
 
                                 @can('leadSource-list')
                                     <li><a href="{{ route('admin.lead-source.index')}}" key="lead-source">Origem</a></li>

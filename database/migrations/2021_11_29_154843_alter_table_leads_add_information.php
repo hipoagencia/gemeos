@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTableLead extends Migration
+class AlterTableLeadsAddInformation extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,8 @@ class CreateTableLead extends Migration
      */
     public function up()
     {
-        Schema::create('leads', function (Blueprint $table) {
-            $table->id();
-            $table->string('name')->nullable();
-            $table->string('email')->nullable();
-            $table->date('date_of_birth')->nullable();
-            $table->timestamps();
+        Schema::table('leads', function (Blueprint $table) {
+            $table->text('description')->nullable();
         });
     }
 
@@ -29,6 +25,8 @@ class CreateTableLead extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('leads');
+        Schema::table('leads', function (Blueprint $table) {
+            $table->dropColumn('description');
+        });
     }
 }

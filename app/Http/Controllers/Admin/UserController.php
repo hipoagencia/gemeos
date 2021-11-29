@@ -71,7 +71,7 @@ class UserController extends Controller
     {
         $login = User::where('id', $request->user)->first();
         Auth::loginUsingId($login->id);
-        return redirect()->route('user.dashboard');
+        return redirect()->route('admin.dashboard');
     }
 
     /**

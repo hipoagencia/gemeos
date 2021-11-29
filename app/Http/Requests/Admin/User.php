@@ -58,6 +58,9 @@ class User extends FormRequest
             //Grupo
             'group_id' => 'required',
 
+            //Adm
+            'is_admin' => 'required',
+
             //Access - Acesso
             'email' => (!empty($this->request->all()['id']) ? 'required|email|unique:users,email,' . $this->request->all()['id'] : 'required|email|unique:users,email'),
         ];
