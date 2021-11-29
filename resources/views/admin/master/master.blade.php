@@ -371,7 +371,6 @@
 <script src="{{ url(asset('backend/assets/js/app.js')) }}"></script>
 <script src="{{ url(asset('backend/assets/js/custom.js')) }}"></script>
 
-
 @hasSection('js')
     @yield('js')
 @endif
