@@ -113,7 +113,7 @@
 
 
                                     <div class="mb-3 mt-3">
-                                        <textarea id="elm1" name="description" >{{ old('description') ?? $post->description }}</textarea>
+                                        <textarea class="my-editor" id="elm1" name="description" >{{ old('description') ?? $post->description }}</textarea>
                                     </div>
 
 

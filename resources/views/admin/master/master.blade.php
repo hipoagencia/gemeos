@@ -211,31 +211,23 @@
                         </li>
                     @endcan
 
-
-
-                    {{--                    @canany(['blog-list','content-list','gallery-list'])--}}
-                    {{--                        <li>--}}
-                    {{--                            <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">--}}
-                    {{--                                <i class="bx bx-envelope"></i>--}}
-                    {{--                                <span key="t-email">Institucional</span>--}}
-                    {{--                            </a>--}}
-                    {{--                            <ul class="sub-menu mm-collapse">--}}
-                    {{--                                @can('blog-list')--}}
-                    {{--                                    <li><a href="{{ route('admin.posts.index') }}" key="t-blog">Blog</a></li>--}}
-                    {{--                                @endcan--}}
-                    {{--                                @can('content-list')--}}
-                    {{--                                    <li><a href="{{ route('admin.content.index') }}" key="t-read-email" >Páginas</a>--}}
-                    {{--                                    </li>--}}
-                    {{--                                @endcan--}}
-                    {{--                                @can('gallery-list')--}}
-                    {{--                                    <li><a href="{{ route('admin.gallery.index') }}" key="t-read-email">Galeria</a>--}}
-                    {{--                                    </li>--}}
-                    {{--                                @endcan--}}
-                    {{--                            </ul>--}}
-                    {{--                        </li>--}}
-                    {{--                    @endcan--}}
-
-
+                    @canany(['blog-list','content-list'])
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
+                                <i class="bx bx-envelope"></i>
+                                <span key="t-email">Blog</span>
+                            </a>
+                            <ul class="sub-menu mm-collapse">
+                                @can('blog-list')
+                                    <li><a href="{{ route('admin.posts.index') }}" key="t-blog">Blog</a></li>
+                                @endcan
+                                    @can('category-list')
+                                        <li><a href="{{ route('admin.categories.index') }}" key="t-inbox">Categorias</a>
+                                        </li>
+                                    @endcan
+                            </ul>
+                        </li>
+                    @endcan
 
 
 
@@ -248,10 +240,7 @@
                     {{--                                <span key="t-email">Sistema</span>--}}
                     {{--                            </a>--}}
                     {{--                            <ul class="sub-menu mm-collapse">--}}
-                    {{--                                @can('category-list')--}}
-                    {{--                                    <li><a href="{{ route('admin.categories.index') }}" key="t-inbox">Categorias</a>--}}
-                    {{--                                    </li>--}}
-                    {{--                                @endcan--}}
+
                     {{--                            </ul>--}}
                     {{--                        </li>--}}
                     {{--                    @endcan--}}

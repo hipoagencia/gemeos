@@ -64,11 +64,19 @@
                                 <h3 class="mb-3">Informações</h3>
                                 <div class="row">
 
-                                    <div class="col-md-4">
+                                    <div class="col-md-6">
                                         <div class="mb-3">
                                             <label for="name" class="form-label">Nome</label>
                                             <input name="name" class="form-control"
                                                    value="{{ old('name') ?? $category->name }}">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="slug" class="form-label">Slug</label>
+                                            <input name="slug" class="form-control"
+                                                   value="{{ old('slug') ?? $category->slug }}">
                                         </div>
                                     </div>
 

@@ -53,6 +53,11 @@ class Post extends Model implements Searchable
         return $this->belongsToMany(Categories::class, 'post_categories', 'post', 'category');
     }
 
+    public function preview()
+    {
+        return Str::words(strip_tags($this->description), 8, '...');
+    }
+
     public function getCoverAttribute($value)
     {
         return Storage::url($value);
@@ -61,7 +66,7 @@ class Post extends Model implements Searchable
     public function setSlugAttribute($value)
     {
         if(empty($value)){
-            $this->attributes['slug'] = Str::slug($this->attributes['title']);;
+            $this->attributes['slug'] = Str::slug($this->attributes['title']);
         } else {
             $this->attributes['slug'] = $value;
         }
@@ -76,5 +81,11 @@ class Post extends Model implements Searchable
             $url
         );
     }
+
+    public function getCreatedAtAttribute($value)
+    {
+        return date('d/m/Y', strtotime($value));
+    }
+
     public $searchableType = 'Artigos';
 }

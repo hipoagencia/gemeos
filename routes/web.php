@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Web\WebsiteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -9,13 +9,20 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 
-Route::get('/', function () {
-    return view('web.home');
-})->name('web.home');
+Route::get('/', [WebsiteController::class, 'blog'])->name('web.home');
 
 Route::get('/teste', function () {
     return view('web.teste');
 })->name('web.teste');
+
+Route::get('/blog', function () {
+    return view('web.blog');
+})->name('web.blog');
+
+//Rotas BLOG
+Route::get('blog', [WebsiteController::class, 'blog'])->name('web.blog');
+Route::get('artigo/{category}/{slug}', [WebsiteController::class, 'post'])->name('web.post');
+Route::get('blog/{category}', [WebsiteController::class, 'blog'])->name('web.category');
 
 //Rota Newsletter
 Route::post('newsletter-store', [\App\Http\Controllers\Web\NewsletterController::class, 'store'])->name('newsletter.store');
