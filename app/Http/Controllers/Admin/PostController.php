@@ -78,6 +78,8 @@ class PostController extends Controller
 
         $postCreate->categories()->sync($request->all()['categories']);
 
+        \Spatie\Sitemap\SitemapGenerator::create(env('app_url'))->writeToFile(public_path('sitemap.xml'));
+
         return redirect()->route('admin.posts.edit', [
             'post' => $postCreate->id
         ])->with(['type' => 'success', 'message' => 'Post cadastrado com sucesso!']);
@@ -166,6 +168,8 @@ class PostController extends Controller
 
         $post->categories()->sync($request->all()['categories']);
 
+        \Spatie\Sitemap\SitemapGenerator::create(env('app_url'))->writeToFile(public_path('sitemap.xml'));
+
         return redirect()->route('admin.posts.edit', [
             'post' => $post->id
         ])->with(['type' => 'success', 'message' => 'Post atualizado com sucesso!']);
@@ -176,7 +180,7 @@ class PostController extends Controller
      * Remove the specified resource from storage.
      *
      * @param int $id
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function destroy($id)
     {
