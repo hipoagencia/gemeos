@@ -78,7 +78,7 @@ class PostController extends Controller
 
         $postCreate->categories()->sync($request->all()['categories']);
 
-        \Spatie\Sitemap\SitemapGenerator::create(env('app_url'))->writeToFile(public_path('sitemap.xml'));
+        //\Spatie\Sitemap\SitemapGenerator::create(env('app_url'))->writeToFile(public_path('sitemap.xml'));
 
         return redirect()->route('admin.posts.edit', [
             'post' => $postCreate->id
@@ -168,7 +168,7 @@ class PostController extends Controller
 
         $post->categories()->sync($request->all()['categories']);
 
-        \Spatie\Sitemap\SitemapGenerator::create(env('app_url'))->writeToFile(public_path('sitemap.xml'));
+        //\Spatie\Sitemap\SitemapGenerator::create(env('app_url'))->writeToFile(public_path('sitemap.xml'));
 
         return redirect()->route('admin.posts.edit', [
             'post' => $post->id
