@@ -13,9 +13,11 @@ class WebsiteController extends Controller
     public function blog(Request $request)
     {
         //cache()->forget('blog-categories');
-        $categories = cache()->remember('blog-categories', 60*60*24, function(){
-            return Categories::orderBy('name')->get();
-        });
+//        $categories = cache()->remember('blog-categories', 60*60*24, function(){
+//            return Categories::orderBy('name')->get();
+//        });
+
+        $categories = Categories::orderBy('name')->get();
 
         $posts = Post::with(['categories', 'user'])
             ->when(!isNull($request->category), function ($query) {
@@ -31,9 +33,7 @@ class WebsiteController extends Controller
 
     public function post(Request $request)
     {
-        $categories = cache()->remember('blog-categories', 60*60*24, function(){
-            return Categories::orderBy('name')->get();
-        });
+        $categories = Categories::orderBy('name')->get();
 
         $post = Post::with(['categories', 'user'])
             ->where('slug', strip_tags($request->slug))->first();
