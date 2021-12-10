@@ -46,7 +46,7 @@
                     <ul class="navbar-nav alt-font">
 
                         @foreach($categories as $category)
-                            <li class="nav-item"><a href="#" class="nav-link">{{ $category->name }}</a></li>
+                            <li class="nav-item"><a href="{{ route('web.category', ['category' => $category->slug]) }}" class="nav-link">{{ $category->name }}</a></li>
                         @endforeach
 
 {{--                        <li class="nav-item dropdown simple-dropdown">--}}
