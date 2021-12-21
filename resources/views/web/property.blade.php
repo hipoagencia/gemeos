@@ -18,12 +18,9 @@
     </section>
 
 
-
-
-
-
     <section class="position-relative">
-        <img src="{{ url(asset('web/assets/images/full-detail.png')) }}" class="position-absolute bottom-0 left-0px left"/>
+        <img src="{{ url(asset('web/assets/images/full-detail.png')) }}" class="position-absolute bottom-0 left-0px left d-none d-xl-block"  alt="{{ $property->Bairro }}"/>
+
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-11">
@@ -97,6 +94,16 @@
     </section>
 
 
+    <style>
+        .gallery-img{
+            max-height:700px;
+        }
+        @media only screen and (max-width: 900px) {
+            .gallery-img {
+                max-height:300px;
+            }
+        }
+    </style>
 
 
     <section class="py-0 position-relative">
@@ -106,8 +113,8 @@
 
                 @foreach($property->img as $image)
 
-                    <div class="swiper-slide w-55 swiper-slide-prev" role="group" aria-label="1 / 3"
-                         data-swiper-slide-index="0"><img src="{{ $image->url }}" class="w-100" alt="" style="max-height:500px;"
+                    <div class="swiper-slide w-55 swiper-slide-prev gallery-img" role="group" aria-label="1 / 3"
+                         data-swiper-slide-index="0"><img src="{{ $image->url }}" class="w-100" alt=""
                                                           data-no-retina=""></div>
 
                 @endforeach
