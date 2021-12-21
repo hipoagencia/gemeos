@@ -30,9 +30,9 @@
         <div class="container-lg nav-header-container">
             <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
                 <a class="navbar-brand" href="{{ route('web.blog') }}">
-                    <img src="{{ url(asset(env('INFO_LOGO'))) }}" data-at2x="images/logo-fast-blue-black@2x.png" class="default-logo" alt="">
-                    <img src="{{ url(asset(env('INFO_LOGO'))) }}" data-at2x="images/logo-fast-blue-black@2x.png" class="alt-logo" alt="">
-                    <img src="{{ url(asset(env('INFO_LOGO'))) }}" data-at2x="images/logo-fast-blue-black@2x.png" class="mobile-logo" alt="">
+                    <img src="{{ url(asset(env('INFO_LOGO'))) }}" data-at2x="{{ url(asset(env('INFO_LOGO'))) }}" class="default-logo" alt="">
+                    <img src="{{ url(asset(env('INFO_LOGO'))) }}" data-at2x="{{ url(asset(env('INFO_LOGO'))) }}" class="alt-logo" alt="">
+                    <img src="{{ url(asset(env('INFO_LOGO'))) }}" data-at2x="{{ url(asset(env('INFO_LOGO'))) }}" class="mobile-logo" alt="">
                 </a>
             </div>
             <div class="col-auto col-lg-8 menu-order px-lg-0">
