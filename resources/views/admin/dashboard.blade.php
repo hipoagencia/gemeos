@@ -13,7 +13,6 @@
                     </ol>
                 </div>
 
-
 {{--                @can('user_create')--}}
 {{--                    CRIAR USUÁRIO--}}
 {{--                @endcan--}}
@@ -31,6 +30,17 @@
 --}}
 
             </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            @if(session()->exists('message'))
+                @component('admin.components.message',['type' => session()->get('type')])
+                    {{ session()->get('message') }}
+                @endcomponent
+            @endif
+
         </div>
     </div>
 

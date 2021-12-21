@@ -15,6 +15,7 @@ use App\Http\Controllers\Admin\EadContentController;
 use App\Http\Controllers\Admin\GroupController;
 use App\Http\Controllers\Admin\LeadSourceController;
 use App\Http\Controllers\Admin\LeadController;
+use App\Http\Controllers\Admin\FunctionsController;
 
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
@@ -75,11 +76,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
         Route::get('ead-content/get', [EadContentController::class, 'show'])->name('ead-content.get');
 
         //SiteMap
-        Route::get('site-map', function () {
-            \Spatie\Sitemap\SitemapGenerator::create(env('app_url'))->writeToFile(public_path('sitemap.xml'));
+        Route::get('site-map', [FunctionsController::class, 'sitemap'])->name('sitemap.get');
 
-            //Retorna para a Dashboard com mensagem de confirmação
-        });
+        //Consulta Imóveis Ingaia
+        Route::get('ingaia', [FunctionsController::class, 'ingaiaProperties'])->name('properties.get');
 
         //BackupsList
         Route::get('backup-list', function () {
@@ -95,6 +95,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
         Route::post('gallery/image-set-cover', [GalleryController::class, 'imageSetCover'])->name('gallery.imageSetCover');
         Route::delete('gallery/remove-cover', [GalleryController::class, 'imageRemove'])->name('gallery.imageRemove');
         Route::resource('gallery', GalleryController::class);
+
 
     });
 });

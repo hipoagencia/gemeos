@@ -183,10 +183,10 @@
                                 </li>
 
                                 @role('superAdmin')
-                                    <li><a href="{{ route('admin.users.index',['adm'=>'1']) }}"
-                                           key="admin">Administrador</a>
-                                    </li>
-                                    <li><a href="{{ route('admin.roles.index')}}" key="roles">Perfil</a></li>
+                                <li><a href="{{ route('admin.users.index',['adm'=>'1']) }}"
+                                       key="admin">Administrador</a>
+                                </li>
+                                <li><a href="{{ route('admin.roles.index')}}" key="roles">Perfil</a></li>
                                 @endrole
                                 @can('group-list')
                                     <li><a href="{{ route('admin.groups.index')}}" key="roles">Grupo</a></li>
@@ -205,7 +205,8 @@
                                 <li><a href="{{ route('admin.leads.index') }}" key="user">Lead</a></li>
 
                                 @can('leadSource-list')
-                                    <li><a href="{{ route('admin.lead-source.index')}}" key="lead-source">Origem</a></li>
+                                    <li><a href="{{ route('admin.lead-source.index')}}" key="lead-source">Origem</a>
+                                    </li>
                                 @endcan
                             </ul>
                         </li>
@@ -221,10 +222,10 @@
                                 @can('blog-list')
                                     <li><a href="{{ route('admin.posts.index') }}" key="t-blog">Blog</a></li>
                                 @endcan
-                                    @can('category-list')
-                                        <li><a href="{{ route('admin.categories.index') }}" key="t-inbox">Categorias</a>
-                                        </li>
-                                    @endcan
+                                @can('category-list')
+                                    <li><a href="{{ route('admin.categories.index') }}" key="t-inbox">Categorias</a>
+                                    </li>
+                                @endcan
                             </ul>
                         </li>
                     @endcan
@@ -245,21 +246,37 @@
                     {{--                        </li>--}}
                     {{--                    @endcan--}}
 
-                    <li class="menu-title" key="t-pages">Visão Usuário</li>
+                    <li class="menu-title" key="t-pages">Informações</li>
+
+
+{{--                    <li>--}}
+{{--                        <a href="{{ route('user.dashboard') }}" class="waves-effect">--}}
+{{--                            <i class="bx bx-home-circle"></i>--}}
+{{--                            <span>Painel do Usuário</span>--}}
+{{--                        </a>--}}
+{{--                    </li>--}}
+
+                    <li>
+                        <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
+                            <i class="bx bx-envelope"></i>
+                            <span key="t-email">Configurações</span>
+                        </a>
+                        <ul class="sub-menu mm-collapse">
+
+                            <li><a href="{{ route('admin.sitemap.get') }}" key="t-blog">Site Map</a></li>
+
+                            <li><a href="{{ route('admin.properties.get') }}" key="t-blog">Atualizar Imóveis</a></li>
+
+                        </ul>
+                    </li>
 
                     <li>
                         <a href="{{ route('web.home') }}" class="waves-effect">
                             <i class="bx bx-home-circle"></i>
-                            <span>Website</span>
+                            <span>Ver Website</span>
                         </a>
                     </li>
 
-                    <li>
-                        <a href="{{ route('user.dashboard') }}" class="waves-effect">
-                            <i class="bx bx-home-circle"></i>
-                            <span>Painel do Usuário</span>
-                        </a>
-                    </li>
 
 
                 </ul>

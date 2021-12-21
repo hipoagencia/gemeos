@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Web;
 use App\Http\Controllers\Controller;
 use App\Models\Categories;
 use App\Models\Post;
+use App\Models\Property;
 use Illuminate\Http\Request;
 use function PHPUnit\Framework\isNull;
 
@@ -41,6 +42,17 @@ class WebsiteController extends Controller
         return view('web.post',[
             'categories' => $categories,
             'post' => $post
+        ]);
+    }
+
+    public function property(Request $request)
+    {
+        $categories = Categories::orderBy('name')->get();
+        $property = Property::where('CodigoImovel', strip_tags($request->propertycode))->firstOrFail();
+
+        return view('web.property',[
+            'property' => $property,
+            'categories' => $categories,
         ]);
     }
 }

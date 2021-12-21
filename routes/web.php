@@ -24,6 +24,9 @@ Route::get('blog', [WebsiteController::class, 'blog'])->name('web.blog');
 Route::get('artigo/{category}/{slug}', [WebsiteController::class, 'post'])->name('web.post');
 Route::get('blog/{category}', [WebsiteController::class, 'blog'])->name('web.category');
 
+//Rotas Imóvel
+Route::get('imovel/{propertycode}/{slug}', [WebsiteController::class, 'property'])->name('web.property');
+
 //Rota Newsletter
 Route::post('newsletter-store', [\App\Http\Controllers\Web\NewsletterController::class, 'store'])->name('newsletter.store');
 
