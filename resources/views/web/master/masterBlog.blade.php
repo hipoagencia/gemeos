@@ -107,7 +107,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-8 text-center">
-                <img src="{{ url(asset(env('INFO_LOGO_WHITE'))) }}" data-at2x="images/logo-fast-blue-black@2x.png" class="alt-logo mb-5" alt="">
+                <img src="{{ url(asset(env('INFO_LOGO_WHITE'))) }}" data-at2x="{{ url(asset(env('INFO_LOGO_WHITE'))) }}" class="alt-logo mb-5" alt="">
                 <div class=" margin-1-half-rem-bottom">
                     <ul class="large-icon">
                         <li><a class="facebook text-white" href="https://www.facebook.com/fullimoveis" target="_blank"><i class="fab fa-facebook-f"></i><span></span></a></li>
