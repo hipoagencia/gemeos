@@ -29,9 +29,9 @@
         <div class="container-lg nav-header-container">
             <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
                 <a class="navbar-brand" href="{{ route('web.blog') }}">
-                    <img src="{{ url(asset(env('INFO_LOGO'))) }}" data-at2x="{{ url(asset(env('INFO_LOGO'))) }}" class="default-logo" alt="">
-                    <img src="{{ url(asset(env('INFO_LOGO'))) }}" data-at2x="{{ url(asset(env('INFO_LOGO'))) }}" class="alt-logo" alt="">
-                    <img src="{{ url(asset(env('INFO_LOGO'))) }}" data-at2x="{{ url(asset(env('INFO_LOGO'))) }}" class="mobile-logo" alt="">
+                    <img src="{{ url(asset(env('INFO_LOGO'))) }}" data-at2x="{{ url(asset(env('INFO_LOGO'))) }}" class="default-logo" alt="Logo {{ env('APP_NAME') }}">
+                    <img src="{{ url(asset(env('INFO_LOGO'))) }}" data-at2x="{{ url(asset(env('INFO_LOGO'))) }}" class="alt-logo" alt="Logo {{ env('APP_NAME') }}">
+                    <img src="{{ url(asset(env('INFO_LOGO'))) }}" data-at2x="{{ url(asset(env('INFO_LOGO'))) }}" class="mobile-logo" alt="Logo {{ env('APP_NAME') }}">
                 </a>
             </div>
             <div class="col-auto col-lg-8 menu-order px-lg-0">
@@ -99,14 +99,14 @@
 
 
 <div class="container text-center pb-5 pt-5">
-    <img src="{{ url(asset('web/assets/images/ass.png')) }}"/>
+    <img src="{{ url(asset('web/assets/images/ass.png')) }}" alt="Assinatura"/>
 </div>
 
 <footer class="bg-full-brown padding-8-half-rem-tb md-padding-6-half-rem-tb">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-8 text-center">
-                <img src="{{ url(asset(env('INFO_LOGO_WHITE'))) }}" data-at2x="{{ url(asset(env('INFO_LOGO_WHITE'))) }}" class="alt-logo mb-5" alt="">
+                <img src="{{ url(asset(env('INFO_LOGO_WHITE'))) }}" data-at2x="{{ url(asset(env('INFO_LOGO_WHITE'))) }}" class="alt-logo mb-5" alt="Logo {{ env('APP_NAME') }}">
                 <div class=" margin-1-half-rem-bottom">
                     <ul class="large-icon">
                         <li><a class="facebook text-white" href="https://www.facebook.com/fullimoveis" target="_blank"><i class="fab fa-facebook-f"></i><span></span></a></li>
