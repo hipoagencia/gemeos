@@ -16,6 +16,7 @@ use App\Http\Controllers\Admin\GroupController;
 use App\Http\Controllers\Admin\LeadSourceController;
 use App\Http\Controllers\Admin\LeadController;
 use App\Http\Controllers\Admin\FunctionsController;
+use App\Http\Controllers\Admin\PropertyController;
 
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
@@ -74,6 +75,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
         //Rotas de EAD Conteúdo
         Route::resource('ead-content', EadContentController::class);
         Route::get('ead-content/get', [EadContentController::class, 'show'])->name('ead-content.get');
+
+        //Rotas Imóveis
+        Route::resource('property', PropertyController::class);
+        Route::get('property/get', [PropertyController::class, 'show'])->name('property.get');
 
         //SiteMap
         Route::get('site-map', [FunctionsController::class, 'sitemap'])->name('sitemap.get');

@@ -230,7 +230,12 @@
                         </li>
                     @endcan
 
-
+                    <li>
+                        <a href="{{ route('admin.property.index') }}" class="waves-effect">
+                            <i class="bx bx-home-circle"></i>
+                            <span key="t-starter-page">Imóveis</span>
+                        </a>
+                    </li>
 
                     {{--                    @canany(['order-list','product-list'])--}}
                     {{--                        <li class="menu-title" key="t-pages">Sessões</li>--}}
@@ -249,12 +254,12 @@
                     <li class="menu-title" key="t-pages">Informações</li>
 
 
-{{--                    <li>--}}
-{{--                        <a href="{{ route('user.dashboard') }}" class="waves-effect">--}}
-{{--                            <i class="bx bx-home-circle"></i>--}}
-{{--                            <span>Painel do Usuário</span>--}}
-{{--                        </a>--}}
-{{--                    </li>--}}
+                    {{--                    <li>--}}
+                    {{--                        <a href="{{ route('user.dashboard') }}" class="waves-effect">--}}
+                    {{--                            <i class="bx bx-home-circle"></i>--}}
+                    {{--                            <span>Painel do Usuário</span>--}}
+                    {{--                        </a>--}}
+                    {{--                    </li>--}}
 
                     <li>
                         <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
@@ -276,7 +281,6 @@
                             <span>Ver Website</span>
                         </a>
                     </li>
-
 
 
                 </ul>
