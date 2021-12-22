@@ -21,6 +21,8 @@
 
     <meta name="csrf-token" content="{{ csrf_token() }}"/>
 
+    {!! \Artesaos\SEOTools\Facades\SEOTools::generate() !!}
+
 </head>
 <body data-mobile-nav-style="classic" >
 <!-- start header -->
