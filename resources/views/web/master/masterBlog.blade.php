@@ -7,13 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
-    <meta name="description" content="">
 
     <link rel="shortcut icon" href="{{ url(asset(env('INFO_FAVICON'))) }}">
 
-    <!-- style sheets and font icons  -->
     <link rel="stylesheet" type="text/css" href="{{ url(asset('web/assets/css/font-icons.min.css')) }}">
-
 
     <link rel="stylesheet" type="text/css" href="{{ url(asset('web/assets/css/theme-vendors.min.css')) }}">
     <link rel="stylesheet" type="text/css" href="{{ url(asset('web/assets/css/style.css')) }}">
