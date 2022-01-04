@@ -55,7 +55,6 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
       <path value="$PROJECT_DIR$/vendor/symfony/string" />
       <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
-      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
       <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
       <path value="$PROJECT_DIR$/vendor/league/commonmark" />
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
@@ -63,7 +62,6 @@
       <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/vendor/brick/math" />
       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
-      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
       <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
       <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
       <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
@@ -107,19 +105,14 @@
       <path value="$PROJECT_DIR$/vendor/coffeecode/cropper" />
       <path value="$PROJECT_DIR$/vendor/rosell-dk/image-mime-type-guesser" />
       <path value="$PROJECT_DIR$/vendor/rosell-dk/webp-convert" />
-      <path value="$PROJECT_DIR$/vendor/unisharp/laravel-filemanager" />
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
       <path value="$PROJECT_DIR$/vendor/league/glide" />
       <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
-      <path value="$PROJECT_DIR$/vendor/spatie/robots-txt" />
       <path value="$PROJECT_DIR$/vendor/spatie/temporary-directory" />
       <path value="$PROJECT_DIR$/vendor/spatie/image-optimizer" />
-      <path value="$PROJECT_DIR$/vendor/spatie/laravel-sitemap" />
-      <path value="$PROJECT_DIR$/vendor/spatie/crawler" />
       <path value="$PROJECT_DIR$/vendor/spatie/image" />
       <path value="$PROJECT_DIR$/vendor/nicmart/tree" />
       <path value="$PROJECT_DIR$/vendor/spatie/browsershot" />
-      <path value="$PROJECT_DIR$/vendor/spatie/laravel-cookie-consent" />
       <path value="$PROJECT_DIR$/vendor/josiasmontag/laravel-recaptchav3" />
       <path value="$PROJECT_DIR$/vendor/anhskohbo/no-captcha" />
       <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
@@ -130,15 +123,11 @@
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-backup" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-activitylog" />
       <path value="$PROJECT_DIR$/vendor/drewm/mailchimp-api" />
-      <path value="$PROJECT_DIR$/vendor/spatie/laravel-newsletter" />
       <path value="$PROJECT_DIR$/vendor/bumbummen99/shoppingcart" />
-      <path value="$PROJECT_DIR$/vendor/spatie/laravel-searchable" />
       <path value="$PROJECT_DIR$/vendor/geekcom/validator-docs" />
       <path value="$PROJECT_DIR$/vendor/thiagocfn/inscricaoestadual" />
       <path value="$PROJECT_DIR$/vendor/spatie/array-to-xml" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
-      <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
-      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle" />
       <path value="$PROJECT_DIR$/vendor/laravel/serializable-closure" />
       <path value="$PROJECT_DIR$/vendor/league/config" />
       <path value="$PROJECT_DIR$/vendor/nette/schema" />
@@ -150,6 +139,17 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/artesaos/seotools" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-cookie-consent" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-newsletter" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-searchable" />
+      <path value="$PROJECT_DIR$/vendor/spatie/robots-txt" />
+      <path value="$PROJECT_DIR$/vendor/spatie/crawler" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-sitemap" />
+      <path value="$PROJECT_DIR$/vendor/unisharp/laravel-filemanager" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4">

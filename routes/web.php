@@ -11,24 +11,10 @@ use App\Http\Controllers\Web\WebsiteController;
 
 Route::get('/', [WebsiteController::class, 'blog'])->name('web.home');
 
-Route::get('/teste', function () {
-    return view('web.teste');
-})->name('web.teste');
+Route::get('/', function () {
+    return view('web.home');
+})->name('web.home');
 
-Route::get('/blog', function () {
-    return view('web.blog');
-})->name('web.blog');
-
-//Rotas BLOG
-Route::get('blog', [WebsiteController::class, 'blog'])->name('web.blog');
-Route::get('artigo/{category}/{slug}', [WebsiteController::class, 'post'])->name('web.post');
-Route::get('blog/{category}', [WebsiteController::class, 'blog'])->name('web.category');
-
-//Rotas Imóvel
-Route::get('imovel/{user}/{propertycode}/{slug}', [WebsiteController::class, 'property'])->name('web.property');
-
-//Rota Newsletter
-Route::post('newsletter-store', [\App\Http\Controllers\Web\NewsletterController::class, 'store'])->name('newsletter.store');
 
 
 

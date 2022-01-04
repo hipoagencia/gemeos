@@ -1,7 +1,13 @@
-<h3>Ínício</h3>
+@extends('web.master.master')
 
-<a href="{{ route('web.teste') }}">Teste</a>
+@section('content')
 
-<br><br><br>
 
-@include('cookieConsent::index')
+    teste
+
+    @include('cookieConsent::index')
+
+@endsection
+
+
+

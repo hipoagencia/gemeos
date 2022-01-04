@@ -195,22 +195,6 @@
                         </li>
                     @endcan
 
-                    @canany(['lead-list','leadSource-list'])
-                        <li>
-                            <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
-                                <i class="bx bx-envelope"></i>
-                                <span key="user">Leads</span>
-                            </a>
-                            <ul class="sub-menu mm-collapse">
-                                <li><a href="{{ route('admin.leads.index') }}" key="user">Lead</a></li>
-
-                                @can('leadSource-list')
-                                    <li><a href="{{ route('admin.lead-source.index')}}" key="lead-source">Origem</a>
-                                    </li>
-                                @endcan
-                            </ul>
-                        </li>
-                    @endcan
 
                     @canany(['blog-list','content-list'])
                         <li>
@@ -230,26 +214,6 @@
                         </li>
                     @endcan
 
-                    <li>
-                        <a href="{{ route('admin.property.index') }}" class="waves-effect">
-                            <i class="bx bx-home-circle"></i>
-                            <span key="t-starter-page">Imóveis</span>
-                        </a>
-                    </li>
-
-                    {{--                    @canany(['order-list','product-list'])--}}
-                    {{--                        <li class="menu-title" key="t-pages">Sessões</li>--}}
-
-                    {{--                        <li>--}}
-                    {{--                            <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">--}}
-                    {{--                                <i class="dripicons-gear"></i>--}}
-                    {{--                                <span key="t-email">Sistema</span>--}}
-                    {{--                            </a>--}}
-                    {{--                            <ul class="sub-menu mm-collapse">--}}
-
-                    {{--                            </ul>--}}
-                    {{--                        </li>--}}
-                    {{--                    @endcan--}}
 
                     <li class="menu-title" key="t-pages">Informações</li>
 
@@ -269,8 +233,6 @@
                         <ul class="sub-menu mm-collapse">
 
                             <li><a href="{{ route('admin.sitemap.get') }}" key="t-blog">Site Map</a></li>
-
-                            <li><a href="{{ route('admin.properties.get') }}" key="t-blog">Atualizar Imóveis</a></li>
 
                         </ul>
                     </li>

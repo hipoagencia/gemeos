@@ -28,7 +28,7 @@ class CreateUsersSeeder extends Seeder
             ],
             [
                 'name'=>'User',
-                'email'=>'daniel_martins_4@live.com',
+                'email'=>'user@user.com',
                 'is_admin'=>'0',
                 'password'=> bcrypt('user'),
                 'email_verified_at'=> date('Y-m-d H:i:s'),
@@ -41,7 +41,6 @@ class CreateUsersSeeder extends Seeder
         Role::create(['name' => 'user']);
         Role::create(['name' => 'admin']);
         Role::create(['name' => 'superAdmin']);
-        Role::create(['name' => 'corretor']);
 
         foreach ($user as $key => $value) {
             $user = User::create($value);

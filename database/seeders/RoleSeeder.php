@@ -51,16 +51,6 @@ class RoleSeeder extends Seeder
         Permission::create(['name' => 'group-edit']);
         Permission::create(['name' => 'group-delete']);
 
-        Permission::create(['name' => 'leadSource-list']);
-        Permission::create(['name' => 'leadSource-create']);
-        Permission::create(['name' => 'leadSource-edit']);
-        Permission::create(['name' => 'leadSource-delete']);
-
-        Permission::create(['name' => 'lead-list']);
-        Permission::create(['name' => 'lead-create']);
-        Permission::create(['name' => 'lead-edit']);
-        Permission::create(['name' => 'lead-delete']);
-
 
     }
 }
