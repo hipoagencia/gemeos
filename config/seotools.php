@@ -13,7 +13,7 @@ return [
             'titleBefore'  => false, // Put defaults.title before page title, like 'It's Over 9000! - Dashboard'
             'description'  => env('APP_DESCRIPTION'), // set false to total remove
             'separator'    => ' - ',
-            'keywords'     => ['casa em riviera', 'aparatamento em riviera', 'imoveis em riviera', 'riviera de são lourenço', 'casas à venda em riviera'],
+            'keywords'     => ['carros novos', 'veículos novos', 'seminovos', 'loja de carros'],
             'canonical'    => 'current', // Set to null or 'full' to use Url::full(), set to 'current' to use Url::current(), set false to total remove
             'robots'       => 'all', // Set to 'all', 'none' or any combination of index/noindex and follow/nofollow
         ],

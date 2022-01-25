@@ -218,13 +218,6 @@
                     <li class="menu-title" key="t-pages">Informações</li>
 
 
-                    {{--                    <li>--}}
-                    {{--                        <a href="{{ route('user.dashboard') }}" class="waves-effect">--}}
-                    {{--                            <i class="bx bx-home-circle"></i>--}}
-                    {{--                            <span>Painel do Usuário</span>--}}
-                    {{--                        </a>--}}
-                    {{--                    </li>--}}
-
                     <li>
                         <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
                             <i class="bx bx-envelope"></i>
@@ -232,6 +225,7 @@
                         </a>
                         <ul class="sub-menu mm-collapse">
 
+                            <li><a href="{{ route('admin.stock.get') }}" key="t-blog">Atualizar Estoque</a></li>
                             <li><a href="{{ route('admin.sitemap.get') }}" key="t-blog">Site Map</a></li>
 
                         </ul>

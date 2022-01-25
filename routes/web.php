@@ -16,8 +16,8 @@ Route::get('/', function () {
 })->name('web.home');
 
 
-
-
+Route::get('/veiculos/{category?}', [WebsiteController::class, 'stock'])->name('web.stock');
+Route::get('/veiculo/{slug}', [WebsiteController::class, 'stockOpen'])->name('web.stockOpen');
 
 
 
