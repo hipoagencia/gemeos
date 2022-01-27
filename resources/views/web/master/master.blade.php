@@ -15,6 +15,23 @@
     <link href="{{ url(asset('web/assets/css/plugins.css')) }}" type="text/css" rel="stylesheet">
     <link href="{{ url(asset('web/assets/css/style.css')) }}" type="text/css" rel="stylesheet">
 
+    <style>
+
+        .pagination{
+            list-style-type: none;
+        }
+        .pagination li {
+            display:inline;
+        }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+    </style>
+
     <meta name="csrf-token" content="{{ csrf_token() }}"/>
 
     {!! \Artesaos\SEOTools\Facades\SEOTools::generate() !!}
