@@ -9,15 +9,14 @@ use App\Http\Controllers\Web\WebsiteController;
 |--------------------------------------------------------------------------
 */
 
-Route::get('/', [WebsiteController::class, 'blog'])->name('web.home');
+//Route::get('/', [WebsiteController::class, 'blog'])->name('web.home');
 
-Route::get('/', function () {
-    return view('web.home');
-})->name('web.home');
-
+Route::get('/', [WebsiteController::class, 'home'])->name('web.home');
 
 Route::get('/veiculos/{category?}', [WebsiteController::class, 'stock'])->name('web.stock');
 Route::get('/veiculo/{slug}', [WebsiteController::class, 'stockOpen'])->name('web.stockOpen');
+
+Route::get('/contato', [WebsiteController::class, 'contact'])->name('web.contact');
 
 
 

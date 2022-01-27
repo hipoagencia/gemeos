@@ -48,11 +48,6 @@
             </div>
 
 
-
-
-
-
-
             <div class="section">
 
 
@@ -68,7 +63,8 @@
                         <div data-interaction="false" data-autoplay="true" class="alioth-embed-video">
 
                             <!--Video Attributes-->
-                            <div data-poster="false" class="embed-video" data-plyr-provider="vimeo" data-plyr-embed-id="396260528"></div>
+                            <div data-poster="false" class="embed-video" data-plyr-provider="vimeo"
+                                 data-plyr-embed-id="396260528"></div>
                             <!--/Video Attributes-->
 
                         </div>
@@ -81,7 +77,6 @@
 
 
             </div>
-
 
 
             <div class="section">
@@ -97,14 +92,20 @@
                         <!--Text Wrapper-->
                         <div class="text-wrapper">
 
-                            <h1 class="has-anim" data-stagger="0.01" data-duration="1.5" data-delay=".1" data-animation="charsUp">Trustful Partners.</h1>
+                            <h1 class="has-anim" data-stagger="0.01" data-duration="1.5" data-delay=".1"
+                                data-animation="charsUp">A grife dos carros.</h1>
                         </div>
                         <!--/Text Wrapper-->
                         <!--Text Wrapper-->
                         <div class="text-wrapper">
 
-                            <h5 style="color: rgba(25,27,29,.6)" class="has-anim" data-stagger="0.1" data-duration="1" data-delay=".1" data-animation="linesUp">
-                                Brain is the seed of intelligence a still more glorious dawn awaits the ash of stellar alchemy two ghostly white figures in coveralls and helmets are softly dancing not a sunrise but a galaxyrise bits of moving fluff. Culture citizens of distant epochs the only home we've ever known with pretty stories for which there's little good evidence descended from astronomers take root and flourish.
+                            <h5 style="color: rgba(25,27,29,.6)" class="has-anim" data-stagger="0.1" data-duration="1"
+                                data-delay=".1" data-animation="linesUp">
+                                Brain is the seed of intelligence a still more glorious dawn awaits the ash of stellar
+                                alchemy two ghostly white figures in coveralls and helmets are softly dancing not a
+                                sunrise but a galaxyrise bits of moving fluff. Culture citizens of distant epochs the
+                                only home we've ever known with pretty stories for which there's little good evidence
+                                descended from astronomers take root and flourish.
                             </h5>
 
                         </div>
@@ -143,136 +144,21 @@
                             <!--Works Wrapper-->
                             <div class="recent-works-wrapper">
 
-                                <!--Project-->
-                                <div class="ar-work">
-
-                                    <!--Project URL--><a href="carro.html">
-
-                                        <!--Project Image-->
-                                        <div class="ar-work-image">
-                                            <img alt="Project Image" src="img/carro/1.jpg">
-                                        </div>
-                                        <!--/Project Image-->
-                                        <!--Project Title-->
-                                        <div class="ar-work-title">Porsche</div>
-                                        <!--/Project Title-->
-                                        <!--Project Category-->
-                                        <div class="ar-work-cat">Cayenne</div>
-                                        <!--/Project Category-->
-
-                                    </a>
-
-                                </div>
-                                <!--/Project-->
-                                <!--Project-->
-                                <div class="ar-work">
-
-                                    <!--Project URL--><a href="carro.html">
-
-                                        <!--Project Image-->
-                                        <div class="ar-work-image">
-                                            <img alt="Project Image" src="img/carro/2.jpg">
-                                        </div>
-                                        <!--/Project Image-->
-                                        <!--Project Title-->
-                                        <div class="ar-work-title">Porsche</div>
-                                        <!--/Project Title-->
-                                        <!--Project Category-->
-                                        <div class="ar-work-cat">911</div>
-                                        <!--/Project Category-->
-
-                                    </a>
-
-                                </div>
-                                <!--/Project-->
-                                <!--Project-->
-                                <div class="ar-work">
-
-                                    <!--Project URL--><a href="carro.html">
-
-                                        <!--Project Image-->
-                                        <div class="ar-work-image">
-                                            <img alt="Project Image" src="img/carro/3.jpg">
-                                        </div>
-                                        <!--/Project Image-->
-                                        <!--Project Title-->
-                                        <div class="ar-work-title">BMW</div>
-                                        <!--/Project Title-->
-                                        <!--Project Category-->
-                                        <div class="ar-work-cat">X1 SDrive 20i</div>
-                                        <!--/Project Category-->
-
-                                    </a>
-
-                                </div>
-                                <!--/Project-->
-                                <!--Project-->
-                                <div class="ar-work">
-
-                                    <!--Project URL--><a href="carro.html">
-
-                                        <!--Project Image-->
-                                        <div class="ar-work-image">
-                                            <img alt="Project Image" src="img/carro/4.jpg">
-                                        </div>
-                                        <!--/Project Image-->
-                                        <!--Project Title-->
-                                        <div class="ar-work-title">BMW</div>
-                                        <!--/Project Title-->
-                                        <!--Project Category-->
-                                        <div class="ar-work-cat">M4 CS</div>
-                                        <!--/Project Category-->
-
-                                    </a>
-
-                                </div>
-                                <!--/Project-->
-                                <!--Project-->
-                                <div class="ar-work">
-
-                                    <!--Project URL--><a href="carro.html">
-
-                                        <!--Project Image-->
-                                        <div class="ar-work-image">
-                                            <img alt="Project Image" src="img/carro/5.jpg">
-                                        </div>
-                                        <!--/Project Image-->
-                                        <!--Project Title-->
-                                        <div class="ar-work-title">Lamborghini</div>
-                                        <!--/Project Title-->
-                                        <!--Project Category-->
-                                        <div class="ar-work-cat">Huracan</div>
-                                        <!--/Project Category-->
-
-                                    </a>
-
-                                </div>
-                                <!--/Project-->
-                                <!--Project-->
-                                <div class="ar-work">
-
-                                    <!--Project URL--><a href="carro.html">
-
-                                        <!--Project Image-->
-                                        <div class="ar-work-image">
-                                            <img alt="Project Image" src="img/carro/6.jpg">
-                                        </div>
-                                        <!--/Project Image-->
-                                        <!--Project Title-->
-                                        <div class="ar-work-title">Audi</div>
-                                        <!--/Project Title-->
-                                        <!--Project Category-->
-                                        <div class="ar-work-cat">Q8</div>
-                                        <!--/Project Category-->
-
-                                    </a>
-
-                                </div>
-                                <!--/Project-->
+                                @foreach($cars as $car)
+                                    <div class="ar-work">
+                                        <a href="{{route('web.stockOpen', ['slug' => $car->slug])}}">
+                                            <div class="ar-work-image">
+                                                <img alt="Project Image" src="{{$car->cover->url}}">
+                                            </div>
+                                            <div class="ar-work-title">{{$car->modelo}} {{$car->anomodelo}}</div>
+                                            <div class="ar-work-cat">{{$car->preco}}</div>
+                                        </a>
+                                    </div>
+                                @endforeach
 
                             </div>
-                            <!--/Works Wrapper-->
-                            <!-- Button -->
+
+
                             <div class="a-button style_1">
 
                                 <!-- Button URL-->
@@ -296,8 +182,6 @@
 
 
             </div>
-
-
 
 
             <div class="section">
@@ -325,7 +209,6 @@
 
 
             </div>
-
 
 
         </div>

@@ -1,10 +1,10 @@
-<div id="footer" class="site-footer section">
+<div id="footer" class="site-footer section light">
 
     <!-- Footer Wrapper (Top) -->
     <div class="wrapper">
         <div class="c-col-3 footer-widget footer_brand">
             <div class="footer-logo">
-                <img alt="Footer Logo" src="img/site-logo.png">
+                <img alt="One Motors" src="{{asset((url('web/assets/img/site-logo.png')))}}">
             </div>
         </div>
 
@@ -50,7 +50,7 @@
 
             <!-- CTA -->
             <div class="big-button">
-                <a href="mailto:@onemotors.com.br">@OneMotorsr</a>
+                <a href="https://www.instagram.com/1onemotors/" target="_blank">@OneMotors</a>
             </div>
             <!--/ CTA -->
 
@@ -63,7 +63,7 @@
             <div class="footer-menu">
                 <ul>
                     <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Veículos</a></li>
+                    <li><a href="{{route('web.stock')}}">Veículos</a></li>
                     <li><a href="#">Unidades</a></li>
                 </ul>
 

@@ -40,10 +40,7 @@
             <!-- Menu Widget (Left) -->
             <div class="menu-widget menu-widget-left">
                 <ul class="social-list">
-                    <li><a href="#.">Facebook</a></li>
-                    <li><a href="#.">Instagram</a></li>
-                    <li><a href="#.">Twitter</a></li>
-                    <li><a href="#.">LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com/1onemotors/" target="_blank">Instagram</a></li>
                 </ul>
 
             </div>
@@ -51,7 +48,7 @@
             <!-- Menu Widget (Right) -->
             <div class="menu-widget menu-widget-right">
                 <div class="git-button">
-                    <a href="#">Fale Conosco</a>
+                    <a href="{{route('web.contact')}}">Fale Conosco</a>
                 </div>
             </div>
             <!-- /Menu Widget (Right) -->

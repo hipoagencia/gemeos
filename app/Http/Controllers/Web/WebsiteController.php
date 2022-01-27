@@ -17,9 +17,10 @@ use function PHPUnit\Framework\isNull;
 
 class WebsiteController extends Controller
 {
-    public function index()
+    public function home()
     {
-
+        $cars = Car::with('cover')->take(10)->inRandomOrder()->get();
+        return view('web.home', compact('cars'));
     }
 
     public function stock(Request $request)
@@ -56,5 +57,10 @@ class WebsiteController extends Controller
         OpenGraph::addImage($car->cover->url);
 
         return view('web.veiculo', compact('car', 'opcinals', 'complements'));
+    }
+
+    public function contact()
+    {
+        return view('web.contato');
     }
 }

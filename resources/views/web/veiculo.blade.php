@@ -22,39 +22,7 @@
 
 
         <div class="page-content">
-            <div class="single-product-wrap">
-                {{--                <div class="single-product-slider">--}}
-                {{--                    <div--}}
-                {{--                        class="sp-slider swiper-container swiper-container-initialized swiper-container-vertical swiper-container-pointer-events">--}}
-
-                {{--                        <div class="swiper-wrapper" id="swiper-wrapper-9dc3fa1d5dd101bee" aria-live="polite"--}}
-                {{--                             style="transform: translate3d(0px, 0px, 0px);">--}}
-
-
-                {{--                            @foreach($car->img as $img)--}}
-                {{--                                <div class="swiper-slide sp-image swiper-slide-active" role="group" aria-label="1 / 4">--}}
-
-                {{--                                    <img alt="{{$car->marca}} {{$car->modelo}}" src="{{$img->url}}">--}}
-
-                {{--                                </div>--}}
-                {{--                            @endforeach--}}
-
-
-                {{--                        </div>--}}
-                {{--                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>--}}
-
-                {{--                    <div class="sp-dots swiper-pagination-clickable swiper-pagination-bullets">--}}
-                {{--                    </div>--}}
-
-                {{--                    <div class="sp-arrows">--}}
-                {{--                        <div class="sp-next swiper-button-disabled" tabindex="-1" role="button"--}}
-                {{--                             aria-label="Previous slide" aria-controls="swiper-wrapper-9dc3fa1d5dd101bee"--}}
-                {{--                             aria-disabled="true"><i class="icofont-thin-up"></i></div>--}}
-                {{--                        <div class="sp-prev" tabindex="0" role="button" aria-label="Next slide"--}}
-                {{--                             aria-controls="swiper-wrapper-9dc3fa1d5dd101bee" aria-disabled="false"><i--}}
-                {{--                                class="icofont-thin-down"></i></div>--}}
-                {{--                    </div>--}}
-                {{--                </div>--}}
+            <div class="single-product-wrap" style="padding-bottom:80px;">
 
                 <div class="single-product-details">
                     <div class="product-title">
@@ -88,7 +56,7 @@
 
                 <div class="single-product-meta">
 
-                    <ul>
+                    <ul class="car-list">
                         @foreach($opcinals as $opcinal)
                             <li>{{$opcinal}}</li>
                         @endforeach
@@ -96,6 +64,17 @@
 
                 </div>
             </div>
+
+            <style>
+                .car-list{
+                    -moz-column-count: 3;
+                    -moz-column-gap: 20px;
+                    -webkit-column-count: 3;
+                    -webkit-column-gap: 20px;
+                    column-count: 3;
+                    column-gap: 20px;
+                }
+            </style>
 
 
             <div class="section">
