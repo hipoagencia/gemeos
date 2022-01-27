@@ -64,7 +64,7 @@
 
                             <!--Video Attributes-->
                             <div data-poster="false" class="embed-video" data-plyr-provider="vimeo"
-                                 data-plyr-embed-id="396260528"></div>
+                                 data-plyr-embed-id="670844516"></div>
                             <!--/Video Attributes-->
 
                         </div>
@@ -161,52 +161,26 @@
 
                             <div class="a-button style_1">
 
-                                <!-- Button URL-->
-                                <a href="#">Estoque Completo</a>
-                                <!--/ Button URL-->
-                                <!-- Button Icon-->
+                                <a href="{{route('web.stock')}}">Estoque Completo</a>
                                 <i class="icofont-arrow-right"></i>
-                                <!--/ Button Icon-->
 
                             </div>
-                            <!--/ Button -->
-
                         </div>
-                        <!--/Alioth Recent Works-->
-
-
                     </div>
-                    <!--/Column-->
-
                 </div>
-
-
             </div>
 
 
             <div class="section">
-
                 <div class="wrapper-full no-margin">
-
-
                     <div class="c-col-12 no-gap no-margin">
-
-                        <!-- Page Nav -->
                         <div class="alioth-page-nav" style="background-color: #f1f1f1">
-
-                            <!--Page URL-->
-                            <a href="#">
+                            <a href="{{route('web.stock')}}">
                                 <div class="page-title"> Estoque</div>
                             </a>
-
                         </div>
-                        <!-- /Page Nav -->
-
                     </div>
-                    <!--/Column-->
-
                 </div>
-
 
             </div>
 

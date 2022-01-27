@@ -107,7 +107,7 @@
                         <div class="text-wrapper">
 
                             <h1 style="color: #fff" class="big-title has-anim" data-stagger="0.01" data-duration="1.5" data-delay="0" data-animation="charsUp">
-                                Solutions
+                                Visão
                             </h1>
 
                         </div>
@@ -124,7 +124,7 @@
                         <div class="text-wrapper">
 
                             <h5 style="color:hsla(0,0%,100%,.4)" class="has-anim" data-stagger="0.02" data-duration="1" data-delay=".1" data-animation="charsDown">
-                                Our Services
+                                Missão e Valores
                             </h5>
 
                         </div>
@@ -135,8 +135,6 @@
 
                     <!--Column-->
                     <div class="c-col-9">
-
-                        <!--Text Wrapper-->
                         <div class="text-wrapper">
 
                             <h4 style="color: #fff" class="has-anim" data-stagger="0.1" data-duration="1" data-delay=".1" data-animation="linesUp">
@@ -148,139 +146,41 @@
                             </h4>
 
                         </div>
-                        <!--/Text Wrapper-->
-
-
                     </div>
-                    <!--/Column-->
-
-                    <!--Column-->
-                    <div class="c-col-3">
-
-                    </div>
-                    <!--/Column-->
-
-                    <!--Column-->
-                    <div class="c-col-9">
-
-                        <!--Text Wrapper-->
-                        <div class="text-wrapper">
-                            <h5 class="has-anim" data-stagger="0.1" data-duration="1.5" data-delay="0" data-animation="linesUp" style="color: hsla(0,0%,100%,.4)">
-
-                                Print Design
-                                <br>Brand Identity
-                                <br>Art Direction
-                                <br>User Interface
-                                <br>User Experience
-                                <br>Brand Digital
-                                <br>Responsive Design
-                            </h5>
-
-                        </div>
-                        <!--/Text Wrapper-->
-
-                        <!--Button-->
-                        <div class="a-button style_1 dark">
-
-                            <!--Button URL-->
-                            <a href="our-services.html">Services</a>
-                            <!--/Button URL-->
-
-                            <!--Button Icon-->
-                            <i class="icofont-arrow-right"></i>
-                            <!--/Button Icon-->
-
-                        </div>
-                        <!--/Button-->
-
-
-                    </div>
-                    <!--/Column-->
-
-
                 </div>
-                <!--/Wrapper-->
 
-                <!--Wrapper-->
                 <div class="wrapper-full">
-
-                    <!--Column-->
                     <div class="c-col-12">
-
-                        <!--Text Wrapper-->
                         <div class="scrollable-text">
-
                             <h1 class="big-title" style="color: #fff">
-                                Here is our sources of pride and motivation.
+                                A grife dos carros
                             </h1>
 
                         </div>
-                        <!--/Text Wrapper-->
-
-
                     </div>
-                    <!--/Column-->
-
                 </div>
-                <!--/Wrapper-->
 
-
-                <!--Wrapper-->
-                <div class="wrapper-small">
-
-                    <span class="a-empty-space" style="height: 100px"></span>
-
-                </div>
-                <!--/Wrapper-->
-
-                <!--Wrapper-->
                 <div class="wrapper-full">
-
-                    <!--Column-->
                     <div data-parallax-strength="0.2" data-parallax-direction="down" class="c-col-4 has-parallax">
-
-                        <!--Single Image-->
                         <div class="single-image">
-
-                            <img class="has-anim" data-animation="blockLeft" data-duration="1" data-delay="0" data-color="#000" alt="Single Image" src="img/about-us-light-1.jpg">
-
+                            <img class="has-anim" data-animation="blockLeft" data-duration="1" data-delay="0" data-color="#000" alt="Single Image" src="{{asset(url('web/assets/img/about-us-light-1.jpg'))}}">
                         </div>
-                        <!--/Single Image-->
-
                     </div>
-                    <!--/Column-->
 
-                    <!--Column-->
                     <div data-parallax-strength="0.05" data-parallax-direction="up" class="c-col-4 has-parallax">
-
-                        <!--Single Image-->
                         <div class="single-image">
-
-                            <img class="has-anim" data-animation="blockLeft" data-duration="1" data-delay="0" data-color="#000" alt="Single Image" src="img/about-us-light-2.jpg">
-
+                            <img class="has-anim" data-animation="blockLeft" data-duration="1" data-delay="0" data-color="#000" alt="Single Image" src="{{asset(url('web/assets/img/about-us-light-2.jpg'))}}">
                         </div>
-                        <!--/Single Image-->
-
                     </div>
-                    <!--/Column-->
 
-                    <!--Column-->
                     <div data-parallax-strength="0.15" data-parallax-direction="down" class="c-col-4 has-parallax">
-
-                        <!--Single Image-->
                         <div class="single-image">
-
-                            <img class="has-anim" data-animation="blockLeft" data-duration="1" data-delay="0" data-color="#000" alt="Single Image" src="img/about-us-light-3.jpg">
-
+                            <img class="has-anim" data-animation="blockLeft" data-duration="1" data-delay="0" data-color="#000" alt="Single Image" src="{{asset(url('web/assets/img/about-us-light-3.jpg'))}}">
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
         </div>
-
     </div>
 
 

@@ -8,13 +8,9 @@
         <div data-anim="true" class="page-header">
 
             <div class="page-header-wrap wrapper-small">
-
-                <!-- Page Title -->
                 <div class="page-title">
-                    <h1 class="big-title"><div style="position:relative;display:inline-block;" class="pt-word"><div style="position: relative; display: inline-block; transform: translate(0px, 0%);" class="pt-char">G</div><div style="position: relative; display: inline-block; transform: translate(0px, 0%);" class="pt-char">e</div><div style="position: relative; display: inline-block; transform: translate(0px, 0%);" class="pt-char">t</div></div> <div style="position:relative;display:inline-block;" class="pt-word"><div style="position: relative; display: inline-block; transform: translate(0px, 0%);" class="pt-char">i</div><div style="position: relative; display: inline-block; transform: translate(0px, 0%);" class="pt-char">n</div></div> <div style="position:relative;display:inline-block;" class="pt-word"><div style="position: relative; display: inline-block; transform: translate(0px, 0%);" class="pt-char">t</div><div style="position: relative; display: inline-block; transform: translate(0px, 0%);" class="pt-char">o</div><div style="position: relative; display: inline-block; transform: translate(0px, 0%);" class="pt-char">u</div><div style="position: relative; display: inline-block; transform: translate(0px, 0%);" class="pt-char">c</div><div style="position: relative; display: inline-block; transform: translate(0px, 0%);" class="pt-char">h</div><div style="position: relative; display: inline-block; transform: translate(0px, 0%);" class="pt-char">!</div></div></h1>
+                    <h1 class="big-title">Contato</h1>
                 </div>
-                <!-- /Page Title -->
-
             </div>
 
         </div>
@@ -32,34 +28,15 @@
                     <!--Column-->
                     <div class="c-col-6">
 
-                        <!--Text Wrapper-->
-                        <div class="text-wrapper">
-
-                            <h3 class="has-anim" data-stagger="0.1" data-duration="1.5" data-delay=".1" data-animation="linesUp" style="">
-                                Hi. Tell us about your project.
-                                <br>Fill the form below;</h3>
-
-                        </div>
-                        <!--/Text Wrapper-->
-
-                        <!-- Contact Form -->
                         <div class="alioth-form">
 
-                            <form action="https://alioth-html.pethemes.com/" method="post">
+                            <div action="" method="post">
+
 
                                 <!-- Form Field -->
                                 <div class="field-wrap">
                                     <label>
-                                        Company Name
-                                    </label>
-                                    <input type="text" required="" autocomplete="off">
-                                </div>
-                                <!--/ Form Field -->
-
-                                <!-- Form Field -->
-                                <div class="field-wrap">
-                                    <label>
-                                        Your Name
+                                        Nome
                                     </label>
                                     <input type="email" required="" autocomplete="off">
                                 </div>
@@ -68,7 +45,7 @@
                                 <!-- Form Field -->
                                 <div class="field-wrap">
                                     <label>
-                                        Phone number
+                                        WhatsApp
                                     </label>
                                     <input type="email" required="" autocomplete="off">
                                 </div>
@@ -86,7 +63,7 @@
                                 <!-- Form Field -->
                                 <div class="field-wrap">
                                     <label>
-                                        Subject
+                                        Assunto
                                     </label>
                                     <input type="email" required="" autocomplete="off">
                                 </div>
@@ -95,7 +72,7 @@
                                 <!-- Form Field (Textarea)-->
                                 <div class="message-wrap">
                                     <label>
-                                        Your message
+                                        Mensagem
                                     </label>
                                     <textarea rows="8"></textarea>
                                 </div>
@@ -103,11 +80,11 @@
 
                                 <!-- Button -->
                                 <div class="send-wrap">
-                                    <button type="submit" class="button button-block">Submit</button>
+                                    <button type="submit" class="button button-block">Enviar</button>
                                 </div>
                                 <!--/ Button -->
 
-                            </form>
+                            </div>
                         </div>
                         <!--/Contact Form -->
 
@@ -120,7 +97,7 @@
                         <!--Single Image-->
                         <div class="single-image" style="height: 711px; width: 477px;">
 
-                            <div class="img-anim-wrapper" style="inset: 0px; position: absolute; height: 711px; width: 477px;"><img class="has-anim" data-animation="slideUp" data-duration="2" data-delay="0" alt="Single Image" src="img/contact-img.jpg" style="height: 711px; width: 477px; position: absolute; transform: translate(0px, 0px); top: 0px; left: 0px;"></div>
+                            <div class="img-anim-wrapper"><img class="has-anim" data-animation="slideUp" data-duration="2" data-delay="0" alt="Single Image" src="{{asset(url('web/assets/img/contact-img.jpg'))}}" ></div>
 
                         </div>
                         <!--/Single Image-->
@@ -147,12 +124,12 @@
                         <!--Text Wrapper-->
                         <div class="text-wrapper">
 
-                            <h2 style="margin-bottom: 0">Let's talk</h2>
-                            <p style="color: #191b1d">Tell us about your next project.</p>
+                            <h2 style="margin-bottom: 0">Unidade I</h2>
+                            <p style="color: #191b1d">Rua Senador Feijó, 123                                Santos/SP</p>
 
                             <span style="height: 50px" class="a-empty-space"></span>
 
-                            <a class="inner-button dark" href="#.">+120 14478 12 48</a>
+                            <a class="inner-button dark" href="#.">13 3027-4731</a>
 
                         </div>
                         <!--/Text Wrapper-->
@@ -166,12 +143,12 @@
                         <!--Text Wrapper-->
                         <div class="text-wrapper">
 
-                            <h2 style="margin-bottom: 0;">Drop a line</h2>
-                            <p style="color: #191b1d">Tell us about your next project.</p>
+                            <h2 style="margin-bottom: 0">Unidade II</h2>
+                            <p style="color: #191b1d">Rua Senador Feijó, 123                                Santos/SP</p>
 
                             <span style="height: 50px" class="a-empty-space"></span>
 
-                            <a class="inner-button dark" href="#.">hello@pethemes.com</a>
+                            <a class="inner-button dark" href="#.">13 3027-4731</a>
 
                         </div>
                         <!--/Text Wrapper-->
@@ -185,12 +162,12 @@
                         <!--Text Wrapper-->
                         <div class="text-wrapper">
 
-                            <h2 style="margin-bottom: 0;">Our Office</h2>
-                            <p style="color: #191b1d">Tell us about your next project.</p>
+                            <h2 style="margin-bottom: 0">Unidade III</h2>
+                            <p style="color: #191b1d">Rua Senador Feijó, 123                                Santos/SP</p>
 
                             <span style="height: 50px" class="a-empty-space"></span>
 
-                            <a class="inner-button dark" href="#.">View on map</a>
+                            <a class="inner-button dark" href="#.">13 3027-4731</a>
 
                         </div>
                         <!--/Text Wrapper-->
@@ -217,15 +194,11 @@
                         <div class="alioth-page-nav" style="background-color: #f1f1f1">
 
                             <!--Page URL-->
-                            <a href="about.html">
+                            <a href="{{route('web.about')}}">
 
-                                <!-- Page Title -->
-                                <div class="page-title"><div style="width: 100000px; transform: translateX(0px); animation: 10.7476s linear 0s infinite normal none running marqueeAnimation-37280140;" class="js-marquee-wrapper"><div class="js-marquee" style="margin-right: 20px; float: left;">About Us&nbsp;About Us&nbsp;&nbsp;About Us&nbsp;</div><div class="js-marquee" style="margin-right: 20px; float: left;">About Us&nbsp;About Us&nbsp;&nbsp;About Us&nbsp;</div></div></div>
-                                <!-- /Page Title -->
-
-                                <!-- Page Sub-Title -->
-                                <div class="page-sub-title">Something more about the agency.</div>
-                                <!-- /Page Sub-Title -->
+                                <div class="page-title">
+                                    Sobre a One Motors
+                                </div>
 
                             </a>
 

@@ -23,6 +23,11 @@ class WebsiteController extends Controller
         return view('web.home', compact('cars'));
     }
 
+    public function about()
+    {
+        return view('web.sobre');
+    }
+
     public function stock(Request $request)
     {
         $category = ($request->category ? $request->category : '');
