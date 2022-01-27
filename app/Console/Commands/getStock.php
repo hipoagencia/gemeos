@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use App\Http\Controllers\Admin\FunctionsController;
 use Illuminate\Console\Command;
 
 class getStock extends Command
@@ -11,14 +12,14 @@ class getStock extends Command
      *
      * @var string
      */
-    protected $signature = 'command:name';
+    protected $signature = 'get:stock';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Atualiza o estoque de veículos';
 
     /**
      * Create a new command instance.
@@ -37,6 +38,7 @@ class getStock extends Command
      */
     public function handle()
     {
-        return 0;
+        FunctionsController::carStock();
+        return 'Estoque atualizado com sucesso';
     }
 }

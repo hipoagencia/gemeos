@@ -86,8 +86,6 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
         //SiteMap
         Route::get('site-map', [FunctionsController::class, 'sitemap'])->name('sitemap.get');
 
-        //Consulta Imóveis Ingaia
-        Route::get('ingaia', [FunctionsController::class, 'ingaiaProperties'])->name('properties.get');
 
         //BackupsList
         Route::get('backup-list', function () {
