@@ -12,7 +12,7 @@ use App\Http\Controllers\Web\WebsiteController;
 //Route::get('/', [WebsiteController::class, 'blog'])->name('web.home');
 
 Route::get('/', function(){
-
+    return view('web.index');
 });
 
 Route::get('/inicio', [WebsiteController::class, 'home'])->name('web.home');
