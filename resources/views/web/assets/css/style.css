@@ -2197,6 +2197,7 @@ body.dark .alioth-single-project .sw-cat,
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    margin-top:150px;
 
 }
 
@@ -2219,7 +2220,7 @@ body.dark .alioth-single-project .sw-cat,
 .ar-work-image,
 .ar-work-image img {
     width: 100%;
-    height: 100%;
+    height: auto;
     -o-object-fit: cover;
     object-fit: cover;
 }
@@ -4301,7 +4302,6 @@ body.dark .products-met div {
     font-size: 30px;
     font-weight: 700;
     letter-spacing: -0.05em;
-    margin-bottom: 11px;
 }
 
 .produt-info{
@@ -4443,7 +4443,8 @@ body.dark .product-page::before {
     display: block;
     width: 83%;
     margin: 0 auto;
-    overflow: hidden
+    overflow: hidden;
+    padding-bottom:80px;
 }
 
 .single-product-slider {
@@ -4833,8 +4834,8 @@ body.dark .project-page-header::before,
 .project-title h1.big-title {
     margin: 0;
     display: block;
-    font-size: 110px;
-    line-height: 127px
+    font-size: 50px;
+    line-height: 67px
 }
 
 .project-title h1 .tit_word {
@@ -9268,7 +9269,7 @@ body.dark .ac-title {
     }
 
     .ar-work-image {
-        height: 65vh
+        height: 35vh
     }
 
     .a-recent-works .a-button.style_1 {

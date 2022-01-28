@@ -222,22 +222,22 @@
             loadAn.to(num1wrap, duration, {
                 y: '-91%',
                 ease: 'power2.inOut',
-            }, .25)
+            }, .15)
 
             loadAn.to(num2wrap, duration, {
                 y: '-95.3%',
                 ease: 'power2.inOut',
-            }, .25)
+            }, .15)
 
             loadAn.to(num3wrap, 1.5, {
                 y: '0%',
                 ease: 'power2.Out',
-            }, .5)
+            }, .3)
 
             loadAn.to('.site-logo', 1, {
                 y: '0%',
                 ease: 'power2.out',
-            }, 2)
+            }, 1)
 
 
             if (siteHeader.hasClass('classic_menu')) {
@@ -258,14 +258,14 @@
                         })
 
                     }
-                }, 3)
+                }, 1)
 
             } else {
                 loadAn.to('.toggle-line', 1, {
                     width: 50,
                     ease: 'power2.out',
-                    stagger: .3
-                }, 3)
+                    stagger: .2
+                }, 1)
 
             }
 
@@ -273,12 +273,12 @@
                 x: 0,
                 opacity: 1,
                 ease: 'power2.out',
-            }, 4)
+            }, 2)
 
             loadAn.to(num3wrap, 1, {
                 y: '-50%',
                 ease: 'power2.Out',
-            }, duration - .6)
+            }, duration - .2)
 
             //  Loader Out
 
@@ -286,7 +286,7 @@
                 y: '-100%',
                 ease: 'power2.in',
                 stagger: .1,
-            }, duration + .6)
+            }, duration + .2)
 
 
 
@@ -802,13 +802,13 @@
                             height: 150,
                             duration: .75,
                             backgroundColor: 'transparent',
-                            delay: .5,
+                            delay: .3,
                             ease: 'power2.out'
                         })
 
                         gsap.to(headerWrapper, {
                             top: '60%',
-                            delay: .5,
+                            delay: .3,
                             duration: .75,
                             ease: 'power2.out'
                         })
@@ -6130,7 +6130,7 @@
                 chars = $this.find('.anim_char');
 
             if (anim === 'linesFadeUp') {
-                //                
+                //
                 //                if (stagger == null) { var stagger = 0.1 }
                 //                if (duration == null) { var duration = 1 }
 
@@ -7733,7 +7733,7 @@
 
             aliothParallaxScroll();
         }
-        
+
         showcaseOpenings();
 
         enableScroll()

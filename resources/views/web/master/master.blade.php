@@ -2,6 +2,14 @@
 <html class="no-js" lang="pt-br">
 <head>
 
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NSK2XR5');</script>
+    <!-- End Google Tag Manager -->
+
     <title>{{ env('APP_NAME') }}</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,6 +22,8 @@
 
     <link href="{{ url(asset('web/assets/css/plugins.css')) }}" type="text/css" rel="stylesheet">
     <link href="{{ url(asset('web/assets/css/style.css')) }}" type="text/css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <style>
 
@@ -38,37 +48,44 @@
 
 </head>
 
-<body data-barba="wrapper" data-smooth-scroll="true" data-cursor="true" data-header-sticky="true" data-menu-style="classic" data-page-layout="light" data-header-layout="dark" data-menu-layout="light" data-footer-layout="light" data-page-loader="true">
+<body data-barba="wrapper" data-smooth-scroll="true" data-cursor="true" data-header-sticky="false" data-menu-style="classic" data-page-layout="light" data-header-layout="dark" data-menu-layout="light" data-footer-layout="light" data-page-loader="true">
 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSK2XR5"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
-<div data-duration="5" class="alioth-page-loader" data-layout="light">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DJNQ0SV521"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DJNQ0SV521');
+</script>
+
+<div data-duration="3" class="alioth-page-loader" data-layout="light">
 
     <span class="apl-background"></span>
-
-    <!--Loader Percentage (Don't Touch)-->
     <div class="apl-count"></div>
-    <!--Loader Percentage (Don't Touch)-->
 
 </div>
-<!--/Page Loader-->
-<!--Page Transitions-->
+
+
 <div class="alioth-page-transitions" data-layout="light">
 
-    <!--Transition Background (Don't touch)-->
     <span class="apt-bg"></span>
-    <!--/Transition Background (Don't touch)-->
-    <!--Transition Text-->
+
     <div class="trans-text">Carregando, aguarde..</div>
-    <!--Transition Text-->
 
 </div>
-<!--/Page Transitions-->
-<!-- Mouse Cursor -->
+
 <div data-dark-circle="rgba(25,27,29,.6)" data-dark-dot="#191b1d" data-light-circle="hsla(0,0%,100%,.2)" data-light-dot="#fff" id="mouseCursor">
     <div id="cursor"></div>
     <div id="dot"></div>
 </div>
-<!-- /Mouse Cursor -->
+
 
 @include('web.includes.header')
 

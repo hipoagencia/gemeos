@@ -20,25 +20,25 @@
                     <div class="c-col-12">
 
                         <!--Linked Text-->
-                        <div data-height="140" class="hello-heading linked-text dark hide_mobile">
+                        <div data-height="95" class="hello-heading linked-text dark hide_mobile">
 
-                            <h1 style="font-size: 130px" class="big-title">
+                            <h1 class="big-title">
                                 A maior
                                 <br>experiência
                                 <br>em carros
-                                <br>premium
+                                <br>premium.
                             </h1>
 
                         </div>
                         <!--/Linked Text-->
                         <!--Linked Text-->
-                        <div data-height="60" class="hello-heading linked-text dark hide_desktop">
+                        <div data-height="55" class="hello-heading linked-text dark hide_desktop">
 
-                            <h1 style="font-size: 40px" class="big-title">
+                            <h1 class="big-title">
                                 A maior
                                 <br>experiência
                                 <br>em carros
-                                <br>premium!
+                                <br>premium.
                             </h1>
 
                         </div>

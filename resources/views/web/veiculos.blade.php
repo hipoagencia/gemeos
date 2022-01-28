@@ -13,29 +13,7 @@
                 <!-- Page Title -->
                 <div class="page-title">
                     <h1 class="big-title">
-                        <div style="position:relative;display:inline-block;" class="pt-word">
-                            <div style="position: relative; display: inline-block; transform: translate(0px, 0%);"
-                                 class="pt-char">E
-                            </div>
-                            <div style="position: relative; display: inline-block; transform: translate(0px, 0%);"
-                                 class="pt-char">s
-                            </div>
-                            <div style="position: relative; display: inline-block; transform: translate(0px, 0%);"
-                                 class="pt-char">t
-                            </div>
-                            <div style="position: relative; display: inline-block; transform: translate(0px, 0%);"
-                                 class="pt-char">o
-                            </div>
-                            <div style="position: relative; display: inline-block; transform: translate(0px, 0%);"
-                                 class="pt-char">q
-                            </div>
-                            <div style="position: relative; display: inline-block; transform: translate(0px, 0%);"
-                                 class="pt-char">u
-                            </div>
-                            <div style="position: relative; display: inline-block; transform: translate(0px, 0%);"
-                                 class="pt-char">e
-                            </div>
-                        </div>
+                        Estoque
                     </h1>
                 </div>
                 <!-- /Page Title -->
@@ -72,16 +50,17 @@
                                 </div>
                             </div>
 
-                            <div class="alioth-products-wrapper">
-                                <div class="grid-sizer"></div>
-                                <div class="gutter"></div>
+                            <div class="container">
+                                <div class="row">
 
-                                @foreach($cars as $car)
-                                    @include('web.components.car')
-                                @endforeach
+                                    @foreach($cars as $car)
+                                        @include('web.components.car')
+                                    @endforeach
+
+                                </div>
                             </div>
 
-                            <div class="row">
+                            <div class="row mt-4">
                                 {{ $cars->render("pagination::bootstrap-4") }}
                             </div>
                         </div>

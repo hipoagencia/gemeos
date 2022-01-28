@@ -22,7 +22,7 @@
 
 
         <div class="page-content">
-            <div class="single-product-wrap" style="padding-bottom:80px;">
+            <div class="single-product-wrap">
 
                 <div class="single-product-details">
                     <div class="product-title">
@@ -74,6 +74,22 @@
                     column-count: 3;
                     column-gap: 20px;
                 }
+
+                @media only screen and (max-width: 768px) {
+                    .car-list{
+                        -moz-column-count: 2;
+                        -moz-column-gap: 20px;
+                        -webkit-column-count: 2;
+                        -webkit-column-gap: 20px;
+                        column-count: 2;
+                        column-gap: 20px;
+                        padding-bottom: 0.5em;
+                    }
+
+                    .single-product-wrap {
+                        padding-bottom:0 !important;
+                    }
+                }
             </style>
 
 
@@ -98,6 +114,20 @@
                 </div>
             </div>
 
+        </div>
+
+    </div>
+
+
+    <div class="section">
+        <div class="wrapper-full no-margin">
+            <div class="c-col-12 no-gap no-margin">
+                <div class="alioth-page-nav">
+                    <a href="javascript:history.back()">
+                        <div class="page-title" style="font-size:70px"> Voltar</div>
+                    </a>
+                </div>
+            </div>
         </div>
 
     </div>
