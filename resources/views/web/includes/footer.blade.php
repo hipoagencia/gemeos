@@ -11,10 +11,16 @@
         <div class="c-col-2 footer-widget">
             <div class="alioth-text-box">
                 <h5 style="color: rgba(25,27,29,.6)">
-                    <b>Unidade I</b><br /><br />
-                    Rua Comendador</br>Martins, 237
-                    <br>Santos/SP
-                    <br><br>
+                    <b>Unidade I<br>Santos/SP</b><br /><br />
+                    Rua Comendador Martins, 237
+            </div>
+        </div>
+
+        <div class="c-col-2 footer-widget">
+            <div class="alioth-text-box">
+                <h5 style="color: rgba(25,27,29,.6)">
+                    <b>Unidade II<br>Praia Grande/SP</b><br /><br />
+                    Rua Limeira,<br>25
                 </h5>
             </div>
         </div>
@@ -22,9 +28,8 @@
         <div class="c-col-2 footer-widget">
             <div class="alioth-text-box">
                 <h5 style="color: rgba(25,27,29,.6)">
-                    <b>Unidade II</b><br /><br />
-                    Av. Ayrton Senna da Silva, 611 - Loja 33
-                    <br>Praia Grande/SP
+                    <b>Unidade III<br>Praia Grande/SP</b><br /><br/>
+                    Av. Ayrton Senna da Silva, 611 - Loja 33<br>
                 </h5>
             </div>
         </div>
@@ -32,19 +37,8 @@
         <div class="c-col-2 footer-widget">
             <div class="alioth-text-box">
                 <h5 style="color: rgba(25,27,29,.6)">
-                    <b>Unidade III</b><br />
-                    <br>Em breve<br>
-                    Santos/SP
-                </h5>
-            </div>
-        </div>
-
-        <div class="c-col-2 footer-widget">
-            <div class="alioth-text-box">
-                <h5 style="color: rgba(25,27,29,.6)">
-                    <b>Unidade IIII</b><br />
-                    <br>Em breve<br>
-                    Praia Grande/SP
+                    <b>Unidade IV<br>Santos/SP</b><br />
+                    <br>Em breve
                 </h5>
             </div>
         </div>

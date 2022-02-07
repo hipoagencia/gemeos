@@ -21,6 +21,7 @@ Route::get('/veiculos/{category?}', [WebsiteController::class, 'stock'])->name('
 Route::get('/veiculo/{slug}', [WebsiteController::class, 'stockOpen'])->name('web.stockOpen');
 
 Route::get('/sobre', [WebsiteController::class, 'about'])->name('web.about');
+Route::get('/unidades', [WebsiteController::class, 'units'])->name('web.units');
 Route::get('/contato', [WebsiteController::class, 'contact'])->name('web.contact');
 
 

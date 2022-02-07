@@ -28,6 +28,11 @@ class WebsiteController extends Controller
         return view('web.sobre');
     }
 
+    public function units()
+    {
+        return view('web.unidades');
+    }
+
     public function stock(Request $request)
     {
         $category = ($request->category ? $request->category : '');
