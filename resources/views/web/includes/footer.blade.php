@@ -2,39 +2,49 @@
 
     <!-- Footer Wrapper (Top) -->
     <div class="wrapper">
-        <div class="c-col-3 footer-widget footer_brand">
+        <div class="c-col-4 footer-widget footer_brand">
             <div class="footer-logo">
                 <img alt="One Motors" src="{{asset((url('web/assets/img/site-logo.png')))}}">
             </div>
         </div>
 
-        <div class="c-col-3 footer-widget">
+        <div class="c-col-2 footer-widget">
             <div class="alioth-text-box">
                 <h5 style="color: rgba(25,27,29,.6)">
-                    <b>Unidade I</b><br />
-                    Rua Senador Feijó, 123
+                    <b>Unidade I</b><br /><br />
+                    Rua Comendador</br>Martins, 237
                     <br>Santos/SP
                     <br><br>
                 </h5>
             </div>
         </div>
 
-        <div class="c-col-3 footer-widget">
+        <div class="c-col-2 footer-widget">
             <div class="alioth-text-box">
                 <h5 style="color: rgba(25,27,29,.6)">
-                    <b>Unidade II</b><br />
-                    Rua Senador Feijó, 123
-                    <br>Santos/SP
+                    <b>Unidade II</b><br /><br />
+                    Av. Ayrton Senna da Silva, 611 - Loja 33
+                    <br>Praia Grande/SP
                 </h5>
             </div>
         </div>
 
-        <div class="c-col-3 footer-widget">
+        <div class="c-col-2 footer-widget">
             <div class="alioth-text-box">
                 <h5 style="color: rgba(25,27,29,.6)">
                     <b>Unidade III</b><br />
-                    Rua Senador Feijó, 123
-                    <br>Santos/SP
+                    <br>Em breve<br>
+                    Santos/SP
+                </h5>
+            </div>
+        </div>
+
+        <div class="c-col-2 footer-widget">
+            <div class="alioth-text-box">
+                <h5 style="color: rgba(25,27,29,.6)">
+                    <b>Unidade IIII</b><br />
+                    <br>Em breve<br>
+                    Praia Grande/SP
                 </h5>
             </div>
         </div>

@@ -1154,7 +1154,7 @@ span.apl-background {
 }
 
 .site-logo {
-    width: 120px;
+    /*width: 120px;*/
     display: block;
     overflow: hidden;
     -webkit-transform: translateY(100%);
@@ -1199,7 +1199,7 @@ span.apl-background {
 
 .site-navigation.classic .menu.main-menu li {
     display: inline-block;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 28px;
     position: relative;
     font-weight: 700;
@@ -3650,12 +3650,12 @@ section:after {
 
 }
 
-@media only screen and (max-width: 992px) {
-    .site-logo {
-        width:115px !important;
-    }
+/*@media only screen and (max-width: 992px) {*/
+/*    .site-logo {*/
+/*        width:115px !important;*/
+/*    }*/
 
-}
+/*}*/
 
 @media only screen and (min-width: 992px) {
     .wrapper {
@@ -5009,7 +5009,7 @@ body.dark .project-cat,
 .project-page-header.style_3 .project-head {
     display: block;
     background: #ebebeb;
-    padding: 15% 8.5% 20px 8.5%;
+    padding: 5% 8.5% 20px 8.5%;
 }
 
 body.dark .project-page-header.style_3 .project-head,
@@ -5018,7 +5018,6 @@ body.dark .project-page-header.style_3 .project-head,
 }
 
 .project-page-header.style_3 .big-title {
-    font-size: 100px;
     margin-bottom: 20px;
     overflow: hidden;
     display: block

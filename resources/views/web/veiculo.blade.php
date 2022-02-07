@@ -20,6 +20,28 @@
             </div>
         </div>
 
+        <div class="section">
+            <div class="wrapper-full no-gap">
+                <div class="c-col-12 no-gap">
+                    <div class="pin-spacer">
+                        <div data-navigate="drag" class="alioth-image-carousel">
+
+                            <div class="ai-wrapper" style="transform: translate(0px, 0px);">
+
+                                @foreach($car->img as $img)
+                                    <div class="ai-image single-image lightbox" data-lightbox="{{$img->url}}">
+                                        <img alt="Carousel Image" src="{{$img->url}}">
+                                    </div>
+                                @endforeach
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
 
         <div class="page-content">
             <div class="single-product-wrap">
@@ -93,26 +115,7 @@
             </style>
 
 
-            <div class="section">
-                <div class="wrapper-full no-gap">
-                    <div class="c-col-12 no-gap">
-                        <div class="pin-spacer">
-                            <div data-navigate="scroll" class="alioth-image-carousel">
 
-                                <div class="ai-wrapper" style="transform: translate(0px, 0px);">
-
-                                    @foreach($car->img as $img)
-                                        <div class="ai-image">
-                                            <img alt="Carousel Image" src="{{$img->url}}">
-                                        </div>
-                                    @endforeach
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
         </div>
 
@@ -124,7 +127,7 @@
             <div class="c-col-12 no-gap no-margin">
                 <div class="alioth-page-nav">
                     <a href="javascript:history.back()">
-                        <div class="page-title" style="font-size:70px"> Voltar</div>
+                        <div class="page-title" style="font-size:70px">&nbsp;&nbsp;&nbsp;&nbsp;Voltar&nbsp;&nbsp;&nbsp;&nbsp;</div>
                     </a>
                 </div>
             </div>

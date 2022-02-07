@@ -46,7 +46,9 @@
                         <div class="text-wrapper">
 
                             <h4 style="color: rgba(25,27,29,.6)" class="has-anim" data-stagger="0.05" data-duration="1.25" data-delay=".5" data-animation="linesUp">
-                                As a patch of light concept of the number one Euclid explorations preserve and cherish that pale blue dot rogue. Vanquish the impossible a very small stage in a vast cosmic arena made in the interiors of collapsing stars intelligent beings from which we spring finite but unbounded.
+                                Pense nas marcas mais importantes do planeta e em modelos que definem tendência e constroem sonhos. Agora, imagine isso tudo no mesmo lugar.
+                                One Motors. Venha conhecer uma de nossas unidades e viva uma experiência inesquecível.
+
                             </h4>
 
                         </div>
@@ -138,18 +140,15 @@
                         <div class="text-wrapper">
 
                             <h4 style="color: #fff" class="has-anim" data-stagger="0.1" data-duration="1" data-delay=".1" data-animation="linesUp">
-                                Circumnavigated cosmic fugue extraordinary claims require extraordinary evidence not a sunrise but a galaxyrise a mote of dust suspended in a sunbeam the sky calls to us. Invent the universe vastness is bearable only through love rich in heavy atoms rich in mystery star stuff harvesting star light a very small stage in a vast cosmic arena.
+                                Oferecer os melhores produtos no segmento automobilístico, com garantia e segurança a seus clientes, agregando a isso um atendimento profissional e personalizado.
                             </h4>
 
-                            <h4 style="color: hsla(0,0%,100%,.4)" class="has-anim" data-stagger="0.1" data-duration="1" data-delay=".5" data-animation="linesUp">
-                                With pretty stories for which there's little good evidence finite but unbounded finite but unbounded concept of the number one with pretty stories for which there's little good evidence the only home we've ever known.
-                            </h4>
 
                         </div>
                     </div>
                 </div>
 
-                <div class="wrapper-full">
+                <div class="wrapper-full" style="margin-bottom:0px;">
                     <div class="c-col-12">
                         <div class="scrollable-text">
                             <h1 class="big-title" style="color: #fff">
@@ -160,25 +159,25 @@
                     </div>
                 </div>
 
-                <div class="wrapper-full">
-                    <div data-parallax-strength="0.2" data-parallax-direction="down" class="c-col-4 has-parallax">
-                        <div class="single-image">
-                            <img class="has-anim" data-animation="blockLeft" data-duration="1" data-delay="0" data-color="#000" alt="Single Image" src="{{asset(url('web/assets/img/about-us-light-1.jpg'))}}">
-                        </div>
-                    </div>
+{{--                <div class="wrapper-full">--}}
+{{--                    <div data-parallax-strength="0.2" data-parallax-direction="down" class="c-col-4 has-parallax">--}}
+{{--                        <div class="single-image">--}}
+{{--                            <img class="has-anim" data-animation="blockLeft" data-duration="1" data-delay="0" data-color="#000" alt="Single Image" src="{{asset(url('web/assets/img/about-us-light-1.jpg'))}}">--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                    <div data-parallax-strength="0.05" data-parallax-direction="up" class="c-col-4 has-parallax">
-                        <div class="single-image">
-                            <img class="has-anim" data-animation="blockLeft" data-duration="1" data-delay="0" data-color="#000" alt="Single Image" src="{{asset(url('web/assets/img/about-us-light-2.jpg'))}}">
-                        </div>
-                    </div>
+{{--                    <div data-parallax-strength="0.05" data-parallax-direction="up" class="c-col-4 has-parallax">--}}
+{{--                        <div class="single-image">--}}
+{{--                            <img class="has-anim" data-animation="blockLeft" data-duration="1" data-delay="0" data-color="#000" alt="Single Image" src="{{asset(url('web/assets/img/about-us-light-2.jpg'))}}">--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                    <div data-parallax-strength="0.15" data-parallax-direction="down" class="c-col-4 has-parallax">
-                        <div class="single-image">
-                            <img class="has-anim" data-animation="blockLeft" data-duration="1" data-delay="0" data-color="#000" alt="Single Image" src="{{asset(url('web/assets/img/about-us-light-3.jpg'))}}">
-                        </div>
-                    </div>
-                </div>
+{{--                    <div data-parallax-strength="0.15" data-parallax-direction="down" class="c-col-4 has-parallax">--}}
+{{--                        <div class="single-image">--}}
+{{--                            <img class="has-anim" data-animation="blockLeft" data-duration="1" data-delay="0" data-color="#000" alt="Single Image" src="{{asset(url('web/assets/img/about-us-light-3.jpg'))}}">--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
         </div>
     </div>

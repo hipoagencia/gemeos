@@ -54,10 +54,7 @@
                 <div class="wrapper-full no-gap">
 
 
-                    <div class="c-col-3"></div>
-                    <!--/Column-->
-
-                    <div class="c-col-9 no-gap">
+                    <div class="c-col-12 no-gap">
 
                         <!--Embed Video-->
                         <div data-interaction="false" data-autoplay="true" class="alioth-embed-video">
@@ -101,11 +98,11 @@
 
                             <h5 style="color: rgba(25,27,29,.6)" class="has-anim" data-stagger="0.1" data-duration="1"
                                 data-delay=".1" data-animation="linesUp">
-                                Brain is the seed of intelligence a still more glorious dawn awaits the ash of stellar
-                                alchemy two ghostly white figures in coveralls and helmets are softly dancing not a
-                                sunrise but a galaxyrise bits of moving fluff. Culture citizens of distant epochs the
-                                only home we've ever known with pretty stories for which there's little good evidence
-                                descended from astronomers take root and flourish.
+                                Muito mais que um negócio, trata-se de um propósito de vida.
+                                <br><br>
+                                Paixão e dedicação, essas são as marcas registradas de quem está à frente da One Motors.
+                                <br><br>
+                                Somos especializados naquilo que há de melhor no mundo dos carros, afinal nosso compromisso é transformar seu sonho em realidade
                             </h5>
 
                         </div>
@@ -159,17 +156,26 @@
                             </div>
 
 
-                            <div class="a-button style_1">
 
-                                <a href="{{route('web.stock')}}">Estoque Completo</a>
-                                <i class="icofont-arrow-right"></i>
-
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
+
+            <div class="section">
+                <div class="wrapper-full no-margin">
+                    <div class="c-col-12 no-gap no-margin text-center">
+                        <div class="a-button style_1">
+
+                            <a href="{{route('web.stock')}}">Estoque Completo</a>
+                            <i class="icofont-arrow-right"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 
             <div class="section">
                 <div class="wrapper-full no-margin">
