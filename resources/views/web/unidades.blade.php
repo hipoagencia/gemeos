@@ -35,6 +35,8 @@
 
                                 <br><br>
                                 Rua Comendador</br>Martins, 237
+                                <hr>
+                                Tel.: <a href="tel:1335006919" style="color: rgba(25,27,29,.6);">(13) 3500-6919</a>
                         </div>
                     </div>
 
