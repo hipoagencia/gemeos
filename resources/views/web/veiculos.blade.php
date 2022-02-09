@@ -34,7 +34,9 @@
                             <ul class="product-cats">
 
                                 @foreach($categories as $category)
-                                    <li><a href="{{route('web.stock',['category' => Illuminate\Support\Str::slug($category)])}}">{{$category}}</a></li>
+                                    <li>
+                                        <a href="{{route('web.stock',['category' => Illuminate\Support\Str::slug($category)])}}">{{$category}}</a>
+                                    </li>
                                 @endforeach
 
                             </ul>
@@ -44,14 +46,29 @@
 
                     <div class="c-col-10">
                         <div class="alioth-products column_3">
-                            <div class="products-met">
-                                <div class="products-count">
-                                    Mostrando {{$cars->count()}} de um total de {{$cars->total()}}
+
+                            <form action="{{route('web.stock')}}" method="POST" class="hide_desktop">
+                                @csrf
+                                <div class="">
+                                    <b>Filtre por marca</b>
+                                    {{--                                    <select id="categ" name="category" class="form-select mb-5" onchange="this.form.submit()">--}}
+                                    <select id="categ" name="category" class="form-select mb-4 mt-2">
+
+                                        @foreach($categories as $category)
+                                            <option
+                                                value="{{Illuminate\Support\Str::slug($category)}}" {{request()->category == Illuminate\Support\Str::slug($category) ? 'selected' : ''}}>{{$category}}</option>
+                                        @endforeach
+                                    </select>
                                 </div>
-                            </div>
+                            </form>
+
 
                             <div class="container">
                                 <div class="row">
+
+                                    <div class="products-count mb-4">
+                                        Mostrando {{$cars->count()}} de um total de {{$cars->total()}}
+                                    </div>
 
                                     @foreach($cars as $car)
                                         @include('web.components.car')
@@ -73,4 +90,14 @@
     </div>
 
 
+@endsection
+
+@section('js')
+                                <script type="text/javascript">
+                                    $('#categ').on('change', function(e){
+                                        var select = $(this), form = select.closest('form');
+                                        form.attr('action', '/veiculos/' + select.val());
+                                        form.submit();
+                                    });
+                                </script>
 @endsection
