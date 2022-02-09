@@ -131,29 +131,69 @@
                             <div style="color: rgba(25,27,29,.2)" class="recent-works-bg-text">
                                 One Selection
                             </div>
-                            <!--Background Text-->
-                            <!--Navigation (Don't Touch)-->
-                            <div class="a-recent-works-nav">
-                                <div class="arw-prev"><i class="icofont-long-arrow-left"></i></div>
-                                <div class="arw-next"><i class="icofont-long-arrow-right"></i></div>
-                            </div>
-                            <!--Navigation (Don't Touch)-->
-                            <!--Works Wrapper-->
-                            <div class="recent-works-wrapper">
 
-                                @foreach($cars as $car)
-                                    <div class="ar-work">
-                                        <a href="{{route('web.stockOpen', ['slug' => $car->slug])}}">
-                                            <div class="ar-work-image">
-                                                <img alt="Project Image" src="{{$car->cover->url}}">
+
+
+
+                            <div class="section">
+                                <div class="wrapper-full no-gap">
+                                    <div class="c-col-12 no-gap">
+                                        <div class="pin-spacer">
+                                            <div data-navigate="drag" class="alioth-image-carousel">
+
+                                                <div class="ai-wrapper" style="transform: translate(0px, 0px);">
+
+
+
+                                                        @foreach($cars as $car)
+                                                            <div class="ai-image single-image lightbox">
+                                                                <a href="{{route('web.stockOpen', ['slug' => $car->slug])}}">
+                                                                    <div class="ar-work-image">
+                                                                        <img alt="Project Image" src="{{$car->cover->url}}">
+                                                                    </div>
+                                                                    <div class="ar-work-title">{{$car->modelo}} {{$car->anomodelo}}</div>
+                                                                    <div class="ar-work-cat">{{$car->preco}}</div>
+                                                                </a>
+                                                            </div>
+                                                        @endforeach
+
+                                                </div>
                                             </div>
-                                            <div class="ar-work-title">{{$car->modelo}} {{$car->anomodelo}}</div>
-                                            <div class="ar-work-cat">{{$car->preco}}</div>
-                                        </a>
+                                        </div>
                                     </div>
-                                @endforeach
-
+                                </div>
                             </div>
+
+<style>
+    * a{
+        text-decoration: none;
+    }
+</style>
+
+
+{{--                            <!--Background Text-->--}}
+{{--                            <!--Navigation (Don't Touch)-->--}}
+{{--                            <div class="a-recent-works-nav">--}}
+{{--                                <div class="arw-prev"><i class="icofont-long-arrow-left"></i></div>--}}
+{{--                                <div class="arw-next"><i class="icofont-long-arrow-right"></i></div>--}}
+{{--                            </div>--}}
+{{--                            <!--Navigation (Don't Touch)-->--}}
+{{--                            <!--Works Wrapper-->--}}
+{{--                            <div class="recent-works-wrapper">--}}
+
+{{--                                @foreach($cars as $car)--}}
+{{--                                    <div class="ar-work">--}}
+{{--                                        <a href="{{route('web.stockOpen', ['slug' => $car->slug])}}">--}}
+{{--                                            <div class="ar-work-image">--}}
+{{--                                                <img alt="Project Image" src="{{$car->cover->url}}">--}}
+{{--                                            </div>--}}
+{{--                                            <div class="ar-work-title">{{$car->modelo}} {{$car->anomodelo}}</div>--}}
+{{--                                            <div class="ar-work-cat">{{$car->preco}}</div>--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
+{{--                                @endforeach--}}
+
+{{--                            </div>--}}
 
 
 

@@ -12,7 +12,7 @@
             <div class="section">
 
                 <!--Wrapper-->
-                <div class="wrapper">
+                <div class="wrapper" style="margin-top:70px;">
 
                     <span class="a-empty-space hide_mobile" style="height: 250px"></span>
                     <span class="a-empty-space hide_desktop" style="height: 130px"></span>

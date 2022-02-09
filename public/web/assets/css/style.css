@@ -695,7 +695,7 @@ h1.big-title {
     font-size: 90px;
     font-style: normal;
     font-weight: 700;
-    line-height: 100px;
+    line-height: 120px;
     margin-left: -7px;
     margin-top: 20px;
     margin-bottom: 69px;
@@ -2254,7 +2254,8 @@ body.dark .ar-work-cat,
 
 .recent-works-bg-text {
     position: absolute;
-    top: 0;
+    top: -160px;
+    right: 40%;
     -webkit-transform: translateX(50%);
     -ms-transform: translateX(50%);
     transform: translateX(50%);
@@ -9085,7 +9086,7 @@ body.dark .ac-title {
     }
 
     .page-header {
-        padding-top: 100px;
+        padding-top: 170px;
 
         margin-bottom: 100px;
 
