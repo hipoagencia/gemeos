@@ -116,24 +116,20 @@
 
 
 
+            <div class="c-col-12 no-gap no-margin text-center">
 
-        </div>
+                <div class="a-button style_1">
 
-    </div>
+                    <a href="javascript:history.back()">Voltar</a>
+                    <i class="icofont-arrow-left"  style="padding-top: 25px;"></i>
 
-
-    <div class="section">
-        <div class="wrapper-full no-margin">
-            <div class="c-col-12 no-gap no-margin">
-                <div class="alioth-page-nav">
-                    <a href="javascript:history.back()">
-                        <div class="page-title" style="font-size:70px">&nbsp;&nbsp;&nbsp;&nbsp;Voltar&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                    </a>
                 </div>
             </div>
+
         </div>
 
     </div>
+
 
 
 @endsection

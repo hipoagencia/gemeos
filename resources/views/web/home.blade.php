@@ -217,18 +217,18 @@
 
             </div>
 
-            <div class="section">
-                <div class="wrapper-full no-margin">
-                    <div class="c-col-12 no-gap no-margin">
-                        <div class="alioth-page-nav" style="background-color: #f1f1f1">
-                            <a href="{{route('web.stock')}}">
-                                <div class="page-title"> Estoque</div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+{{--            <div class="section">--}}
+{{--                <div class="wrapper-full no-margin">--}}
+{{--                    <div class="c-col-12 no-gap no-margin">--}}
+{{--                        <div class="alioth-page-nav" style="background-color: #f1f1f1">--}}
+{{--                            <a href="{{route('web.stock')}}">--}}
+{{--                                <div class="page-title"> Estoque</div>--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
-            </div>
+{{--            </div>--}}
 
 
         </div>
