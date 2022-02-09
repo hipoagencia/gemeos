@@ -55,7 +55,7 @@ class WebsiteController extends Controller
 
         $complements = array_slice(explode(',', $car->complementos), 0, -1);
 
-        $title = "$car->marca $car->modelo à venda em Santos, São vicente e Praia Grande";
+        $title = "$car->marca $car->modelo à venda em Santos e Praia Grande";
 
         SEOTools::setTitle($title);
         SEOTools::setDescription($car->opcionais);
