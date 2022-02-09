@@ -20,6 +20,9 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 
+    <link href="{{ url(asset('web/assets/css/owl.carousel.min.css')) }}" type="text/css" rel="stylesheet">
+    <link href="{{ url(asset('web/assets/css/owl.theme.default.min.css')) }}" type="text/css" rel="stylesheet">
+
     <link href="{{ url(asset('web/assets/css/plugins.css')) }}" type="text/css" rel="stylesheet">
     <link href="{{ url(asset('web/assets/css/style.css')) }}" type="text/css" rel="stylesheet">
 
@@ -98,8 +101,42 @@
 <script type="text/javascript" src="{{ url(asset('web/assets/js/barba.js')) }}"></script>
 <script type="text/javascript" src="{{ url(asset('web/assets/js/locomotive-scroll.min.js')) }}"></script>
 <script type="text/javascript" src="{{ url(asset('web/assets/js/gsap.js')) }}"></script>
+
+<script type="text/javascript" src="{{ url(asset('web/assets/js/owl.carousel.js')) }}"></script>
+
 <script type="text/javascript" src="{{ url(asset('web/assets/js/scripts.js')) }}"></script>
 
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        // responsive nav
+        var responsiveNav = $('#toggle-nav');
+        var navBar = $('.nav-bar');
+
+        responsiveNav.on('click',function(e){
+            e.preventDefault();
+            console.log(navBar);
+            navBar.toggleClass('active')
+        });
+
+        // pseudo active
+        if($('#docs').length){
+            var sidenav = $('ul.side-nav').find('a');
+            var url = window.location.pathname.split( '/' );
+            var url = url[url.length-1];
+
+            sidenav.each(function(i,e){
+                var active = $(e).attr('href');
+
+                if(active === url){
+                    $(e).parent('li').addClass('active');
+                    return false;
+                }
+            });
+        }
+
+    });
+</script>
 
 @hasSection('js')
     @yield('js')
