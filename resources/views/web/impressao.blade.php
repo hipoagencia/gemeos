@@ -10,13 +10,14 @@
 
 <div style="text-align: center;padding-top:80px;">
 
-    <img src="{{asset(url('web/assets/img/logo_constru.png'))}}" width="150" style="margin-bottom:50px;"/>
+    <img src="{{asset(url('web/assets/img/logo_constru.png'))}}" width="150" style="margin-bottom:20px;"/>
 
     <h1 style="font-size:60px">{{$car->marca}} {{$car->modelo}}<br>{{$car->versao}}</h1>
     <h2  style="font-size:50px">{{$car->anofabricacao}} / {{$car->anomodelo}}</h2>
     <h2  style="font-size:40px">{{$car->km}} km</h2>
 
-    <hr>
+    <img alt="Carro"  src="{{$car->cover->url}}" width="400">
+
 
     <ul class="car-list" style="width: 50%; margin:0px auto; padding-top:70px;padding-bottom:70px;">
         @foreach($opcinals as $opcinal)
