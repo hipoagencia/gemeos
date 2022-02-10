@@ -13,8 +13,7 @@
     <img src="{{asset(url('web/assets/img/logo_constru.png'))}}" width="150" style="margin-bottom:20px;"/>
 
     <h1 style="font-size:50px">{{$car->marca}} {{$car->modelo}}<br>{{$car->versao}}</h1>
-    <h2  style="font-size:40px">{{$car->anofabricacao}} / {{$car->anomodelo}}</h2>
-    <h2  style="font-size:35px">{{$car->km}} km</h2>
+    <h2  style="font-size:40px">{{$car->anofabricacao}} / {{$car->anomodelo}} - {{$car->km}} km</h2>
 
     <img alt="Carro"  src="{{$car->cover->url}}" width="400">
 
