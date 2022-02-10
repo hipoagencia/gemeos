@@ -69,6 +69,17 @@ class WebsiteController extends Controller
         return view('web.veiculo', compact('car', 'opcinals', 'complements'));
     }
 
+    public function stockPrint(Request $request)
+    {
+        $car = Car::with('img')->where('slug', $request->slug)->first();
+
+        $opcinals = array_slice(explode(',', $car->opcionais), 0, -1);
+
+        $complements = array_slice(explode(',', $car->complementos), 0, -1);
+
+        return view('web.impressao', compact('car', 'opcinals', 'complements'));
+    }
+
     public function contact()
     {
         return view('web.contato');

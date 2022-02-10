@@ -19,6 +19,7 @@ Route::get('/', [WebsiteController::class, 'home'])->name('web.home');
 
 Route::any('/veiculos/{category?}', [WebsiteController::class, 'stock'])->name('web.stock');
 Route::get('/veiculo/{slug}', [WebsiteController::class, 'stockOpen'])->name('web.stockOpen');
+Route::get('/impressao/{slug}', [WebsiteController::class, 'stockPrint'])->name('web.stockPrint');
 
 Route::get('/sobre', [WebsiteController::class, 'about'])->name('web.about');
 Route::get('/unidades', [WebsiteController::class, 'units'])->name('web.units');
