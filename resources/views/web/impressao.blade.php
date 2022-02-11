@@ -10,15 +10,14 @@
 
 <div style="text-align: center;padding-top:20px;">
 
-    <img src="{{asset(url('web/assets/img/logo_constru.png'))}}" width="150" style="margin-bottom:20px;"/>
+    <img src="{{asset(url('web/assets/img/logo_constru.png'))}}" width="120" style="margin-bottom:10px;"/>
 
-    <h1 style="font-size:50px">{{$car->marca}} {{$car->modelo}}<br>{{$car->versao}}</h1>
-    <h2  style="font-size:40px">{{$car->anofabricacao}} / {{$car->anomodelo}} - {{$car->km}} km</h2>
+    <h1 style="font-size:45px">{{$car->marca}} {{$car->modelo}}<br>{{$car->versao}}</h1>
+    <h2  style="font-size:35px">{{$car->anofabricacao}} / {{$car->anomodelo}} - {{$car->km}} km</h2>
 
-    <img alt="Carro"  src="{{$car->cover->url}}" width="400">
+    <img alt="Carro"  src="{{$car->cover->url}}" width="450">
 
-
-    <ul class="car-list" style="width: 50%; margin:0px auto; padding-top:40px;padding-bottom:40px;">
+    <ul class="car-list" style="width: 70%; margin:0px auto; padding-top:40px;padding-bottom:40px;">
         @foreach($opcinals as $opcinal)
             <li>{{$opcinal}}</li>
         @endforeach
@@ -40,6 +39,10 @@
         -webkit-column-gap: 20px;
         column-count: 3;
         column-gap: 20px;
+    }
+
+    ul {
+        list-style-type: none;
     }
 
     @media only screen and (max-width: 768px) {
