@@ -27,8 +27,6 @@
     <hr>
 
     <h1  style="font-size:50px">{{$car->preco}} </h1>
-
-
 </div>
 
 <style type="text/css">

@@ -18,6 +18,8 @@
 
     <link rel="shortcut icon" href="{{ url(asset(env('INFO_FAVICON'))) }}">
 
+    <meta name="google-site-verification" content="Y8s-iSiLhdOoKK_ttBiLgA6bHb-xgIq7IzLubLHbho4" />
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 
     <link href="{{ url(asset('web/assets/css/plugins.css')) }}" type="text/css" rel="stylesheet">
