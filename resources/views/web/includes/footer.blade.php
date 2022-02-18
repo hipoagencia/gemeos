@@ -20,7 +20,7 @@
             <div class="alioth-text-box">
                 <h5 style="color: rgba(25,27,29,.6)">
                     <b>Unidade II<br>Praia Grande/SP</b><br /><br />
-                    Rua Limeira,<br>25
+                    Rua Limeira,<br>725
                 </h5>
             </div>
         </div>

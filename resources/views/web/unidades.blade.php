@@ -47,7 +47,7 @@
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.782582685803!2d-46.41564598501385!3d-24.00345348446522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1c4cc6d53947%3A0x15e7f4381efc3289!2sR.%20Limeira%2C%2025%20-%20Boqueir%C3%A3o%2C%20Praia%20Grande%20-%20SP%2C%2011701-260!5e0!3m2!1spt-BR!2sbr!4v1644268123276!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
                                 <br><br>
-                                Rua Limeira, 25<br>
+                                Rua Limeira, 725<br>
                                 <hr>
                                 Tel.: <a href="tel:1335007259" style="color: rgba(25,27,29,.6);">(13) 3500-7259</a>
                             </h5>
