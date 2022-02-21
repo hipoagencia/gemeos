@@ -86,6 +86,8 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
         //SiteMap
         Route::get('site-map', [FunctionsController::class, 'sitemap'])->name('sitemap.get');
 
+        //Rota do Estoque / Estoque sem foto
+        Route::get('stock', [FunctionsController::class, 'stock'])->name('stock.get');
 
         //BackupsList
         Route::get('backup-list', function () {

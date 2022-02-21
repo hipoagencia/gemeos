@@ -82,6 +82,15 @@ class FunctionsController extends Controller
         return redirect()->route('admin.dashboard')->with(['type' => 'success', 'message' => $mensagem]);
     }
 
+    public function stock()
+    {
+        $cars = Car::orderBy('marca')
+            ->where('idStock', '<>', '0')
+            ->get();
+
+        return view('stock.index', compact('cars'));
+    }
+
     public function sitemap()
     {
         \Spatie\Sitemap\SitemapGenerator::create(env('APP_URL'))->writeToFile(public_path('sitemap.xml'));

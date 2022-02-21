@@ -219,6 +219,13 @@
 
 
                     <li>
+                        <a href="{{ route('admin.stock.get') }}" class="waves-effect">
+                            <i class="bx bx-home-circle"></i>
+                            <span>Estoque</span>
+                        </a>
+                    </li>
+
+                    <li>
                         <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
                             <i class="bx bx-envelope"></i>
                             <span key="t-email">Configurações</span>
