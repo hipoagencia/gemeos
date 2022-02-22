@@ -81,7 +81,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
         Route::get('property/get', [PropertyController::class, 'show'])->name('property.get');
 
         //Atualizar Estoque
-        Route::get('stock', [FunctionsController::class, 'carStock'])->name('stock.get');
+        Route::get('stock-refresh', [FunctionsController::class, 'carStock'])->name('stock.refresh');
 
         //SiteMap
         Route::get('site-map', [FunctionsController::class, 'sitemap'])->name('sitemap.get');

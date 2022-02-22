@@ -232,7 +232,7 @@
                         </a>
                         <ul class="sub-menu mm-collapse">
 
-                            <li><a href="{{ route('admin.stock.get') }}" key="t-blog">Atualizar Estoque</a></li>
+                            <li><a href="{{ route('admin.stock.refresh') }}" key="t-blog">Atualizar Estoque</a></li>
                             <li><a href="{{ route('admin.sitemap.get') }}" key="t-blog">Site Map</a></li>
 
                         </ul>

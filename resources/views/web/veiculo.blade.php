@@ -51,7 +51,7 @@
                         <h1>{{ ($car->zerokm == '1' ? '0km' : 'Seminovo') }}<br>{{$car->anofabricacao}}
                             / {{$car->anomodelo}}</h1>
                         <p>
-                            {{($car->km != '0' ? $car->km . ' km' : '')}}
+                            {{($car->km != '0' ? $car->km . ' km' : '')}} - {{$car->cor}}
                         </p>
                     </div>
 

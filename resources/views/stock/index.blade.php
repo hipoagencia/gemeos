@@ -52,6 +52,7 @@
                     $km = $cars[$i]->km;
                     $complementos = explode(', ', substr($cars[$i]->complementos, 0, -2));
                     $observacoes = explode('!!!', $cars[$i]->observacao);
+                    $ipva = explode('===', $cars[$i]->observacao);
                     $preco = $cars[$i]->preco;
                     $cor = $cars[$i]->cor;
                     $cambio = ($cars[$i]->cambio == 'Automático' ? 'Aut.' : '');
@@ -62,6 +63,7 @@
                         <th scope="row">{{$num++}}</th>
                         <td><b>{{$marca}}</b></td>
                         <td>{{$modelo}} {{$cambio}}</td>
+                        <td>{{$cars[$i]->placa}}</td>
                         <td>{{ $anoFabric }} / {{$ano}}</td>
                         <td>{{$cor}}</td>
                         <td>{{$km}} km</td>
@@ -82,6 +84,7 @@
                             @endfor
                         </td>
                         <td>{{ (isset($observacoes[1]) ? trim($observacoes[1]) : '') }}</td>
+                        <td>{{ (isset($ipva[1]) ? trim($ipva[1]) : '') }}</td>
                         <td>{{$preco}}</td>
                     </tr>
                 @endfor
