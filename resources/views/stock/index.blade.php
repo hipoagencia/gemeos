@@ -97,8 +97,18 @@
 </div>
 
 <style>
-    *{
+    * {
         line-height: 13px;
+        font-weight: bolder;
+        font-size:12px;
+    }
+    @media print
+    {
+        table { page-break-after:auto }
+        tr    { page-break-inside:avoid; page-break-after:auto }
+        td    { page-break-inside:avoid; page-break-after:auto }
+        thead { display:table-header-group }
+        tfoot { display:table-footer-group }
     }
 </style>
 
