@@ -62,7 +62,7 @@
                     <tr style="{{ ($row === '1' ? 'border-top:3px #686868 solid' : '') }}">
                         <th scope="row">{{$num++}}</th>
                         <td><b>{{$marca}}</b></td>
-                        <td>{{$modelo}} {{$cambio}}</td>
+                        <td>{{$modelo}} {{$cambio}} {{$cars[$i]->combustivel}}</td>
                         <td>{{$cars[$i]->placa}}</td>
                         <td>{{ $anoFabric }} / {{$ano}}</td>
                         <td>{{$cor}}</td>
