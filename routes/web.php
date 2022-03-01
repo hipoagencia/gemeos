@@ -15,7 +15,7 @@ use App\Http\Controllers\Web\WebsiteController;
 //    return view('web.index');
 //});
 
-Route::get('/', [WebsiteController::class, 'home'])->name('web.home');
+Route::get('/', [WebsiteController::class, 'home'])->name('web.index');
 
 
 

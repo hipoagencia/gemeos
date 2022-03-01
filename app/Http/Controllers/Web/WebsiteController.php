@@ -19,7 +19,7 @@ class WebsiteController extends Controller
 {
     public function home()
     {
-        return view('web.home');
+        return view('web.index');
     }
 
 //    public function about()
