@@ -239,7 +239,7 @@
                     </li>
 
                     <li>
-                        <a href="{{ route('web.home') }}" class="waves-effect">
+                        <a href="{{ route('web.index') }}" class="waves-effect">
                             <i class="bx bx-home-circle"></i>
                             <span>Ver Website</span>
                         </a>
