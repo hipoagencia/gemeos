@@ -22,6 +22,10 @@
     <style>
         *{
             font-family: 'League Gothic', sans-serif;
+            color:#fff;
+        }
+        body{
+            background-color:#002156;
         }
     </style>
 </head>
@@ -31,7 +35,7 @@
 <div class="container">
     <div class="row mt-5">
        <div class="col-md-12 text-center mt-5">
-           <img src="{{asset(url('web/assets/logo.png'))}}" class="img-fluid mb-3"/>
+           <img src="{{asset(url('web/assets/logo.png'))}}" class="img-fluid"/>
            <h1 class="mt-5">Em breve um novo site</h1>
        </div>
 
