@@ -30,14 +30,14 @@
 28. Subscribe Section
 29. Yacht Rent / Buy Section
 30. Rent / Buy Details / Yacht Details
-31. Yacht Tour 01 / 02 / 03 / 04 
+31. Yacht Tour 01 / 02 / 03 / 04
 32. Tour Details
 33. Choose Destination
 34. Welcome Section
 35. Portfolio / One Column / Two COlumn / Three Column / Masonry Style
 36. Contact Section
 37. Coming Soon
-38. Blog Grid 
+38. Blog Grid
 39. Blog List
 40. Blog Large Image
 41. Blog Post Details
@@ -47,7 +47,7 @@
 
 **********************************************/
 
-/*** 
+/***
 
 ====================================================================
 			Fonts
@@ -75,7 +75,7 @@
 @import url('hover.css');
 @import url('custom-animate.css');
 
-/*** 
+/***
 
 ====================================================================
 	Reset
@@ -92,7 +92,7 @@
 	line-height: inherit;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Global Settings
@@ -101,7 +101,7 @@
  ***/
 
 body {
-	
+
 	font-size:15px;
 	color:#7f8a99;
 	line-height:1.6em;
@@ -170,7 +170,7 @@ input,select,button{
 
 textarea{
 	overflow:hidden;
-	resize: none;	
+	resize: none;
 }
 
 button{
@@ -215,7 +215,7 @@ p{
 ul,li{
 	list-style:none;
 	padding:0px;
-	margin:0px;	
+	margin:0px;
 }
 
 
@@ -274,7 +274,7 @@ figure{
 	font-weight: 600;
 	padding: 10px 38px;
 	min-height: 42px;
-	background: #061138;
+	background: #002156;
 	border-radius:0px;
 	z-index:1;
 	transition:all 0.3s ease;
@@ -387,7 +387,7 @@ figure{
 	display:block;
 	font-size: 13px;
 	line-height: 28px;
-	color: #061138;
+	color: #002156;
 	font-weight: 600;
 	padding: 11px 45px;
 	background: none;
@@ -427,11 +427,11 @@ figure{
 	display:block;
 	font-size: 13px;
 	line-height: 28px;
-	color: #061138;
+	color: #002156;
 	font-weight: 600;
 	padding: 10px 45px;
 	background: none;
-	border: 2px solid #061138;
+	border: 2px solid #002156;
 	border-radius:0px;
 	z-index:1;
 	transition:all 0.3s ease;
@@ -442,8 +442,8 @@ figure{
 }
 
 .btn-style-five:hover .btn-title{
-	background: #061138;
-	border-color: #061138;
+	background: #002156;
+	border-color: #002156;
 	color: #ffffff;
 }
 
@@ -470,7 +470,7 @@ figure{
 	color: #ffffff;
 	font-weight: 600;
 	padding: 12px 45px;
-	background: #061138;
+	background: #002156;
 	border-radius:0px;
 	z-index:1;
 	transition:all 0.3s ease;
@@ -493,36 +493,36 @@ figure{
 	float: left;
 }
 
-.preloader{ 
-	position:fixed; 
-	left:0px; 
-	top:0px; 
-	width:100%; 
-	height:100%; 
-	z-index:999999; 
+.preloader{
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:999999;
 	background-color:rgba(0,0,0,0);
-} 
+}
 
-.preloader .icon{ 
-	position:fixed; 
-	left:0px; 
-	top:0px; 
-	width:100%; 
-	height:100%; 
-	z-index:5; 
-	background-color:rgba(0,0,0,0); 
-	background-position:center center; 
-	background-repeat:no-repeat; 
+.preloader .icon{
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:5;
+	background-color:rgba(0,0,0,0);
+	background-position:center center;
+	background-repeat:no-repeat;
 	background-image:url(../images/icons/preloader.svg);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
-} 
+}
 
 .page-loaded .preloader .icon{
-	opacity:0; 
+	opacity:0;
 }
 
 .preloader:before{
@@ -533,7 +533,7 @@ figure{
 	width:51%;
 	height:100%;
 	background:#ffffff;
-	z-index:0; 
+	z-index:0;
 	-webkit-transform:translateX(0%);
 	-ms-transform:translateX(0%);
 	transform:translateX(0%);
@@ -558,7 +558,7 @@ figure{
 	width:51%;
 	height:100%;
 	background:#ffffff;
-	z-index:2; 
+	z-index:2;
 	-webkit-transform:translateX(0%);
 	-ms-transform:translateX(0%);
 	transform:translateX(0%);
@@ -578,7 +578,7 @@ figure{
 img{
 	display:inline-block;
 	max-width:100%;
-	height:auto;	
+	height:auto;
 }
 
 .dropdown-toggle::after{
@@ -589,7 +589,7 @@ img{
 	line-height: inherit;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Scroll To Top style
@@ -610,7 +610,7 @@ img{
 	text-align:center;
 	z-index:100;
 	cursor:pointer;
-	background:#061138;
+	background:#002156;
 	border-radius: 0px;
 	display:none;
 	-webkit-transition:all 300ms ease;
@@ -635,7 +635,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Main Header style / Header Style One
@@ -747,7 +747,7 @@ img{
 }
 
 .sticky-header .main-menu .navigation > li.dropdown{
-	padding-right:0px;	
+	padding-right:0px;
 }
 
 .main-menu .navigation > li > ul{
@@ -757,7 +757,7 @@ img{
 	width:250px;
 	z-index:100;
 	display:none;
-	background:#061138;
+	background:#002156;
 	padding: 15px 0px 10px;
 	border:none;
 	transform: translateY(20px);
@@ -775,7 +775,7 @@ img{
 
 .main-menu .navigation > li > ul.from-right{
 	left:auto;
-	right:0px;	
+	right:0px;
 }
 
 .main-menu .navigation > li > ul > li{
@@ -803,7 +803,7 @@ img{
 }
 
 .main-menu .navigation > li > ul > li:last-child > a{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li > a:before{
@@ -832,7 +832,7 @@ img{
 	width:250px;
 	z-index:100;
 	display:none;
-	background:#061138;
+	background:#002156;
 	padding: 15px 0px 10px;
 	border:none;
 	transform: translateY(20px);
@@ -882,7 +882,7 @@ img{
 }
 
 .main-menu .navigation > li > ul > li > ul > li:last-child > a{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li > ul > li > a:before{
@@ -913,7 +913,7 @@ img{
 	line-height:24px;
 	font-size:16px;
 	font-weight:900;
-	z-index:5;	
+	z-index:5;
 }
 
 .main-menu .navigation > li.dropdown:hover > ul{
@@ -935,7 +935,7 @@ img{
 	-moz-transition:all 300ms ease;
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 300ms ease;
-	-o-transition:all 300ms ease;	
+	-o-transition:all 300ms ease;
 }
 
 .main-menu .navigation li.dropdown .dropdown-btn{
@@ -954,7 +954,7 @@ img{
 	display:none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Header Style One
@@ -990,7 +990,7 @@ img{
 }
 
 .header-top-one{
-	background: #061138;
+	background: #002156;
 	color: #ffffff;
 	padding: 0px;
 	line-height: 30px;
@@ -1341,7 +1341,7 @@ img{
 	height: 42px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Header Style Two
@@ -1629,7 +1629,7 @@ img{
 	border-bottom-color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Header Style Three
@@ -1701,7 +1701,7 @@ img{
 
 .header-top-three .language li a:hover,
 .header-top-three .language li.active a{
-	color: #061138;
+	color: #002156;
 }
 
 .header-top-three .social-links{
@@ -1901,14 +1901,14 @@ img{
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 30px;
-	color: #061138;
+	color: #002156;
 }
 
 .header-style-three .nav-box .main-menu .navigation > li:before{
 	border-bottom-color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Inner Header Style
@@ -1920,7 +1920,7 @@ img{
 	position: relative;
 }
 
-/*** 
+/***
 
 ====================================================================
 				Sticky Header
@@ -1999,7 +1999,7 @@ img{
 .sticky-header .main-menu .navigation > li > ul > li > ul{
 	left:auto;
 	right:100%;
-	margin-right: 10px;	
+	margin-right: 10px;
 }
 
 .sticky-header .main-menu .navigation > li > ul > li > ul:before{
@@ -2043,7 +2043,7 @@ img{
 	vertical-align: middle;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Search Popup
@@ -2122,14 +2122,14 @@ body.search-visible{
 }
 
 .search-popup .close-search:hover{
-	opacity:0.70;	
+	opacity:0.70;
 }
 
 .search-popup .search-form{
 	position:relative;
 	padding:0px 15px 0px;
 	max-width:1024px;
-	margin:0 auto;	
+	margin:0 auto;
 	margin-top:150px;
 	margin-bottom: 100px;
 	opacity: 0;
@@ -2197,7 +2197,7 @@ body.search-visible{
 	color:#ffffff;
 	margin-bottom:20px;
 	letter-spacing:1px;
-	text-align:center;	
+	text-align:center;
 }
 
 .search-popup .recent-searches{
@@ -2208,7 +2208,7 @@ body.search-visible{
 
 .search-popup .recent-searches li{
 	display:inline-block;
-	margin:0px 10px 10px 0px;	
+	margin:0px 10px 10px 0px;
 }
 
 .search-popup .recent-searches li a{
@@ -2227,12 +2227,12 @@ body.search-visible{
 
 .search-popup .recent-searches li a:hover{
 	color:#f3d62c;
-	border-color:#f3d62c;	
+	border-color:#f3d62c;
 }
 
 
 
-/*** 
+/***
 
 ====================================================================
 			Mobile Menu
@@ -2266,17 +2266,17 @@ body.search-visible{
 }
 
 .mobile-menu .mCSB_inside>.mCSB_container{
-	margin-right:5px;	
+	margin-right:5px;
 }
 
 .mobile-menu .navbar-collapse{
-	display:block !important;	
+	display:block !important;
 }
 
 .mobile-menu .nav-logo{
 	position:relative;
 	padding:30px 25px;
-	text-align:left;	
+	text-align:left;
 }
 
 .mobile-menu .nav-logo img{
@@ -2331,7 +2331,7 @@ body.search-visible{
     height: 100%;
     max-height: 100%;
     overflow-y: auto;
-    background: #061138;
+    background: #002156;
     padding: 0px 0px;
     z-index: 5;
     opacity: 0;
@@ -2419,7 +2419,7 @@ body.search-visible{
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
-	transition: all 500ms ease;	
+	transition: all 500ms ease;
 }
 
 .mobile-menu .navigation li ul li > a{
@@ -2439,7 +2439,7 @@ body.search-visible{
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
-	transition: all 500ms ease;	
+	transition: all 500ms ease;
 }
 
 .mobile-menu .navigation li.current > a:before{
@@ -2463,7 +2463,7 @@ body.search-visible{
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
-	transition: all 500ms ease;	
+	transition: all 500ms ease;
 	z-index:5;
 }
 
@@ -2474,7 +2474,7 @@ body.search-visible{
 .mobile-menu .navigation li.dropdown .dropdown-btn.open{
 	-webkit-transform:rotate(90deg);
 	-ms-transform:rotate(90deg);
-	transform:rotate(90deg);	
+	transform:rotate(90deg);
 }
 
 .mobile-menu .navigation li > ul,
@@ -2503,10 +2503,10 @@ body.search-visible{
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
-	transition: all 500ms ease;	
+	transition: all 500ms ease;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Lazy Load Settings
@@ -2515,7 +2515,7 @@ body.search-visible{
 ***/
 
 img.lazy-image{
-	background:url(../images/icons/image-bg.svg) center center no-repeat;	
+	background:url(../images/icons/image-bg.svg) center center no-repeat;
 }
 
 img.lazy-image.loaded{
@@ -2701,7 +2701,7 @@ img.lazy-image.loaded{
 	top:3px;
 	right: -5px;
 	text-indent:0px;
-	color:#333333;	
+	color:#333333;
 }
 
 .form-group .ui-button .ui-icon:before{
@@ -2734,7 +2734,7 @@ img.lazy-image.loaded{
 }
 
 .ui-menu .ui-menu-item:last-child{
-	border:none;	
+	border:none;
 }
 
 .ui-menu .ui-menu-item-wrapper{
@@ -2821,7 +2821,7 @@ img.lazy-image.loaded{
 	z-index: 10 !important;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Hidden Sidebar style
@@ -2844,7 +2844,7 @@ img.lazy-image.loaded{
 }
 
 .hidden-bar .mCSB_inside > .mCSB_container{
-	margin-right:10px;	
+	margin-right:10px;
 }
 
 .hidden-bar.right-align {
@@ -2852,7 +2852,7 @@ img.lazy-image.loaded{
 }
 
 .hidden-bar.right-align.visible-sidebar{
-	right:0px;	
+	right:0px;
 }
 
 .hidden-bar.right-align {
@@ -2908,7 +2908,7 @@ img.lazy-image.loaded{
 
 .hidden-bar .logo img{
 	display:inline-block;
-	max-width:100%;	
+	max-width:100%;
 }
 
 .hidden-bar .content-box{
@@ -2983,7 +2983,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Banner Section
@@ -3327,7 +3327,7 @@ img.lazy-image.loaded{
 	background: #ffffff;
 	height: 70px;
 	width: 70px;
-	border: none; 
+	border: none;
 	text-align: center;
 	line-height: 70px;
 	color: #acb7c6;
@@ -3347,7 +3347,7 @@ img.lazy-image.loaded{
 	background: #ffffff;
 	height: 70px;
 	width: 70px;
-	border: none; 
+	border: none;
 	text-align: center;
 	line-height: 70px;
 	color: #acb7c6;
@@ -3361,7 +3361,7 @@ img.lazy-image.loaded{
 	transition: all 300ms ease;
 }
 
-.banner-section .owl-nav .owl-prev:hover, 
+.banner-section .owl-nav .owl-prev:hover,
 .banner-section .owl-nav .owl-next:hover{
 	color: #f3d62c;
 	background: #ffffff;
@@ -3489,7 +3489,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Section Title
@@ -3528,7 +3528,7 @@ img.lazy-image.loaded{
 	display: block;
 	font-size:40px;
 	line-height: 1.20em;
-	color: #061138;
+	color: #002156;
 	font-weight: 400;
 	text-transform:uppercase;
 	margin-bottom: 0px;
@@ -3543,7 +3543,7 @@ img.lazy-image.loaded{
 	display: block;
 	font-size:30px;
 	line-height: 1.25em;
-	color: #061138;
+	color: #002156;
 	font-weight: 400;
 	text-transform:capitalize;
 	margin-bottom: 0px;
@@ -3637,7 +3637,7 @@ img.lazy-image.loaded{
 	display: block;
 	font-size:40px;
 	line-height: 1.20em;
-	color: #061138;
+	color: #002156;
 	font-weight: 400;
 	text-transform:uppercase;
 	margin-bottom: 0px;
@@ -3652,7 +3652,7 @@ img.lazy-image.loaded{
 	display: block;
 	font-size:30px;
 	line-height: 1.25em;
-	color: #061138;
+	color: #002156;
 	font-weight: 400;
 	text-transform:capitalize;
 	margin-bottom: 0px;
@@ -3718,7 +3718,7 @@ img.lazy-image.loaded{
 	margin-left: -20px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	About Section
@@ -3830,7 +3830,7 @@ img.lazy-image.loaded{
 	position: relative;
 	display: inline-block;
 	padding: 10px 0px;
-	color: #061138;
+	color: #002156;
 	font-weight: 500;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -3857,8 +3857,8 @@ img.lazy-image.loaded{
 }
 
 .about-section .left-col .lower-content .text:first-letter{
-	color: #061138;
-	float: left; 
+	color: #002156;
+	float: left;
 	font-family: 'Poppins', serif;
 	font-size: 48px;
 	line-height: 0.8em;
@@ -3870,7 +3870,7 @@ img.lazy-image.loaded{
 	display: inline-block;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #061138;
+	color: #002156;
 	font-size: 13px;
 	line-height: 24px;
 	-webkit-transition:all 0.3s ease;
@@ -3915,12 +3915,12 @@ img.lazy-image.loaded{
 
 .about-section .book-form-box .title{
 	text-align: center;
-	color: #061138;
+	color: #002156;
 	margin-bottom: 20px;
 }
 
 .about-section .book-form-box .title h4{
-	color: #061138;
+	color: #002156;
 	margin: 0;
 }
 
@@ -3942,7 +3942,7 @@ img.lazy-image.loaded{
 	margin-top: 10px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	About Section
@@ -3986,7 +3986,7 @@ img.lazy-image.loaded{
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: #061138;
+	background: #002156;
 	opacity: 0.90;
 }
 
@@ -4087,7 +4087,7 @@ img.lazy-image.loaded{
 	top: -45px;
 	width: 90px;
 	height: 90px;
-	background: #061138;
+	background: #002156;
 	color: #f3d62c;
 	text-align: center;
 	font-size: 42px;
@@ -4116,12 +4116,12 @@ img.lazy-image.loaded{
 
 .service-block .lower-content h4{
 	position: relative;
-	color: #061138;
+	color: #002156;
 	margin-bottom: 20px;
 }
 
 .service-block .lower-content h4 a{
-	color: #061138;
+	color: #002156;
 	-webkit-transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
 	-ms-transition:all 0.3s ease;
@@ -4180,7 +4180,7 @@ img.lazy-image.loaded{
 	display: none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Activities Section
@@ -4301,13 +4301,13 @@ img.lazy-image.loaded{
 .activity-block .content-box h4{
 	position: relative;
 	font-size: 26px;
-	color: #061138;
+	color: #002156;
 	text-transform: capitalize;
 	margin-bottom: 10px;
 }
 
 .activity-block .content-box h4 a{
-	color: #061138;
+	color: #002156;
 }
 
 .activity-block .content-box h4 a:hover{
@@ -4321,7 +4321,7 @@ img.lazy-image.loaded{
 
 .activity-block .ratings .rate-text{
 	position: relative;
-	color: #061138;
+	color: #002156;
 	line-height: 24px;
 	font-weight: 500;
 	margin-bottom: 3px;
@@ -4334,7 +4334,7 @@ img.lazy-image.loaded{
 }
 
 .activity-block .ratings .rate-text a{
-	color: #061138;
+	color: #002156;
 	font-size: 12px;
 	text-transform: uppercase;
 }
@@ -4417,7 +4417,7 @@ img.lazy-image.loaded{
 
 .activity-block .links-box .unit{
 	display: block;
-	color: #061138;
+	color: #002156;
 	font-family: 'Poppins', serif;
 	font-style: italic;
 	text-transform: uppercase;
@@ -4563,7 +4563,7 @@ img.lazy-image.loaded{
 	background: none;
 	height: 64px;
 	width: 64px;
-	border: none; 
+	border: none;
 	text-align: center;
 	line-height: 62px;
 	border: 1px solid rgba(0,0,0,0.10);
@@ -4585,7 +4585,7 @@ img.lazy-image.loaded{
 	background: none;
 	height: 64px;
 	width: 64px;
-	border: none; 
+	border: none;
 	text-align: center;
 	line-height: 62px;
 	border: 1px solid rgba(0,0,0,0.10);
@@ -4601,7 +4601,7 @@ img.lazy-image.loaded{
 	transition: all 300ms ease;
 }
 
-.activities-section .owl-nav .owl-prev:hover, 
+.activities-section .owl-nav .owl-prev:hover,
 .activities-section .owl-nav .owl-next:hover{
 	color: #f3d62c;
 	border-color: #f3d62c;
@@ -4614,7 +4614,7 @@ img.lazy-image.loaded{
 	padding-top: 50px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Features Section
@@ -4625,7 +4625,7 @@ img.lazy-image.loaded{
 .features-section{
 	position:relative;
 	padding: 90px 0px 20px;
-	background: #061138;
+	background: #002156;
 	color: #ffffff;
 	overflow: hidden;
 }
@@ -4696,7 +4696,7 @@ img.lazy-image.loaded{
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background: #061138;
+    background: #002156;
     border: 1px solid rgba(255,255,255,0.30);
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
@@ -4760,7 +4760,7 @@ img.lazy-image.loaded{
 	color: #f3d62c;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Pricing Section
@@ -4823,7 +4823,7 @@ img.lazy-image.loaded{
 
 .price-block .plan-header .plan-title{
 	font-size: 24px;
-	color: #061138;
+	color: #002156;
 	text-transform: uppercase;
 	margin-bottom: 7px;
 }
@@ -4914,7 +4914,7 @@ img.lazy-image.loaded{
 	line-height:24px;
 	font-size:13px;
 	font-weight:800;
-	color: #f3d62c;	
+	color: #f3d62c;
 }
 
 .price-block .link-box{
@@ -4960,7 +4960,7 @@ img.lazy-image.loaded{
 	visibility: visible;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonials Section
@@ -4993,7 +4993,7 @@ img.lazy-image.loaded{
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: #061138;
+	background: #002156;
 	opacity: 0.90;
 }
 
@@ -5063,7 +5063,7 @@ img.lazy-image.loaded{
 
 .testimonial-block .content .info h5{
 	position: relative;
-	color: #061138;
+	color: #002156;
 	margin-bottom: 3px;
 }
 
@@ -5138,7 +5138,7 @@ img.lazy-image.loaded{
 	display: none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	News Section
@@ -5158,7 +5158,7 @@ img.lazy-image.loaded{
 
 .news-section .news-column .inner{
 	position: relative;
-	display: block; 
+	display: block;
 }
 
 .news-section .title-row{
@@ -5222,7 +5222,7 @@ img.lazy-image.loaded{
 .news-block .image-box .post-date .day{
 	display: block;
 	font-size: 20px;
-	color: #061138;
+	color: #002156;
 }
 
 .news-block .content{
@@ -5285,13 +5285,13 @@ img.lazy-image.loaded{
 }
 
 .news-block h4{
-	color: #061138;
+	color: #002156;
 	text-transform: capitalize;
 	margin-bottom: 20px;
 }
 
 .news-block h4 a{
-	color: #061138;
+	color: #002156;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -5392,7 +5392,7 @@ img.lazy-image.loaded{
 
 .news-block-two .image-box .post-date .day{
 	display: block;
-	color: #061138;
+	color: #002156;
 	font-size: 24px;
 }
 
@@ -5464,12 +5464,12 @@ img.lazy-image.loaded{
 .news-block-two h5{
 	font-size: 20px;
 	line-height: 1.4em;
-	color: #061138;
+	color: #002156;
 	margin-bottom: 42px;
 }
 
 .news-block-two h5 a{
-	color: #061138;
+	color: #002156;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -5668,9 +5668,9 @@ img.lazy-image.loaded{
 	position: relative;
 	padding: 48px 30px 50px;
 	background: #081853;
-	background: -webkit-linear-gradient(left,#081853,#061138);
-	background: -ms-linear-gradient(left,#081853,#061138);
-	background: -moz-linear-gradient(left,#081853,#061138);
+	background: -webkit-linear-gradient(left,#081853,#002156);
+	background: -ms-linear-gradient(left,#081853,#002156);
+	background: -moz-linear-gradient(left,#081853,#002156);
 }
 
 .subscribe-form-box .title{
@@ -5709,7 +5709,7 @@ img.lazy-image.loaded{
 	display: block;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Footer
@@ -5719,7 +5719,7 @@ img.lazy-image.loaded{
 
 .main-footer{
 	position:relative;
-	background: #061138;
+	background: #002156;
 	color: #868da5;
 }
 
@@ -5991,7 +5991,7 @@ img.lazy-image.loaded{
 	text-decoration: underline;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Footer Style Two
@@ -6043,7 +6043,7 @@ img.lazy-image.loaded{
 	width: 2500px;
 	height: 1500px;
 	min-height: 100%;
-	background: #061138;
+	background: #002156;
 	padding: 50px 20px;
 	text-align: right;
 	z-index: 1;
@@ -6121,7 +6121,7 @@ img.lazy-image.loaded{
 	height: 100px;
 	padding-top: 15px;
 	background: #ffffff;
-	color: #061138;
+	color: #002156;
 	text-align: center;
 	font-family: 'Poppins', serif;
 	border-radius: 50%;
@@ -6180,7 +6180,7 @@ img.lazy-image.loaded{
 .footer-style-two .offer-carousel-box .owl-theme .owl-dots .owl-dot.active span{
 	background: #ffffff;
 }
-/*** 
+/***
 
 ====================================================================
 	Booking Section
@@ -6190,7 +6190,7 @@ img.lazy-image.loaded{
 
 .booking-section{
 	position:relative;
-	background: #061138;
+	background: #002156;
 	color: #ffffff;
 	padding: 0px 0px;
 }
@@ -6386,7 +6386,7 @@ img.lazy-image.loaded{
 	font-size: 16px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Featured Service Section
@@ -6510,7 +6510,7 @@ img.lazy-image.loaded{
 }
 
 .featured-service-block .title-box h4{
-	color: #061138;
+	color: #002156;
 	line-height: 36px;
 	margin: 0 0 5px;
 }
@@ -6552,7 +6552,7 @@ img.lazy-image.loaded{
 	transform: scale(1);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Yacht Rental Section
@@ -6562,7 +6562,7 @@ img.lazy-image.loaded{
 
 .yacht-rental-section{
 	position:relative;
-	background: #061138;
+	background: #002156;
 	padding: 90px 0px;
 }
 
@@ -6764,7 +6764,7 @@ img.lazy-image.loaded{
         line-height: 24px;
         text-transform: uppercase;
         text-align: center;
-        background: #061138;
+        background: #002156;
         color: #ffffff;
         font-size: 13px;
         font-weight: 600;
@@ -6805,17 +6805,17 @@ img.lazy-image.loaded{
 .rental-block .title-box h4{
 	position: relative;
 	margin-bottom: 7px;
-	color: #061138;
+	color: #002156;
 	text-transform: capitalize;
 }
 
 .rental-block .title-box h4 a{
-	color: #061138;
+	color: #002156;
 }
 
     .rental-block .title-box h4 a:hover {
         /*color: #f3d62c;*/
-        color: #061138;
+        color: #002156;
     }
 
 .rental-block .title-box .info{
@@ -6897,7 +6897,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Destinations Section
@@ -7113,12 +7113,12 @@ img.lazy-image.loaded{
 .destination-block .title-box h4{
 	position: relative;
 	margin-bottom: 0;
-	color: #061138;
+	color: #002156;
 	text-transform: capitalize;
 }
 
 .destination-block .title-box h4 a{
-	color: #061138;
+	color: #002156;
 }
 
 .destination-block .title-box h4 a:hover{
@@ -7184,7 +7184,7 @@ img.lazy-image.loaded{
 	padding-top: 10px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	About Section Two
@@ -7301,7 +7301,7 @@ img.lazy-image.loaded{
 	height: 70px;
 	line-height: 70px;
 	text-align: center;
-	color: #061138;
+	color: #002156;
 	font-size: 24px;
 	background: #ffffff;
 	border-radius: 50%;
@@ -7333,7 +7333,7 @@ img.lazy-image.loaded{
 
 .about-section-two .content-box h4{
 	margin-bottom: 25px;
-	color: #061138;
+	color: #002156;
 }
 
 .about-section-two .content-box .text{
@@ -7371,7 +7371,7 @@ img.lazy-image.loaded{
 	font-family: 'Poppins', serif;
 	font-size: 20px;
 	text-transform: capitalize;
-	color: #061138;
+	color: #002156;
 	line-height: 1.5em;
 }
 
@@ -7383,7 +7383,7 @@ img.lazy-image.loaded{
 	line-height: 1.7em;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonials Section Two
@@ -7458,7 +7458,7 @@ img.lazy-image.loaded{
 	display: none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Fluid Section
@@ -7617,7 +7617,7 @@ img.lazy-image.loaded{
 	margin-bottom: 30px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Destinations Section
@@ -7693,7 +7693,7 @@ img.lazy-image.loaded{
 .destination-block-two .inner-box{
 	position: relative;
 	display: block;
-	background: #061138;
+	background: #002156;
 	height: 360px;
 	-webkit-transition:all 0.5s ease;
 	-moz-transition:all 0.5s ease;
@@ -8056,7 +8056,7 @@ img.lazy-image.loaded{
 .package-block .content-box .package-title{
 	position: relative;
 	font-size: 16px;
-	color: #061138;
+	color: #002156;
 	font-weight: 600;
 	text-transform: uppercase;
 	line-height: 1.35em;
@@ -8064,7 +8064,7 @@ img.lazy-image.loaded{
 }
 
 .package-block .content-box .package-title a{
-	color: #061138;
+	color: #002156;
 }
 
 .package-block .content-box .package-title a:hover{
@@ -8172,7 +8172,7 @@ img.lazy-image.loaded{
 
 .package-block .links-box .unit{
 	display: block;
-	color: #061138;
+	color: #002156;
 	font-family: 'Poppins', serif;
 	font-style: italic;
 	text-transform: uppercase;
@@ -8181,7 +8181,7 @@ img.lazy-image.loaded{
 
 .package-block .links-box .unit span{
 	font-size: 20px;
-	color: #061138;
+	color: #002156;
 }
 
 .package-block .links-box .link{
@@ -8440,7 +8440,7 @@ img.lazy-image.loaded{
 .destination-block-four .lower-box h4{
 	font-size: 20px;
 	text-transform: capitalize;
-	color: #061138;
+	color: #002156;
 	padding-left: 15px;
 	margin: 0;
 	transition:all 0.3s ease;
@@ -8484,14 +8484,14 @@ img.lazy-image.loaded{
 }
 
 .destination-block-four .lower-box h4 a{
-	color: #061138;
+	color: #002156;
 }
 
 .destination-block-four .lower-box h4 a:hover{
 	color: #f3d62c;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Featured Services Two
@@ -8671,7 +8671,7 @@ img.lazy-image.loaded{
 	color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Top Destinations
@@ -8786,13 +8786,13 @@ img.lazy-image.loaded{
 	position: relative;
 	display: block;
 	font-size: 14px;
-	color: #061138;
+	color: #002156;
 	font-weight: 600;
 	text-transform: uppercase;
 }
 
 .destination-block-three .caption-box .title a{
-	color: #061138;
+	color: #002156;
 }
 
 .destination-block-three .caption-box .info{
@@ -8875,7 +8875,7 @@ img.lazy-image.loaded{
 	color: #b5c0cf;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Facts Section
@@ -8886,7 +8886,7 @@ img.lazy-image.loaded{
 .facts-section{
 	position:relative;
 	padding: 100px 0px;
-	background: #061138;
+	background: #002156;
 	color: #ffffff;
 }
 
@@ -9028,7 +9028,7 @@ img.lazy-image.loaded{
 	background: #f3d62c;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Team Section
@@ -9157,7 +9157,7 @@ img.lazy-image.loaded{
 
 .team-block .lower-content h4{
 	position: relative;
-	color: #061138;
+	color: #002156;
 	font-size: 22px;
 	line-height: 1.3em;
 	text-transform: capitalize;
@@ -9165,7 +9165,7 @@ img.lazy-image.loaded{
 }
 
 .team-block .lower-content h4 a{
-	color: #061138;
+	color: #002156;
 	-webkit-transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
 	-ms-transition:all 0.3s ease;
@@ -9281,7 +9281,7 @@ img.lazy-image.loaded{
 	background: none;
 	height: 70px;
 	width: 70px;
-	border: none; 
+	border: none;
 	text-align: center;
 	line-height: 68px;
 	border: 1px solid rgba(0,0,0,.10);
@@ -9296,7 +9296,7 @@ img.lazy-image.loaded{
 	transition: all 300ms ease;
 }
 
-.team-section .owl-nav .owl-prev:hover, 
+.team-section .owl-nav .owl-prev:hover,
 .team-section .owl-nav .owl-next:hover{
 	color: #f3d62c;
 	border-color: #f3d62c;
@@ -9309,7 +9309,7 @@ img.lazy-image.loaded{
 	padding-top: 10px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonials Section Two
@@ -9367,7 +9367,7 @@ img.lazy-image.loaded{
 }
 
 .testimonial-block-two .content .title-box h3{
-	color: #061138;
+	color: #002156;
 	margin-bottom: 0;
 	text-transform: capitalize;
 }
@@ -9387,7 +9387,7 @@ img.lazy-image.loaded{
 
 .testimonial-block-two .content .info .name{
 	position: relative;
-	color: #061138;
+	color: #002156;
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -9455,7 +9455,7 @@ img.lazy-image.loaded{
 	right: 100%;
 	margin-right: 10px;
 	font-size: 16px;
-	color: #061138;
+	color: #002156;
 	text-transform: capitalize;
 	font-family: 'Poppins', serif;
 	letter-spacing: 1px;
@@ -9489,7 +9489,7 @@ img.lazy-image.loaded{
 	left: 100%;
 	margin-left: 10px;
 	font-size: 16px;
-	color: #061138;
+	color: #002156;
 	text-transform: capitalize;
 	font-family: 'Poppins', serif;
 	letter-spacing: 1px;
@@ -9506,10 +9506,10 @@ img.lazy-image.loaded{
 .testimonials-section-three .owl-theme .owl-nav .owl-prev:hover:before,
 .testimonials-section-three .owl-theme .owl-nav .owl-next:hover:before{
 	opacity: 1;
-	color: #061138;
+	color: #002156;
 }
 
-/*** 
+/***
 
 ====================================================================
 	News Section Two
@@ -9625,7 +9625,7 @@ img.lazy-image.loaded{
 
 .news-block-three .image-box .post-date .day{
 	display: block;
-	color: #061138;
+	color: #002156;
 	font-size: 24px;
 }
 
@@ -9720,13 +9720,13 @@ img.lazy-image.loaded{
 .news-block-three h4{
 	font-size: 20px;
 	line-height: 1.4em;
-	color: #061138;
+	color: #002156;
 	text-transform: capitalize;
 	margin-bottom: 30px;
 }
 
 .news-block-three h4 a{
-	color: #061138;
+	color: #002156;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -9751,7 +9751,7 @@ img.lazy-image.loaded{
 	vertical-align: middle;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #061138;
+	color: #002156;
 	font-size: 13px;
 	line-height: 24px;
 	padding-left: 15px;
@@ -9813,7 +9813,7 @@ img.lazy-image.loaded{
 	padding-left: 42px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Subscribe Section
@@ -9886,7 +9886,7 @@ img.lazy-image.loaded{
 }
 
 .subscribe-section.style-two .title h4{
-	 color: #061138;
+	 color: #002156;
 }
 
 .subscribe-section .title .subtitle{
@@ -9932,7 +9932,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Footer Three
@@ -9942,7 +9942,7 @@ img.lazy-image.loaded{
 
 .footer-style-three{
 	position:relative;
-	background: #061138;
+	background: #002156;
 	padding: 50px 0px 25px;
 }
 
@@ -10119,7 +10119,7 @@ img.lazy-image.loaded{
 	bottom: 100%;
 	margin-bottom: 10px;
 	width: 182px;
-	background: #061138;
+	background: #002156;
 	padding: 0px 0px;
 	border: 1px solid rgba(255,255,255,0.15);
 	opacity: 0;
@@ -10223,7 +10223,7 @@ img.lazy-image.loaded{
 	right: 0;
 	bottom: 100%;
 	width: 182px;
-	background: #061138;
+	background: #002156;
 	padding: 18px 16px;
 	border: 1px solid rgba(255,255,255,0.15);
 	border-bottom: none;
@@ -10286,7 +10286,7 @@ img.lazy-image.loaded{
 	color:#f3d62c;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Page Banner
@@ -10298,7 +10298,7 @@ img.lazy-image.loaded{
 	position:relative;
 	padding: 0;
 	color: #ffffff;
-	background: #061138;
+	background: #002156;
 	background-position:center top;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -10397,10 +10397,10 @@ img.lazy-image.loaded{
 }
 
 .page-banner .bread-crumb li a:hover{
-	color:#f3d62c;	
+	color:#f3d62c;
 }
 
-/*** 
+/***
 
 ====================================================================
 	News Section
@@ -10501,7 +10501,7 @@ img.lazy-image.loaded{
 
 .news-block-four .image-box .post-date .day{
 	display: block;
-	color: #061138;
+	color: #002156;
 	font-size: 24px;
 }
 
@@ -10718,7 +10718,7 @@ img.lazy-image.loaded{
 	min-width: 190px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	News Section
@@ -10888,12 +10888,12 @@ img.lazy-image.loaded{
 
 .news-block-five h3{
 	line-height: 1.35em;
-	color: #061138;
+	color: #002156;
 	margin-bottom: 25px;
 }
 
 .news-block-five h3 a{
-	color: #061138;
+	color: #002156;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -10934,7 +10934,7 @@ img.lazy-image.loaded{
 	vertical-align: middle;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #061138;
+	color: #002156;
 	font-size: 13px;
 	line-height: 24px;
 	-webkit-transition:all 0.3s ease;
@@ -11013,7 +11013,7 @@ img.lazy-image.loaded{
 
 .news-block-five .other-info .post-date .day{
 	display: block;
-	color: #061138;
+	color: #002156;
 	font-size: 24px;
 }
 
@@ -11247,7 +11247,7 @@ img.lazy-image.loaded{
 .news-block-six .image-box .post-date .day{
 	display: block;
 	font-size: 20px;
-	color: #061138;
+	color: #002156;
 }
 
 .news-block-six .content-box{
@@ -11332,12 +11332,12 @@ img.lazy-image.loaded{
 
 .news-block-six h3{
 	line-height: 1.35em;
-	color: #061138;
+	color: #002156;
 	margin-bottom: 24px;
 }
 
 .news-block-six h3 a{
-	color: #061138;
+	color: #002156;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -11378,7 +11378,7 @@ img.lazy-image.loaded{
 	vertical-align: middle;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #061138;
+	color: #002156;
 	font-size: 13px;
 	line-height: 24px;
 	-webkit-transition:all 0.3s ease;
@@ -11565,7 +11565,7 @@ img.lazy-image.loaded{
 	color: #f3d62c;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Styled Pagination
@@ -11627,7 +11627,7 @@ img.lazy-image.loaded{
 	border-color: #f3d62c;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Sidebar Page Container
@@ -11699,7 +11699,7 @@ img.lazy-image.loaded{
 	display: inline-block;
 	font-size:20px;
 	line-height: 1.30em;
-	color: #061138;
+	color: #002156;
 	font-weight: 400;
 	text-transform:uppercase;
 	margin-bottom: 0px;
@@ -11707,7 +11707,7 @@ img.lazy-image.loaded{
 
 .sidebar .search-box .form-group{
 	position:relative;
-	margin:0px;	
+	margin:0px;
 }
 
 .sidebar .search-box .form-group input[type="text"],
@@ -11717,7 +11717,7 @@ img.lazy-image.loaded{
 	padding:14px 50px 14px 30px;
 	border:1px solid #d0d0d0;
 	background:#ffffff;
-	color:#061138;
+	color:#002156;
 	display:block;
 	font-size:15px;
 	width:100%;
@@ -11731,7 +11731,7 @@ img.lazy-image.loaded{
 }
 
 .sidebar .search-box .form-group input:focus{
-	border-color:#f3d62c;	
+	border-color:#f3d62c;
 }
 
 .sidebar .search-box .form-group button{
@@ -11743,7 +11743,7 @@ img.lazy-image.loaded{
 	line-height:60px;
 	display:block;
 	font-size:16px;
-	color:#061138;
+	color:#002156;
 	background:none;
 	font-weight:normal;
 }
@@ -11814,23 +11814,23 @@ img.lazy-image.loaded{
 	position:relative;
 	display:block;
 	width: 100%;
-	border-radius:50%;	
+	border-radius:50%;
 }
 
 .sidebar .recent-posts .title{
 	font-size:16px;
 	line-height:1.6em;
-	color:#061138;
+	color:#002156;
 	font-weight:400;
 	text-transform: capitalize;
 }
 
 .sidebar .recent-posts .title a{
-	color:#061138;
+	color:#002156;
 }
 
 .sidebar .recent-posts .title a:hover{
-	color:#f3d62c;	
+	color:#f3d62c;
 }
 
 .sidebar .recent-posts .post-date{
@@ -11971,7 +11971,7 @@ img.lazy-image.loaded{
 
 .sidebar .archives ul li:last-child{
 	padding-bottom: 0;
-	border:none;	
+	border:none;
 }
 
 .sidebar .archives ul li a{
@@ -12096,7 +12096,7 @@ img.lazy-image.loaded{
 }
 
 .sidebar .insta-widget .profile-link a{
-	color: #061138;
+	color: #002156;
 }
 
 .sidebar .insta-widget .profile-link a:hover{
@@ -12123,7 +12123,7 @@ img.lazy-image.loaded{
 .news-post-details .text h4{
 	margin-bottom: 25px;
 	padding-top: 5px;
-	color: #061138;
+	color: #002156;
 	text-transform: uppercase;
 }
 
@@ -12155,7 +12155,7 @@ img.lazy-image.loaded{
 
 .news-post-details .styled-list li strong{
 	font-size: 18px;
-	color: #061138;
+	color: #002156;
 	font-family: 'Poppins', serif;
 	font-weight: 400;
 }
@@ -12165,12 +12165,12 @@ img.lazy-image.loaded{
 	display: block;
 	padding: 5px 30px;
 	background: none;
-	color: #061138;
+	color: #002156;
 	margin: 40px 0px 40px 50px;
 	font-weight: 700;
 	font-size: 15px;
 	line-height: 1.7em;
-	border-left: 3px solid #061138;
+	border-left: 3px solid #002156;
 }
 
 .news-post-details blockquote p{
@@ -12221,7 +12221,7 @@ img.lazy-image.loaded{
 	float: left;
 	font-family: 'Poppins', serif;
 	font-size: 18px;
-	color: #061138;
+	color: #002156;
 	line-height: 36px;
 }
 
@@ -12319,7 +12319,7 @@ img.lazy-image.loaded{
 	text-transform: uppercase;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Comment Area
@@ -12343,7 +12343,7 @@ img.lazy-image.loaded{
 	display: block;
 	font-size:24px;
 	line-height: 1.30em;
-	color: #061138;
+	color: #002156;
 	font-weight: 400;
 	text-transform:uppercase;
 	margin-bottom: 0px;
@@ -12393,7 +12393,7 @@ img.lazy-image.loaded{
 	display: inline-block;
 	vertical-align: top;
 	font-size: 18px;
-	color: #061138;
+	color: #002156;
 	line-height:1.4em;
 	font-weight:400;
 	text-transform: capitalize;
@@ -12426,7 +12426,7 @@ img.lazy-image.loaded{
 .comments-area .comment-box .reply-link a{
 	font-size: 13px;
 	line-height: 1.5em;
-	color:#061138;
+	color:#002156;
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -12435,7 +12435,7 @@ img.lazy-image.loaded{
 	color: #f3d62c;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Leave Comments Form
@@ -12462,7 +12462,7 @@ img.lazy-image.loaded{
 	height: 140px;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Portfolio Section
@@ -12558,7 +12558,7 @@ img.lazy-image.loaded{
 }
 
 .gallery-block .title-box .title a{
-	color: #061138;
+	color: #002156;
 }
 
 .gallery-block .title-box .category{
@@ -12710,7 +12710,7 @@ img.lazy-image.loaded{
 }
 
 .gallery-block-two .title-box .title a{
-	color: #061138;
+	color: #002156;
 }
 
 .gallery-block-two .title-box .category{
@@ -13165,13 +13165,13 @@ img.lazy-image.loaded{
 }
 
 .gallery-block-four .lower-box h4{
-	color: #061138;
+	color: #002156;
 	text-transform: capitalize;
 	margin: 0;
 }
 
 .gallery-block-four .lower-box h4 a{
-	color: #061138;
+	color: #002156;
 }
 
 .gallery-block-four .lower-box .separator{
@@ -13267,7 +13267,7 @@ img.lazy-image.loaded{
 	line-height:24px;
 	padding:3px 0px;
 	cursor:pointer;
-	color:#061138;
+	color:#002156;
 	font-weight:400;
 	margin: 0 25px 10px 0px;
 	text-transform: uppercase;
@@ -13291,7 +13291,7 @@ img.lazy-image.loaded{
 	padding-top: 10px;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Welcome Section
@@ -13321,7 +13321,7 @@ img.lazy-image.loaded{
 .welcome-section .title-box h2{
 	position: relative;
 	text-transform: uppercase;
-	color: #061138;
+	color: #002156;
 	margin-bottom: 20px;
 }
 
@@ -13377,13 +13377,13 @@ img.lazy-image.loaded{
 	position: relative;
 	display: block;
 	font-size: 24px;
-	color: #061138;
+	color: #002156;
 	text-transform: capitalize;
 	margin-bottom: 12px;
 }
 
 .event-carousel-box .event-block h4 a{
-	color: #061138;
+	color: #002156;
 }
 
 .event-carousel-box .event-block h4 a:hover{
@@ -13471,7 +13471,7 @@ img.lazy-image.loaded{
 	border-color: #f3d62c;
 }
 
-/*** 
+/***
 
 ====================================================================
 	About Section TThreewo
@@ -13539,7 +13539,7 @@ img.lazy-image.loaded{
 }
 
 .about-section-three .content-outer .video-link a:hover{
-	border-color: #061138;
+	border-color: #002156;
 }
 
 .about-section-three .content-outer .video-link a .icon{
@@ -13560,7 +13560,7 @@ img.lazy-image.loaded{
 
 .about-section-three .content-outer .video-link a:hover .icon{
 	color: #ffffff;
-	background: #061138;
+	background: #002156;
 }
 
 .about-section-three .content-outer .content-inner{
@@ -13575,7 +13575,7 @@ img.lazy-image.loaded{
 .about-section-three .content-outer h2{
 	font-size: 36px;
 	text-transform: capitalize;
-	color: #061138;
+	color: #002156;
 	margin-bottom: 25px;
 }
 
@@ -13591,7 +13591,7 @@ img.lazy-image.loaded{
 	font-family: 'Poppins', serif;
 	font-size: 24px;
 	text-transform: capitalize;
-	color: #061138;
+	color: #002156;
 	line-height: 1.5em;
 }
 
@@ -13603,7 +13603,7 @@ img.lazy-image.loaded{
 	line-height: 1.7em;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Choose Destinations Section
@@ -13619,7 +13619,7 @@ img.lazy-image.loaded{
 .choose-destination .upper-row{
 	position: relative;
 	padding: 90px 0px 120px;
-	background: #061138;
+	background: #002156;
 	color: #ffffff;
 }
 
@@ -13673,7 +13673,7 @@ img.lazy-image.loaded{
 	width: 100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section
@@ -13748,7 +13748,7 @@ img.lazy-image.loaded{
 }
 
 .service-block-two .inner-box:hover .title-box .inner{
-	background: #061138;
+	background: #002156;
 }
 
 .service-block-two .title-box .subtitle{
@@ -13778,12 +13778,12 @@ img.lazy-image.loaded{
 	position: relative;
 	display: block;
 	text-transform: capitalize;
-	color: #061138;
+	color: #002156;
 	margin-bottom: 0;
 }
 
 .service-block-two .title-box h4 a{
-	color: #061138;
+	color: #002156;
 }
 
 .service-block-two .title-box h4 a:hover,
@@ -13804,7 +13804,7 @@ img.lazy-image.loaded{
 }
 
 .service-block-two .link-box a{
-	color: #061138;
+	color: #002156;
 	text-transform: uppercase;
 	font-size: 13px;
 	font-weight: 600;
@@ -13815,7 +13815,7 @@ img.lazy-image.loaded{
 	text-decoration: underline;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section
@@ -13873,7 +13873,7 @@ img.lazy-image.loaded{
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: #061138;
+	background: #002156;
 	opacity: 0.92;
 }
 
@@ -13912,19 +13912,19 @@ img.lazy-image.loaded{
 }
 
 .services-section-three .left-col .info h5{
-	color: #061138;
+	color: #002156;
 	margin-bottom: 7px;
 }
 
 .services-section-three .left-col .info .phone{
 	font-size: 24px;
 	line-height: 1.3em;
-	color: #061138;
+	color: #002156;
 	font-weight: 500;
 }
 
 .services-section-three .left-col .info .phone a{
-	color: #061138;
+	color: #002156;
 }
 
 .services-section-three .left-col .info .phone a:hover{
@@ -14104,7 +14104,7 @@ img.lazy-image.loaded{
 	padding: 20px 10px;
 	line-height: 30px;
 	background: #f0f3f7;
-	color: #061138;
+	color: #002156;
 	font-family: 'Poppins', serif;
 	font-size: 24px;
 	border-radius: 50%;
@@ -14156,7 +14156,7 @@ img.lazy-image.loaded{
 
 .process-container .process-block h4{
 	position: relative;
-	color: #061138;
+	color: #002156;
 	text-transform: capitalize;
 	margin-bottom: 0px;
 }
@@ -14185,7 +14185,7 @@ img.lazy-image.loaded{
 	transform: translateY(-18px);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section Four
@@ -14211,7 +14211,7 @@ img.lazy-image.loaded{
 
 .services-section-four .title-box h2{
 	font-size: 40px;
-	color: #061138;
+	color: #002156;
 	text-transform: capitalize;
 	line-height: 1.25em;
 	margin-bottom: 0;
@@ -14270,7 +14270,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Coming Soon
@@ -14326,7 +14326,7 @@ img.lazy-image.loaded{
 	width:100%;
 	height:100%;
 	display:block;
-	background:#061138;
+	background:#002156;
 	opacity:0.90;
 }
 
@@ -14384,7 +14384,7 @@ img.lazy-image.loaded{
 .comming-soon .social-links li a:hover{
 	color:#ffffff;
 	background: #f3d62c;
-	border-color:#f3d62c;	
+	border-color:#f3d62c;
 }
 
 .comming-soon .links-box{
@@ -14397,7 +14397,7 @@ img.lazy-image.loaded{
 	margin: 0px 10px 20px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Countdown style
@@ -14450,7 +14450,7 @@ img.lazy-image.loaded{
 	font-weight:700;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Contact Section
@@ -14552,7 +14552,7 @@ img.lazy-image.loaded{
 
 .info-block .title-box h4{
 	text-transform: uppercase;
-	color: #061138;
+	color: #002156;
 	font-size: 20px;
 	line-height: 1.2em;
 	margin: 0 0 5px;
@@ -14609,7 +14609,7 @@ img.lazy-image.loaded{
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 600;
-	color: #061138;
+	color: #002156;
 }
 
 .info-block .link-box a:hover{
@@ -14629,7 +14629,7 @@ img.lazy-image.loaded{
 	font-weight:700;
 	text-align:center;
 	margin-bottom:10px;
-	color:#061138;
+	color:#002156;
 }
 
 .map-canvas{
@@ -14674,7 +14674,7 @@ img.lazy-image.loaded{
 	width: 100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Rent Buy Section
@@ -14698,7 +14698,7 @@ img.lazy-image.loaded{
 	float: left;
 	line-height: 28px;
 	padding: 12px 0px;
-	color: #061138;
+	color: #002156;
 	font-size: 13px;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -14788,7 +14788,7 @@ img.lazy-image.loaded{
 	min-width: 82px;
 	background: #ffffff;
 	font-size: 13px;
-	color: #061138;
+	color: #002156;
 	text-transform: uppercase;
 	font-weight: 600;
 	margin-right: 2px;
@@ -14845,7 +14845,7 @@ img.lazy-image.loaded{
 }
 
 .yacht-search-form .row .form-group .ui-button .ui-icon:before{
-	color: #868da5;	
+	color: #868da5;
 	font-style: normal;
 }
 
@@ -14861,7 +14861,7 @@ img.lazy-image.loaded{
 	font-size: 13px;
 	color: #ffffff;
 	text-transform: uppercase;
-	background: #061138;
+	background: #002156;
 	font-weight: 600;
 	line-height: 26px;
 	padding: 18px 20px;
@@ -14946,7 +14946,7 @@ img.lazy-image.loaded{
 	border-bottom-color: rgba(255,255,255,0.30);
 }
 
-/*** 
+/***
 
 ====================================================================
 		Secondary Breadcrumb
@@ -15012,10 +15012,10 @@ img.lazy-image.loaded{
 
 .secondary-breadcrumb .bread-crumb li a:hover,
 .secondary-breadcrumb .bread-crumb li.current{
-	color:#f3d62c;	
+	color:#f3d62c;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Yacht Details
@@ -15102,7 +15102,7 @@ img.lazy-image.loaded{
 	font-size: 24px;
 	text-transform: uppercase;
 	line-height: 30px;
-	color: #061138;
+	color: #002156;
 }
 
 .yacht-details .basic-info .down-link{
@@ -15161,7 +15161,7 @@ img.lazy-image.loaded{
 
 .yacht-details .content-column .text-block h4{
 	text-transform: uppercase;
-	color: #061138;
+	color: #002156;
 	margin-bottom: 12px;
 }
 
@@ -15218,7 +15218,7 @@ img.lazy-image.loaded{
 .yacht-details .feature h5{
 	font-size: 18px;
 	text-transform: capitalize;
-	color: #061138;
+	color: #002156;
 	margin-bottom: 5px;
 }
 
@@ -15251,7 +15251,7 @@ img.lazy-image.loaded{
 
 .yacht-details .specs-column .title-box h4{
 	text-transform: uppercase;
-	color: #061138;
+	color: #002156;
 	float: left;
 	margin: 0 0 22px;
 	line-height: 30px;
@@ -15310,7 +15310,7 @@ img.lazy-image.loaded{
 	position: relative;
 	display: block;
 	font-weight: 500;
-	color: #061138;
+	color: #002156;
 	font-size: 13px;
 	text-transform: uppercase;
 	float: left;
@@ -15325,7 +15325,7 @@ img.lazy-image.loaded{
 	float: right;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Yacht Featured Images
@@ -15381,7 +15381,7 @@ img.lazy-image.loaded{
 .yacht-featured-image .inner-box{
 	position: relative;
 	display: block;
-	background: #061138;
+	background: #002156;
 	height: 360px;
 	-webkit-transition:all 0.5s ease;
 	-moz-transition:all 0.5s ease;
@@ -15479,17 +15479,17 @@ img.lazy-image.loaded{
 .yacht-featured-image .hover-inner h3{
 	position: relative;
 	text-transform: capitalize;
-	color: #061138;
+	color: #002156;
 	font-size: 24px;
 	margin: 0;
 	line-height: 1.333em;
 }
 
 .yacht-featured-image .hover-inner h3 a{
-	color: #061138;
+	color: #002156;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Similar Yachts
@@ -15509,7 +15509,7 @@ img.lazy-image.loaded{
 }
 
 .similar-yachts .upper-title h4{
-	color:#061138;
+	color:#002156;
 	text-transform: uppercase;
 	margin-bottom: 0;
 }
@@ -15572,7 +15572,7 @@ img.lazy-image.loaded{
 	border-bottom-color: rgba(255,255,255,0.30);
 }
 
-/*** 
+/***
 
 ====================================================================
 		Team Section Two
@@ -15593,7 +15593,7 @@ img.lazy-image.loaded{
 }
 
 .team-section-two .upper-title h4{
-	color:#061138;
+	color:#002156;
 	text-transform: uppercase;
 	margin-bottom: 0;
 }
@@ -15654,13 +15654,13 @@ img.lazy-image.loaded{
 }
 
 .team-block-two .inner .title h4{
-	color: #061138;
+	color: #002156;
 	text-transform: capitalize;
 	margin-bottom: 10px;
 }
 
 .team-block-two .inner .title h4 a{
-	color: #061138;
+	color: #002156;
 }
 
 .team-block-two .inner .title .designation{
@@ -15733,7 +15733,7 @@ img.lazy-image.loaded{
 	border-color: #f3d62c;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Yacht Tours Section
@@ -15764,7 +15764,7 @@ img.lazy-image.loaded{
 	text-transform: uppercase;
 	margin: 0px;
 	font-weight: 700;
-	color: #061138;
+	color: #002156;
 }
 
 .yacht-tours-container .yacht-search-form{
@@ -15781,7 +15781,7 @@ img.lazy-image.loaded{
 	float: left;
 	line-height: 28px;
 	padding: 10px 0px;
-	color: #061138;
+	color: #002156;
 	font-size: 13px;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -15893,7 +15893,7 @@ img.lazy-image.loaded{
 	position: relative;
 	display: block;
 	color: #ffffff;
-	background: #061138;
+	background: #002156;
 	min-height: 310px;
 }
 
@@ -15916,7 +15916,7 @@ img.lazy-image.loaded{
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: #061138;
+	background: #002156;
 	opacity: 0.0;
 	transition:all 0.4s ease;
 	-moz-transition:all 0.4s ease;
@@ -16104,7 +16104,7 @@ img.lazy-image.loaded{
 
 .activity-block-two .pricing .unit{
 	display: block;
-	color: #061138;
+	color: #002156;
 	font-family: 'Poppins', serif;
 	font-style: italic;
 	text-transform: uppercase;
@@ -16302,13 +16302,13 @@ img.lazy-image.loaded{
 .activity-block-three .content-box h4{
 	position: relative;
 	font-size: 26px;
-	color: #061138;
+	color: #002156;
 	text-transform: capitalize;
 	margin-bottom: 10px;
 }
 
 .activity-block-three .content-box h4 a{
-	color: #061138;
+	color: #002156;
 }
 
 .activity-block-three .content-box h4 a:hover{
@@ -16322,7 +16322,7 @@ img.lazy-image.loaded{
 
 .activity-block-three .ratings .rate-text{
 	position: relative;
-	color: #061138;
+	color: #002156;
 	line-height: 24px;
 	font-weight: 500;
 	margin-bottom: 3px;
@@ -16335,7 +16335,7 @@ img.lazy-image.loaded{
 }
 
 .activity-block-three .ratings .rate-text a{
-	color: #061138;
+	color: #002156;
 	font-size: 12px;
 	text-transform: uppercase;
 }
@@ -16421,7 +16421,7 @@ img.lazy-image.loaded{
 .activity-block-three .links-box .unit{
 	display: block;
 	line-height: 24px;
-	color: #061138;
+	color: #002156;
 	font-family: 'Poppins', serif;
 	font-style: italic;
 	text-transform: uppercase;
@@ -16645,13 +16645,13 @@ img.lazy-image.loaded{
 .package-block-two .content h4{
 	position: relative;
 	font-size: 24px;
-	color: #061138;
+	color: #002156;
 	text-transform: capitalize;
 	margin-bottom: 7px;
 }
 
 .package-block-two .content h4 a{
-	color: #061138;
+	color: #002156;
 }
 
 .package-block-two .content h4 a:hover{
@@ -16730,7 +16730,7 @@ img.lazy-image.loaded{
 
 .package-block-two .pricing .unit{
 	display: block;
-	color: #061138;
+	color: #002156;
 	font-family: 'Poppins', serif;
 	font-style: italic;
 	text-transform: uppercase;
@@ -16772,7 +16772,7 @@ img.lazy-image.loaded{
 .tour-widget-title h4{
 	font-size: 20px;
 	text-transform: uppercase;
-	color: #061138;
+	color: #002156;
 	margin: 0;
 }
 
@@ -16839,13 +16839,13 @@ img.lazy-image.loaded{
 .recommend-block .content h4{
 	position: relative;
 	font-size: 20px;
-	color: #061138;
+	color: #002156;
 	text-transform: capitalize;
 	margin-bottom: 5px;
 }
 
 .recommend-block .content h4 a{
-	color: #061138;
+	color: #002156;
 }
 
 .recommend-block .content h4 a:hover{
@@ -16915,7 +16915,7 @@ img.lazy-image.loaded{
 
 .recommend-block .pricing .unit{
 	display: block;
-	color: #061138;
+	color: #002156;
 	font-family: 'Poppins', serif;
 	font-style: italic;
 	text-transform: uppercase;
@@ -17011,12 +17011,12 @@ img.lazy-image.loaded{
 	top: -3px;
 	font-size: 18px;
 	text-transform: capitalize;
-	color:#061138;
+	color:#002156;
 	margin-bottom: 3px;
 }
 
 .offers-widget .post h5 a{
-	color:#061138;
+	color:#002156;
 }
 
 .offers-widget .post h5 a:hover{
@@ -17062,7 +17062,7 @@ img.lazy-image.loaded{
 .offers-widget .post .price{
 	position: relative;
 	font-size: 18px;
-	color: #061138;
+	color: #002156;
 	line-height: 24px;
 	font-style: italic;
 	font-family: 'Poppins', serif;
@@ -17173,7 +17173,7 @@ img.lazy-image.loaded{
 
 .advisor-block .lower-content h4{
 	position: relative;
-	color: #061138;
+	color: #002156;
 	font-size: 20px;
 	line-height: 1.3em;
 	text-transform: capitalize;
@@ -17181,7 +17181,7 @@ img.lazy-image.loaded{
 }
 
 .advisor-block .lower-content h4 a{
-	color: #061138;
+	color: #002156;
 	-webkit-transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
 	-ms-transition:all 0.3s ease;
@@ -17231,7 +17231,7 @@ img.lazy-image.loaded{
 	position: relative;
 	display: block;
 	padding: 45px 25px 40px;
-	background: #061138;
+	background: #002156;
 	color: #868da5;
 }
 
@@ -17290,7 +17290,7 @@ img.lazy-image.loaded{
 
 
 
-/*** 
+/***
 
 ====================================================================
 	Info Popup
@@ -17384,7 +17384,7 @@ img.lazy-image.loaded{
 	font-size: 24px;
 	text-transform: uppercase;
 	line-height: 28px;
-	color: #061138;
+	color: #002156;
 }
 
 .single-booking-widget .upper-info .price-info .p-amount span{
@@ -17396,7 +17396,7 @@ img.lazy-image.loaded{
 	font-size: 18px;
 	text-transform: uppercase;
 	line-height: 28px;
-	color: #061138;
+	color: #002156;
 	margin-bottom: 15px;
 }
 
@@ -17451,7 +17451,7 @@ img.lazy-image.loaded{
 }
 
 .main-booking-form .form-group .ui-button .ui-icon:before{
-	color: #aaaaaa;	
+	color: #aaaaaa;
 	font-style: normal;
 }
 
@@ -17461,7 +17461,7 @@ img.lazy-image.loaded{
 	font-size: 13px;
 	color: #ffffff;
 	text-transform: uppercase;
-	background: #061138;
+	background: #002156;
 	font-weight: 600;
 	line-height: 24px;
 	padding: 15px 20px;
@@ -17504,7 +17504,7 @@ img.lazy-image.loaded{
 }
 
 .main-booking-form .estimate-table .totals{
-	color: #061138;
+	color: #002156;
 	font-weight: 600;
 }
 
@@ -17550,7 +17550,7 @@ img.lazy-image.loaded{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Upcoming Tours
@@ -17571,13 +17571,13 @@ img.lazy-image.loaded{
 }
 
 .upcoming-tours .upper-title h4{
-	color:#061138;
+	color:#002156;
 	text-transform: uppercase;
 	margin-bottom: 0;
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Tour Details
@@ -17592,7 +17592,7 @@ img.lazy-image.loaded{
 .tour-details h4{
 	text-transform: uppercase;
 	margin-bottom: 20px;
-	color: #061138;
+	color: #002156;
 }
 
 .tour-details .facilities{
@@ -17666,18 +17666,18 @@ img.lazy-image.loaded{
 .tour-details .info-title .left-info h3{
 	position: relative;
 	font-size: 36px;
-	color: #061138;
+	color: #002156;
 	text-transform: capitalize;
 	margin-bottom: 7px;
 	font-weight: 400;
 }
 
 .tour-details .info-title .left-info h3 a{
-	color: #061138;
+	color: #002156;
 }
 
 .tour-details .info-title .left-info h3 a:hover{
-	color: #061138;
+	color: #002156;
 }
 
 .tour-details .info-title .left-info .info{
@@ -17706,7 +17706,7 @@ img.lazy-image.loaded{
 
 .tour-details .info-title .rating-info .rate-text{
 	position: relative;
-	color: #061138;
+	color: #002156;
 	line-height: 24px;
 	font-weight: 500;
 }
@@ -17718,7 +17718,7 @@ img.lazy-image.loaded{
 }
 
 .tour-details .info-title .rating-info .rate-text a{
-	color: #061138;
+	color: #002156;
 	font-size: 12px;
 	text-transform: uppercase;
 }
@@ -17736,7 +17736,7 @@ img.lazy-image.loaded{
 
 
 
-/*** 
+/***
 
 ====================================================================
 	Accordion
@@ -17768,7 +17768,7 @@ img.lazy-image.loaded{
 	padding:15px 0px 10px;
 	padding-right: 20px;
 	padding-left: 35px;
-	color: #061138;
+	color: #002156;
 	text-transform: uppercase;
 	background-color: #ffffff;
 	-webkit-transition:all 500ms ease;
@@ -17801,7 +17801,7 @@ img.lazy-image.loaded{
 	top:15px;
 	font-size: 12px;
 	font-weight: 700;
-	color: #061138;
+	color: #002156;
 	height: 30px;
 	line-height: 30px;
 	-webkit-transition:all 500ms ease;
@@ -17894,7 +17894,7 @@ img.lazy-image.loaded{
 
 .tour-details .specs-table tr td:nth-child(1){
 	width: 33.333%;
-	color: #061138;
+	color: #002156;
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -18092,7 +18092,7 @@ img.lazy-image.loaded{
 	font-size: 13px;
 	text-align: center;
 	color: #868da5;
-	background: #061138;
+	background: #002156;
 	-ms-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.05),0px 20px 30px 0px rgba(0,0,0,0.05);
 	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.05),0px 20px 30px 0px rgba(0,0,0,0.05);
 	-ms-transform: translateY(10px);
@@ -18113,7 +18113,7 @@ img.lazy-image.loaded{
 	margin-left: -10px;
 	top: 100%;
 	border: 12px solid transparent;
-	border-top: 10px solid #061138;
+	border-top: 10px solid #002156;
 }
 
 .tour-details .tour-map .location-point:hover .inner{
@@ -18134,7 +18134,7 @@ img.lazy-image.loaded{
 	line-height: 20px;
 	text-transform: uppercase;
 	font-size: 13px;
-	color: #061138;
+	color: #002156;
 }
 
 .tour-details .tour-map .loc-one{
