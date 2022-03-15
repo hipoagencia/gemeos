@@ -22,65 +22,73 @@ class WebsiteController extends Controller
         return view('web.index');
     }
 
-//    public function about()
-//    {
-//        return view('web.sobre');
-//    }
-//
-//    public function units()
-//    {
-//        return view('web.unidades');
-//    }
-//
-//    public function stock(Request $request)
-//    {
-//        $category = ($request->category ? $request->category : '');
-//
-//        $cars = Car::with('cover')
-//                ->when($request->category, function($query, $category){
-//                    $query->where('categoryslug', $category);
-//                })
-//                ->latest()->paginate(12);
-//        $categories = Car::distinct('marca')->orderBy('marca')->pluck('marca')->toArray();
-//
-//        return view('web.veiculos', compact(['cars','categories']));
-//    }
-//
-//    public function stockOpen(Request $request)
-//    {
-//        $car = Car::with('img')->where('slug', $request->slug)->first();
-//
-//        $opcinals = array_slice(explode(',', $car->opcionais), 0, -1);
-//
-//        $complements = array_slice(explode(',', $car->complementos), 0, -1);
-//
-//        $title = "$car->marca $car->modelo à venda em Santos e Praia Grande";
-//
-//        SEOTools::setTitle($title);
-//        SEOTools::setDescription($car->opcionais);
-////        SEOTools::opengraph()->setUrl('http://current.url.com');
-//        SEOTools::opengraph()->addProperty('type', 'article');
-//        SEOTools::jsonLd()->addImage($car->cover->url);
-//
-//        OpenGraph::addProperty('locale', 'pt-br');
-//        OpenGraph::addImage($car->cover->url);
-//
-//        return view('web.veiculo', compact('car', 'opcinals', 'complements'));
-//    }
-//
-//    public function stockPrint(Request $request)
-//    {
-//        $car = Car::with('img')->where('slug', $request->slug)->first();
-//
-//        $opcinals = array_slice(explode(',', $car->opcionais), 0, -1);
-//
-//        $complements = array_slice(explode(',', $car->complementos), 0, -1);
-//
-//        return view('web.impressao', compact('car', 'opcinals', 'complements'));
-//    }
-//
-//    public function contact()
-//    {
-//        return view('web.contato');
-//    }
+    public function index()
+    {
+        $cars = Car::with('cover')->take(9)->inRandomOrder()->get();
+
+        return view('web.inicio', compact('cars'));
+    }
+
+    public function about()
+    {
+        return view('web.sobre');
+    }
+
+    public function units()
+    {
+        return view('web.unidades');
+    }
+
+    public function stock(Request $request)
+    {
+        $category = ($request->category ? $request->category : '');
+
+        $cars = Car::with('cover')
+            ->when($request->category, function($query, $category){
+                $query->where('categoryslug', $category);
+            })
+            ->latest()->paginate(12);
+
+        $categories = Car::distinct('marca')->orderBy('marca')->pluck('marca')->toArray();
+
+        return view('web.veiculos', compact(['cars','categories']));
+    }
+
+    public function stockOpen(Request $request)
+    {
+        $car = Car::with('img')->where('slug', $request->slug)->first();
+
+        $opcinals = array_slice(explode(',', $car->opcionais), 0, -1);
+
+        $complements = array_slice(explode(',', $car->complementos), 0, -1);
+
+        $title = "$car->marca $car->modelo à venda em Santos e Praia Grande";
+
+        SEOTools::setTitle($title);
+        SEOTools::setDescription($car->opcionais);
+//        SEOTools::opengraph()->setUrl('http://current.url.com');
+        SEOTools::opengraph()->addProperty('type', 'article');
+        SEOTools::jsonLd()->addImage($car->cover->url);
+
+        OpenGraph::addProperty('locale', 'pt-br');
+        OpenGraph::addImage($car->cover->url);
+
+        return view('web.veiculo', compact('car', 'opcinals', 'complements'));
+    }
+
+    public function stockPrint(Request $request)
+    {
+        $car = Car::with('img')->where('slug', $request->slug)->first();
+
+        $opcinals = array_slice(explode(',', $car->opcionais), 0, -1);
+
+        $complements = array_slice(explode(',', $car->complementos), 0, -1);
+
+        return view('web.impressao', compact('car', 'opcinals', 'complements'));
+    }
+
+    public function contact()
+    {
+        return view('web.contato');
+    }
 }
