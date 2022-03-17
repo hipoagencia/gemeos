@@ -41,8 +41,9 @@ class FunctionsController extends Controller
             }
 
             //Cadastra o imóvel
-            $veiculos = Car::firstOrCreate([
-                'idStock' => $veiculo->id,
+            $veiculos = Car::updateOrCreate([
+                'idStock' => $veiculo->id
+            ],[
                 'tipoveiculo' => $veiculo->tipoveiculo,
                 'zerokm' => ($veiculo->zerokm == 'S' ? '1' : '0'),
                 'placa' => $veiculo->placa,
@@ -58,7 +59,7 @@ class FunctionsController extends Controller
                 'cor' => $veiculo->cor,
                 'combustivel' => $veiculo->combustivel,
                 'carroceria' => $veiculo->carroceria,
-                'preco' => $veiculo->preco,
+                'preco' => str_replace("R$ ", "", $veiculo->preco),
                 'observacao' => $veiculo->observacao,
                 'complementos' => $comple,
                 'opcionais' => $opci,
@@ -70,8 +71,9 @@ class FunctionsController extends Controller
 
             //Cadastra as imagens
             foreach ($veiculo->fotos->foto as $foto) {
-                CarImages::firstOrCreate([
-                    'url' => $foto,
+                CarImages::updateOrCreate([
+                    'url' => $foto
+                ],[
                     'car' => $veiculos->id
                 ]);
             }

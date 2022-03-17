@@ -6104,7 +6104,7 @@ img.lazy-image.loaded{
 .footer-style-two .offer-carousel-box .offer-block h4{
 	position: relative;
 	text-transform: uppercase;
-	margin-bottom: 20px;
+	margin-bottom: -5px;
 }
 
 .footer-style-two .offer-carousel-box .offer-block .subtitle{
@@ -6701,7 +6701,7 @@ img.lazy-image.loaded{
 	position: absolute;
 	right: 0;
 	top: 20px;
-	width: 120px;
+	width: 160px;
 	padding: 5px 15px 7px;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -14782,7 +14782,7 @@ img.lazy-image.loaded{
 .rent-buy-section .form-tabs .tab-buttons .tab-btn{
 	position: relative;
 	float: left;
-	line-height: 32px;
+	line-height: 30px;
 	padding: 10px 20px;
 	text-align: center;
 	min-width: 82px;
@@ -14802,7 +14802,7 @@ img.lazy-image.loaded{
 
 .rent-buy-section .form-tabs .tab-buttons .active-btn{
 	background: #f3d62c;
-	color: #ffffff;
+	color: #002156;
 }
 
 .yacht-search-form{
@@ -17368,7 +17368,7 @@ img.lazy-image.loaded{
 	top: 0;
 	font-size: 42px;
 	line-height: 52px;
-	color: #f3d62c;
+	color: #002156;
 }
 
 .single-booking-widget .upper-info .price-info .p-title{
@@ -17693,7 +17693,7 @@ img.lazy-image.loaded{
 	display: inline-block;
 	vertical-align: middle;
 	padding-right: 5px;
-	color: #f3d62c;
+	color: #002156;
 }
 
 .tour-details .info-title .rating-info{

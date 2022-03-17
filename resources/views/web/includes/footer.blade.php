@@ -7,28 +7,33 @@
                 <div class="widgets-inner">
                     <div class="shape-1"></div>
                     <div class="shape-2"></div>
-                    <div class="left-image"><img src="{{url(asset('web/assets/images/resource/footer-image.png'))}}" alt="" title=""></div>
+                    <div class="left-image"><img src="{{url(asset('web/assets/images/resource/footer-image.png'))}}"
+                                                 alt="" title=""></div>
                     <div class="offer-carousel-box">
                         <div class="offer-carousel owl-theme owl-carousel">
 
+                            @foreach($footerCars as $footerCar)
+                                <div class="slide">
+                                    <div class="offer-block">
+                                        <div class="inner-box">
+                                            <center><img src="{{url(asset('web/assets/images/logo-two.png'))}}" alt=""
+                                                         title="" style="width:70%;"></center>
 
-                            <div class="slide">
-                                <div class="offer-block">
-                                    <div class="inner-box">
-                                        <center><img src="{{url(asset('web/assets/images/logo-two.png'))}}" alt="" title="" style="width:70%;"></center>
+                                            <img src="{{$footerCar->cover->url}}"
+                                                 alt="" title="" class="mt-3">
 
-                                        <img src="{{url(asset('web/assets/images/resource/featured-image-7.jpg'))}}" alt="" title="" class="mt-3">
+                                            <h4 class="mt-4">{{$footerCar->marca}} {{$footerCar->modelo}}</h4>
+                                            <div class="subtitle">{{$footerCar->versao}}</div>
 
-                                        <h4 class="mt-4">FORD FIESTA</h4>
-                                        <div class="subtitle">1.6 MPI HATCH 8V</div>
-
-                                        <div class="links-box clearfix">
-                                            <a href="#" class="theme-btn btn-style-one"><div class="btn-title">R$54.489</div></a>
+                                            <div class="links-box clearfix">
+                                                <a href="{{route('web.stockOpen', ['slug' => $footerCar->slug])}}" class="theme-btn btn-style-one">
+                                                    <div class="btn-title">R$ {{$footerCar->preco}}</div>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-
+                            @endforeach
 
                         </div>
                     </div>
@@ -45,7 +50,8 @@
                                     <div class="info">
                                         <ul>
                                             <li>
-                                                <span class="icon fa fa-map-marker-alt"></span> Av. Antônio Emmerich, 918<br />Vila Cascatinha, São Vicente
+                                                <span class="icon fa fa-map-marker-alt"></span> Av. Antônio Emmerich,
+                                                918<br/>Vila Cascatinha, São Vicente
                                             </li>
                                             <li>
                                                 <span class="icon fa fa-phone-alt"></span>

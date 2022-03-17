@@ -34,14 +34,12 @@
 
 
 <div class="page-wrapper">
-    <!-- Preloader -->
-    <div class="preloader"><div class="icon"></div></div>
 
+    <div class="preloader"><div class="icon"></div></div>
 
     @include('web.includes.header')
 
     @yield('content')
-
 
     @include('web.includes.footer')
 

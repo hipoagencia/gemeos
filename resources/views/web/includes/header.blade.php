@@ -14,13 +14,13 @@
                     </div>
                 </div>
 
-                <div class="top-right clearfix">
-                    <div class="my-account">
-                        <ul class="clearfix">
-                            <li>Veículos seminovos e repasse</li>
-                        </ul>
-                    </div>
-                </div>
+{{--                <div class="top-right clearfix">--}}
+{{--                    <div class="my-account">--}}
+{{--                        <ul class="clearfix">--}}
+{{--                            <li>Compramos o seu usado</li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
         </div>
     </div>
@@ -42,9 +42,9 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li><a href="#">Início</a></li>
+                                    <li><a href="{{route('web.home')}}">Início</a></li>
                                     <li><a href="#">Gêmeos Veículos</a></li>
-                                    <li><a href="#">Nosso Estoque</a></li>
+                                    <li><a href="{{route('web.stock')}}">Nosso Estoque</a></li>
                                     <li><a href="#">Unidade</a></li>
                                     <li><a href="#">Fale Conosco</a></li>
                                 </ul>
