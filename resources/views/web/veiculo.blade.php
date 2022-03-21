@@ -44,7 +44,9 @@
                                         <ol class="carousel-indicators">
 
                                             @foreach($car->img as $img)
-                                                <li data-target="#carouselExampleIndicators" class="{{ ($loop->first ? 'active' : '')  }}" data-slide-to="{{$img->iteration}}"></li>
+                                                <li data-target="#carouselExampleIndicators"
+                                                    class="{{ ($loop->first ? 'active' : '')  }}"
+                                                    data-slide-to="{{$img->iteration}}"></li>
                                             @endforeach
 
                                         </ol>
@@ -72,33 +74,53 @@
                                 </div>
 
 
-{{--                                <div class="specs">--}}
-{{--                                    <h4>Informações</h4>--}}
-{{--                                    <table class="specs-table">--}}
-{{--                                        <tbody>--}}
-{{--                                        <tr>--}}
-{{--                                            <td>Combustível</td>--}}
-{{--                                            <td>{{$car->combustivel}}</td>--}}
-{{--                                        </tr>--}}
-{{--                                        <tr>--}}
-{{--                                            <td>Cor</td>--}}
-{{--                                            <td>{{$car->cor}}</td>--}}
-{{--                                        </tr>--}}
-{{--                                        <tr>--}}
-{{--                                            <td>Ano</td>--}}
-{{--                                            <td>{{$car->anofabricacao}} / {{$car->anomodelo}}</td>--}}
-{{--                                        </tr>--}}
-{{--                                        <tr>--}}
-{{--                                            <td>Câmbio</td>--}}
-{{--                                            <td>{{$car->cambio}}</td>--}}
-{{--                                        </tr>--}}
-{{--                                        <tr>--}}
-{{--                                            <td>KM</td>--}}
-{{--                                            <td>{{$car->km}}</td>--}}
-{{--                                        </tr>--}}
-{{--                                        </tbody>--}}
-{{--                                    </table>--}}
-{{--                                </div>--}}
+                                {{--AQUI VAI A VERSÃO MOBILE--}}
+
+                                <div class="widgets-content hidden-mob">
+                                    <!--Widget-->
+                                    <div class="tour-widget single-booking-widget">
+                                        <div class="widget-inner">
+                                            <div class="upper-info clearfix">
+                                                <div class="price-info">
+                                                    <div class="icon"><span class="flaticon-gas"></span></div>
+                                                    <div class="p-title">Preço</div>
+                                                    <div class="p-amount">{{ $car->preco }}</span></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="specs">
+                                                <table class="specs-table">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>Combustível</td>
+                                                        <td>{{$car->combustivel}}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Cor</td>
+                                                        <td>{{$car->cor}}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Ano</td>
+                                                        <td>{{$car->anofabricacao}} / {{$car->anomodelo}}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Câmbio</td>
+                                                        <td>{{$car->cambio}}</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>KM</td>
+                                                        <td>{{$car->km}}</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
 
                                 <div class="facilities">
                                     <h4>Opcionais</h4>
@@ -115,7 +137,7 @@
                         </div>
                     </div>
 
-                    <div class="widgets-side col-lg-4 col-md-6 col-sm-12">
+                    <div class="widgets-side col-lg-4 col-md-6 col-sm-12 hidden-desk">
                         <div class="widgets-content">
                             <!--Widget-->
                             <div class="tour-widget single-booking-widget">
@@ -157,14 +179,14 @@
 
                                     <div class="default-form main-booking-form">
 
-{{--                                        <h4>Opcionais</h4>--}}
-{{--                                        <div class="facility-box">--}}
-{{--                                            <ul class="clearfix">--}}
-{{--                                                @foreach($opcinals as $opcinal)--}}
-{{--                                                    <li>{{$opcinal}}</li>--}}
-{{--                                                @endforeach--}}
-{{--                                            </ul>--}}
-{{--                                        </div>--}}
+                                        {{--                                        <h4>Opcionais</h4>--}}
+                                        {{--                                        <div class="facility-box">--}}
+                                        {{--                                            <ul class="clearfix">--}}
+                                        {{--                                                @foreach($opcinals as $opcinal)--}}
+                                        {{--                                                    <li>{{$opcinal}}</li>--}}
+                                        {{--                                                @endforeach--}}
+                                        {{--                                            </ul>--}}
+                                        {{--                                        </div>--}}
 
                                     </div>
                                 </div>

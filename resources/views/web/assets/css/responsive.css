@@ -475,6 +475,18 @@
 	}
 }
 
+@media (min-width: 768px){
+    .hidden-mob{
+        display:none;
+    }
+}
+
+@media (max-width: 768px){
+    .hidden-desk{
+        display:none;
+    }
+}
+
 @media only screen and (min-width: 768px){
 	.main-menu .navigation > li > ul,
 	.main-menu .navigation > li > ul > li > ul{
@@ -484,7 +496,7 @@
 	}
 }
 
-@media only screen and (max-width: 991px){	
+@media only screen and (max-width: 991px){
 	.main-header .nav-outer .main-menu,
 	.sticky-header,
 	.main-header .header-top .top-left,
@@ -518,7 +530,7 @@
 	}
 
 	.header-style-two .nav-outer .mobile-nav-toggler{
-		margin-top: 15px;	
+		margin-top: 15px;
 	}
 
     .header-top-two .inner{
@@ -1533,7 +1545,7 @@
 	}
 
 	.about-section .left-col .lower-content .text:first-letter{
-		float: none; 
+		float: none;
 		font-size: 18px;
 		line-height: 1.6em;
 		margin: 0px;
