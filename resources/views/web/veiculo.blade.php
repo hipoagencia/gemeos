@@ -72,30 +72,33 @@
                                 </div>
 
 
-                                <div class="specs">
-                                    <h4>Informações</h4>
-                                    <table class="specs-table">
-                                        <tbody>
-                                        <tr>
-                                            <td>Cor</td>
-                                            <td>{{$car->cor}}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Ano</td>
-                                            <td>{{$car->anofabricacao}} / {{$car->anomodelo}}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Câmbio</td>
-                                            <td>{{$car->cambio}}</td>
-                                        </tr>
-                                        <tr>
-                                            <td>KM</td>
-                                            <td>{{$car->km}}</td>
-                                        </tr>
-
-                                        </tbody>
-                                    </table>
-                                </div>
+{{--                                <div class="specs">--}}
+{{--                                    <h4>Informações</h4>--}}
+{{--                                    <table class="specs-table">--}}
+{{--                                        <tbody>--}}
+{{--                                        <tr>--}}
+{{--                                            <td>Combustível</td>--}}
+{{--                                            <td>{{$car->combustivel}}</td>--}}
+{{--                                        </tr>--}}
+{{--                                        <tr>--}}
+{{--                                            <td>Cor</td>--}}
+{{--                                            <td>{{$car->cor}}</td>--}}
+{{--                                        </tr>--}}
+{{--                                        <tr>--}}
+{{--                                            <td>Ano</td>--}}
+{{--                                            <td>{{$car->anofabricacao}} / {{$car->anomodelo}}</td>--}}
+{{--                                        </tr>--}}
+{{--                                        <tr>--}}
+{{--                                            <td>Câmbio</td>--}}
+{{--                                            <td>{{$car->cambio}}</td>--}}
+{{--                                        </tr>--}}
+{{--                                        <tr>--}}
+{{--                                            <td>KM</td>--}}
+{{--                                            <td>{{$car->km}}</td>--}}
+{{--                                        </tr>--}}
+{{--                                        </tbody>--}}
+{{--                                    </table>--}}
+{{--                                </div>--}}
 
                                 <div class="facilities">
                                     <h4>Opcionais</h4>
@@ -124,16 +127,44 @@
                                             <div class="p-amount">{{ $car->preco }}</span></div>
                                         </div>
                                     </div>
+
+                                    <div class="specs">
+                                        <table class="specs-table">
+                                            <tbody>
+                                            <tr>
+                                                <td>Combustível</td>
+                                                <td>{{$car->combustivel}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cor</td>
+                                                <td>{{$car->cor}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ano</td>
+                                                <td>{{$car->anofabricacao}} / {{$car->anomodelo}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Câmbio</td>
+                                                <td>{{$car->cambio}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td>KM</td>
+                                                <td>{{$car->km}}</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
                                     <div class="default-form main-booking-form">
 
-                                        <h4>Opcionais</h4>
-                                        <div class="facility-box">
-                                            <ul class="clearfix">
-                                                @foreach($opcinals as $opcinal)
-                                                    <li>{{$opcinal}}</li>
-                                                @endforeach
-                                            </ul>
-                                        </div>
+{{--                                        <h4>Opcionais</h4>--}}
+{{--                                        <div class="facility-box">--}}
+{{--                                            <ul class="clearfix">--}}
+{{--                                                @foreach($opcinals as $opcinal)--}}
+{{--                                                    <li>{{$opcinal}}</li>--}}
+{{--                                                @endforeach--}}
+{{--                                            </ul>--}}
+{{--                                        </div>--}}
 
                                     </div>
                                 </div>

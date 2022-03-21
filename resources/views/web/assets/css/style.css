@@ -17863,7 +17863,7 @@ img.lazy-image.loaded{
 	margin-bottom: 60px;
 }
 
-.tour-details .specs-table{
+.widget-inner .specs-table{
 	position: relative;
 	width: 100%;
 	border: 1px solid rgba(0,0,0,0.10);
@@ -17871,16 +17871,16 @@ img.lazy-image.loaded{
 	border: none;
 }
 
-.tour-details .specs-table tr{
+.widget-inner .specs-table tr{
 	width: 100%;
 	border-bottom: 1px solid rgba(0,0,0,0.10);
 }
 
-.tour-details .specs-table tr:last-child{
+.widget-inner .specs-table tr:last-child{
 	border: none;
 }
 
-.tour-details .specs-table tr td{
+.widget-inner .specs-table tr td{
 	position: relative;
 	font-size: 14px;
 	line-height: 24px;
@@ -17888,11 +17888,11 @@ img.lazy-image.loaded{
 	border-right: 1px solid rgba(0,0,0,0.10);
 }
 
-.tour-details .specs-table tr td:last-child{
+.widget-inner .specs-table tr td:last-child{
 	border: none;
 }
 
-.tour-details .specs-table tr td:nth-child(1){
+.widget-inner .specs-table tr td:nth-child(1){
 	width: 33.333%;
 	color: #002156;
 	font-size: 13px;
@@ -17900,7 +17900,7 @@ img.lazy-image.loaded{
 	font-weight: 500;
 }
 
-.tour-details .specs-table tr:nth-child(odd){
+.widget-inner .specs-table tr:nth-child(odd){
 	background: #ffffff;
 }
 

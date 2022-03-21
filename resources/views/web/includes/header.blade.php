@@ -14,13 +14,13 @@
                     </div>
                 </div>
 
-{{--                <div class="top-right clearfix">--}}
-{{--                    <div class="my-account">--}}
-{{--                        <ul class="clearfix">--}}
-{{--                            <li>Compramos o seu usado</li>--}}
-{{--                        </ul>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
+                <div class="top-right clearfix">
+                    <div class="my-account">
+                        <ul class="clearfix">
+                            <li><a href="https://www.instagram.com/gemeosveiculos/" target="_blank"><span class="icon fab fa-instagram"></span> gemeosveiculos</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
