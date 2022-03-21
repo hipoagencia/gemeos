@@ -13,12 +13,12 @@
 
                         <div class="content clearfix">
                             <div class="inner">
-                                <div class="subtitle">Pellentesque eros urna, facilisis</div>
-                                <h1>Lorem Ipsum<br />Dolor </h1>
-                                <div class="text">Nulla mi arcu, rutrum eget scelerisque volutpat, luctus quis tortor.</div>
-                                <div class="links-box clearfix">
-                                    <a href="#" class="theme-btn btn-style-two"><div class="btn-title">Mais Informações</div></a>
-                                </div>
+                                <div class="subtitle">Transparência em</div>
+                                <h1>primeiro<br/>lugar</h1>
+{{--                                <div class="text">Nulla mi arcu, rutrum eget scelerisque volutpat, luctus quis tortor.</div>--}}
+{{--                                <div class="links-box clearfix">--}}
+{{--                                    <a href="#" class="theme-btn btn-style-two"><div class="btn-title">Mais Informações</div></a>--}}
+{{--                                </div>--}}
                             </div>
                         </div>
                     </div>
