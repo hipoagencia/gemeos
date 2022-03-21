@@ -24,8 +24,8 @@ Route::get('/veiculo/{slug}', [WebsiteController::class, 'stockOpen'])->name('we
 Route::get('/impressao/{slug}', [WebsiteController::class, 'stockPrint'])->name('web.stockPrint');
 
 Route::get('/sobre', [WebsiteController::class, 'about'])->name('web.about');
-Route::get('/unidades', [WebsiteController::class, 'units'])->name('web.units');
-Route::get('/contato', [WebsiteController::class, 'contact'])->name('web.contact');
+Route::get('/unidade', [WebsiteController::class, 'units'])->name('web.units');
+Route::get('/fale-conosco', [WebsiteController::class, 'contact'])->name('web.contact');
 
 
 

@@ -113,6 +113,7 @@ class WebsiteController extends Controller
         return view('web.contato', compact('footerCars'));
     }
 
+
     public function footerCars()
     {
         return Car::with('cover')->take(3)->orderBy('preco')->get();

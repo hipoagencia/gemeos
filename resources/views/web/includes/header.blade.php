@@ -43,10 +43,10 @@
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
                                     <li><a href="{{route('web.home')}}">Início</a></li>
-                                    <li><a href="#">Gêmeos Veículos</a></li>
+                                    <li><a href="{{route('web.about')}}">Gêmeos Veículos</a></li>
                                     <li><a href="{{route('web.stock')}}">Nosso Estoque</a></li>
-                                    <li><a href="#">Unidade</a></li>
-                                    <li><a href="#">Fale Conosco</a></li>
+                                    <li><a href="{{route('web.units')}}">Unidade</a></li>
+                                    <li><a href="{{route('web.contact')}}">Fale Conosco</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -74,7 +74,7 @@
 
                 <!--Book Btn-->
                 <div class="booking-link">
-                    <a href="#" class="theme-btn btn-style-one"><div class="btn-title">WhatsApp</div></a>
+                    <a href="https://api.whatsapp.com/send?phone=5513991387447" target="_blank" class="theme-btn btn-style-one"><div class="btn-title">WhatsApp</div></a>
                 </div>
             </div>
         </div>

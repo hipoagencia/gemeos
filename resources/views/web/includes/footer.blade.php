@@ -40,7 +40,6 @@
 
                     <div class="row clearfix">
 
-                        <!--Column-->
                         <div class="column col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div class="footer-widget info-widget">
                                 <div class="widget-content">
@@ -67,15 +66,14 @@
                                     </div>
                                     <div class="social-links">
                                         <ul class="clearfix">
-                                            <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                            <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                            <li><a href="https://www.facebook.com/gemeosautorepasse"><span class="fab fa-facebook-f"></span></a></li>
+                                            <li><a href="https://www.instagram.com/gemeosveiculos/"><span class="fab fa-instagram"></span></a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!--Column-->
                         <div class="column col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div class="footer-widget links-widget">
                                 <div class="widget-content">
@@ -85,33 +83,31 @@
                                     <div class="row clearfix">
                                         <div class="col-lg-6 col-md-6 col-sm-12">
                                             <ul class="links">
-                                                <li><a href="#">Início</a></li>
-                                                <li><a href="#">Gêmeos Veículos</a></li>
-                                                <li><a href="#">Nosso Estoque</a></li>
+                                                <li><a href="{{route('web.home')}}">Início</a></li>
+                                                <li><a href="{{route('web.about')}}">Gêmeos Veículos</a></li>
+                                                <li><a href="{{route('web.stock')}}">Nosso Estoque</a></li>
                                             </ul>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-12">
                                             <ul class="links">
-                                                <li><a href="#">Unidade</a></li>
-                                                <li><a href="#">Fale Conosco</a></li>
+                                                <li><a href="{{route('web.units')}}">Unidade</a></li>
+                                                <li><a href="{{route('web.contact')}}">Fale Conosco</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Footer Bottom -->
         <div class="footer-bottom">
             <div class="auto-container">
                 <div class="inner clearfix">
                     <div class="copyright">Gêmeos Veículos &copy; 2022. Todos os direitos reservados.</div>
-                    <div class="bottom-links">Desenvolvimento <a href="#">Hipo Agência</a></div>
+                    <div class="bottom-links">Desenvolvimento <a href="https://hipoagencia.com.br">Hipo Agência</a></div>
                 </div>
             </div>
         </div>
