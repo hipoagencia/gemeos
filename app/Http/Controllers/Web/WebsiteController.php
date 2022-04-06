@@ -73,7 +73,9 @@ class WebsiteController extends Controller
     {
         $car = Car::with('img')->where('slug', $request->slug)->first();
 
-        $opcinals = array_slice(explode(',', $car->opcionais), 0, -1);
+        if($car->opcionais) {
+            $opcinals = array_slice(explode(',', $car->opcionais), 0, -1);
+        }
 
         $complements = array_slice(explode(',', $car->complementos), 0, -1);
 
