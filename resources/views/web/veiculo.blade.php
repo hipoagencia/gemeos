@@ -37,9 +37,7 @@
                                     </div>
                                 </div>
 
-                                <div class="main-image">
-
-
+                                <div class="main-image" style="width: 85%;">
                                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                         <ol class="carousel-indicators">
 
@@ -51,13 +49,11 @@
 
                                         </ol>
                                         <div class="carousel-inner">
-
                                             @foreach($car->img as $img)
                                                 <div class="carousel-item {{ ($loop->first ? 'active' : '')  }}">
                                                     <img src="{{$img->url}}" class="d-block w-100" alt="...">
                                                 </div>
                                             @endforeach
-
                                         </div>
                                         <button class="carousel-control-prev" type="button"
                                                 data-target="#carouselExampleIndicators" data-slide="prev">
@@ -70,7 +66,6 @@
                                             <span class="sr-only">Next</span>
                                         </button>
                                     </div>
-
                                 </div>
 
 
