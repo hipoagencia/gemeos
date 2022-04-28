@@ -17,7 +17,7 @@ use App\Http\Controllers\Web\WebsiteController;
 
 Route::get('/', [WebsiteController::class, 'index'])->name('web.index');
 
-//Route::get('/inicio', [WebsiteController::class, 'index'])->name('web.home');
+Route::get('/', [WebsiteController::class, 'index'])->name('web.home');
 
 Route::get('/veiculos/{category?}/{min?}/{max?}', [WebsiteController::class, 'stock'])->name('web.stock');
 Route::get('/veiculo/{slug}', [WebsiteController::class, 'stockOpen'])->name('web.stockOpen');
