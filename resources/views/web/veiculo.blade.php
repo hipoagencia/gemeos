@@ -133,9 +133,9 @@
                     </div>
 
                     <div class="widgets-side col-lg-4 col-md-6 col-sm-12 hidden-desk">
-                        <div class="widgets-content">
+                        <div class="widgets-content mt-5">
                             <!--Widget-->
-                            <div class="tour-widget single-booking-widget">
+                            <div class="tour-widget single-booking-widget pt-5">
                                 <div class="widget-inner">
                                     <div class="upper-info clearfix">
                                         <div class="price-info">
