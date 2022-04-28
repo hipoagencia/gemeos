@@ -84,7 +84,7 @@
                                         <div class="col-lg-6 col-md-6 col-sm-12">
                                             <ul class="links">
                                                 <li><a href="{{route('web.home')}}">Início</a></li>
-                                                <li><a href="{{route('web.about')}}">Gêmeos Veículos</a></li>
+{{--                                                <li><a href="{{route('web.about')}}">Gêmeos Veículos</a></li>--}}
                                                 <li><a href="{{route('web.stock')}}">Nosso Estoque</a></li>
                                             </ul>
                                         </div>

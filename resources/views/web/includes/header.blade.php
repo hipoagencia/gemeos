@@ -43,7 +43,7 @@
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
                                     <li><a href="{{route('web.home')}}">Início</a></li>
-                                    <li><a href="{{route('web.about')}}">Gêmeos Veículos</a></li>
+{{--                                    <li><a href="{{route('web.about')}}">Gêmeos Veículos</a></li>--}}
                                     <li><a href="{{route('web.stock')}}">Nosso Estoque</a></li>
                                     <li><a href="{{route('web.units')}}">Unidade</a></li>
                                     <li><a href="{{route('web.contact')}}">Fale Conosco</a></li>
