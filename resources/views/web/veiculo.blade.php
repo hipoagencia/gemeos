@@ -170,7 +170,12 @@
                                             </tr>
                                             </tbody>
                                         </table>
+
+
+
                                     </div>
+
+
 
                                     <div class="default-form main-booking-form">
 
@@ -187,6 +192,7 @@
                                 </div>
                             </div>
 
+                            <div class=""><div class="addthis_inline_share_toolbox"></div></div>
 
                         </div>
                     </div>

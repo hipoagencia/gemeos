@@ -65,6 +65,8 @@
 <script src="{{ url(asset('web/assets/js/element-in-view.js')) }}"></script>
 <script src="{{ url(asset('web/assets/js/custom-script.js')) }}"></script>
 
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6273df451aa399e1"></script>
+
 @hasSection('js')
     @yield('js')
 @endif
