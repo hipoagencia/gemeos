@@ -44,7 +44,7 @@
                             <div class="footer-widget info-widget">
                                 <div class="widget-content">
                                     <div class="widget-title">
-                                        <h4>Informações</h4>
+                                        <h4>São Vicente</h4>
                                     </div>
                                     <div class="info">
                                         <ul>
@@ -78,22 +78,25 @@
                             <div class="footer-widget links-widget">
                                 <div class="widget-content">
                                     <div class="widget-title">
-                                        <h4>Links</h4>
+                                        <h4>Praia Grande</h4>
                                     </div>
-                                    <div class="row clearfix">
-                                        <div class="col-lg-6 col-md-6 col-sm-12">
-                                            <ul class="links">
-                                                <li><a href="{{route('web.home')}}">Início</a></li>
-{{--                                                <li><a href="{{route('web.about')}}">Gêmeos Veículos</a></li>--}}
-                                                <li><a href="{{route('web.stock')}}">Nosso Estoque</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-12">
-                                            <ul class="links">
-                                                <li><a href="{{route('web.units')}}">Unidade</a></li>
-                                                <li><a href="{{route('web.contact')}}">Fale Conosco</a></li>
-                                            </ul>
-                                        </div>
+                                    <div class="info">
+                                        <ul>
+                                            <li>
+                                                <span class="icon fa fa-map-marker-alt"></span> Av Presidente Kennedy 1550
+                                                <br/>Guilhermina - Praia Grande/SP
+                                            </li>
+                                            <li>
+                                                <span class="icon fa fa-phone-alt"></span>
+                                                Telefone <a href="tel:133379-3546">(13) 3379-3546</a>
+                                            </li>
+                                            <li>
+                                                <span class="icon fa fa-envelope"></span>
+                                                <a href="mailto:contato@gemeosveiculos.com.br">
+                                                    contato@gemeosveiculos.com.br
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
