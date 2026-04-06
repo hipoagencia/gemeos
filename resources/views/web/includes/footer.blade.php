@@ -19,7 +19,7 @@
                                             <center><img src="{{url(asset('web/assets/images/logo-two.png'))}}" alt=""
                                                          title="" style="width:70%;"></center>
 
-                                            <img src="{{$footerCar->cover->url}}"
+                                            <img src="{{optional($footerCar->cover)->url}}"
                                                  alt="" title="" class="mt-3">
 
                                             <h4 class="mt-4">{{$footerCar->marca}} {{$footerCar->modelo}}</h4>
