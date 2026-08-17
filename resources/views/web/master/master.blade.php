@@ -10,6 +10,8 @@
 
     <meta name="csrf-token" content="{{ csrf_token() }}"/>
 
+    <meta name="facebook-domain-verification" content="2m227l8yowy8hnvig2to1ehbzcwtrz" />
+
     <link href="{{ url(asset('web/assets/css/bootstrap.css')) }}" rel="stylesheet">
     <link href="{{ url(asset('web/assets/css/style.css')) }}" rel="stylesheet">
 
