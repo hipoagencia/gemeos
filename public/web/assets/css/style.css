@@ -6070,6 +6070,25 @@ img.lazy-image.loaded{
 	color: #7f8a99;
 }
 
+.footer-style-two .footer-bottom .company-info{
+	position: relative;
+	display: block;
+	font-size: 13px;
+	line-height: 22px;
+	color: #7f8a99;
+	text-transform: none;
+	margin-top: 4px;
+}
+
+.footer-style-two .footer-bottom .company-info .icon{
+	margin-right: 5px;
+}
+
+.footer-style-two .footer-bottom .company-info .sep{
+	margin: 0 8px;
+	opacity: 0.5;
+}
+
 .footer-style-two .offer-carousel-box{
 	position: absolute;
 	left: 0;

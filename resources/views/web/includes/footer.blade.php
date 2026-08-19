@@ -83,12 +83,12 @@
                                     <div class="info">
                                         <ul>
                                             <li>
-                                                <span class="icon fa fa-map-marker-alt"></span> Av Presidente Kennedy 1550
-                                                <br/>Guilhermina - Praia Grande/SP
+                                                <span class="icon fa fa-map-marker-alt"></span> Av. Ayrton Senna da Silva, 611
+                                                <br/>Auto Shopping - Praia Grande/SP
                                             </li>
                                             <li>
                                                 <span class="icon fa fa-phone-alt"></span>
-                                                Telefone <a href="tel:133379-3546">(13) 3379-3546</a>
+                                                Telefone <a href="tel:+5513997691215">(13) 99769-1215</a>
                                             </li>
                                             <li>
                                                 <span class="icon fa fa-envelope"></span>
@@ -109,7 +109,15 @@
         <div class="footer-bottom">
             <div class="auto-container">
                 <div class="inner clearfix">
-                    <div class="copyright">Gêmeos Veículos &copy; 2022. Todos os direitos reservados.</div>
+                    <div class="copyright">
+                        Gêmeos Veículos &copy; {{ date('Y') }}. Todos os direitos reservados.
+                        <div class="company-info">
+                            <span class="icon fa fa-id-card"></span>
+                            Porto Pacheli PG Comércio de Veículos LTDA.
+                            <span class="sep">|</span>
+                            CNPJ: 55.999.936/0001-60
+                        </div>
+                    </div>
                     <div class="bottom-links">Desenvolvimento <a href="https://hipoagencia.com.br">Hipo Agência</a></div>
                 </div>
             </div>
